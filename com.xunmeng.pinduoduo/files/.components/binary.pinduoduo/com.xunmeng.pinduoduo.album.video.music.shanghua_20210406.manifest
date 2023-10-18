@@ -1,0 +1,26 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+shanghua_20210406/imageVideo/
+shanghua_20210406/preprocessingEffect_0.75/
+shanghua_20210406/trans/
+shanghua_20210406/config.json
+shanghua_20210406/music.mp3
+shanghua_20210406/template.json
+shanghua_20210406/video.mp4
+shanghua_20210406/imageVideo/generalEffect/
+shanghua_20210406/imageVideo/content.json
+shanghua_20210406/imageVideo/generalEffect/generalEffect.json
+shanghua_20210406/imageVideo/generalEffect/fshader.fsh
+shanghua_20210406/imageVideo/generalEffect/vshader.vsh
+shanghua_20210406/preprocessingEffect_0.75/generalEffect/
+shanghua_20210406/preprocessingEffect_0.75/content.json
+shanghua_20210406/preprocessingEffect_0.75/generalEffect/generalEffect.json
+shanghua_20210406/preprocessingEffect_0.75/generalEffect/vshader.vsh
+shanghua_20210406/preprocessingEffect_0.75/generalEffect/fshader.fsh
+shanghua_20210406/trans/generalEffect/
+shanghua_20210406/trans/content.json
+shanghua_20210406/trans/generalEffect/fshader.fsh
+shanghua_20210406/trans/generalEffect/generalEffect.json
+shanghua_20210406/trans/generalEffect/vshader.vsh
+com.xunmeng.pinduoduo.album.video.music.shanghua_20210406.md5checker

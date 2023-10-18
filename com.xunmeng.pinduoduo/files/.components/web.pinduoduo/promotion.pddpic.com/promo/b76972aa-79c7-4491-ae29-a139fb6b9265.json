@@ -1,0 +1,275 @@
+{
+	"frames": {
+		"coin.png": {
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 90,
+				"h": 88
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 88
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 88
+			}
+		},
+		"coinNumber.png": {
+			"frame": {
+				"x": 93,
+				"y": 1,
+				"w": 229,
+				"h": 228
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 229,
+				"h": 228
+			},
+			"sourceSize": {
+				"w": 229,
+				"h": 228
+			}
+		},
+		"driveAway.png": {
+			"frame": {
+				"x": 1,
+				"y": 231,
+				"w": 61,
+				"h": 76
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 61,
+				"h": 76
+			},
+			"sourceSize": {
+				"w": 61,
+				"h": 76
+			}
+		},
+		"idle.png": {
+			"frame": {
+				"x": 64,
+				"y": 231,
+				"w": 100,
+				"h": 51
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 100,
+				"h": 51
+			},
+			"sourceSize": {
+				"w": 100,
+				"h": 51
+			}
+		},
+		"levelIcon.png": {
+			"frame": {
+				"x": 324,
+				"y": 1,
+				"w": 51,
+				"h": 51
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 51,
+				"h": 51
+			},
+			"sourceSize": {
+				"w": 51,
+				"h": 51
+			}
+		},
+		"levelNumber.png": {
+			"frame": {
+				"x": 377,
+				"y": 1,
+				"w": 167,
+				"h": 165
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 167,
+				"h": 165
+			},
+			"sourceSize": {
+				"w": 167,
+				"h": 165
+			}
+		},
+		"recall.png": {
+			"frame": {
+				"x": 324,
+				"y": 168,
+				"w": 64,
+				"h": 65
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 64,
+				"h": 65
+			},
+			"sourceSize": {
+				"w": 64,
+				"h": 65
+			}
+		},
+		"remind.png": {
+			"frame": {
+				"x": 390,
+				"y": 168,
+				"w": 85,
+				"h": 82
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 85,
+				"h": 82
+			},
+			"sourceSize": {
+				"w": 85,
+				"h": 82
+			}
+		},
+		"remindCoin.png": {
+			"frame": {
+				"x": 1,
+				"y": 168,
+				"w": 33,
+				"h": 32
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 33,
+				"h": 32
+			},
+			"sourceSize": {
+				"w": 33,
+				"h": 32
+			}
+		},
+		"shadow.png": {
+			"frame": {
+				"x": 166,
+				"y": 252,
+				"w": 80,
+				"h": 42
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 80,
+				"h": 42
+			},
+			"sourceSize": {
+				"w": 80,
+				"h": 42
+			}
+		},
+		"trashBox.png": {
+			"frame": {
+				"x": 248,
+				"y": 252,
+				"w": 86,
+				"h": 116
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 86,
+				"h": 116
+			},
+			"sourceSize": {
+				"w": 86,
+				"h": 116
+			}
+		},
+		"unlock.png": {
+			"frame": {
+				"x": 336,
+				"y": 252,
+				"w": 100,
+				"h": 73
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 100,
+				"h": 73
+			},
+			"sourceSize": {
+				"w": 100,
+				"h": 73
+			}
+		},
+		"workTip.png": {
+			"frame": {
+				"x": 1,
+				"y": 327,
+				"w": 113,
+				"h": 48
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 113,
+				"h": 48
+			},
+			"sourceSize": {
+				"w": 113,
+				"h": 48
+			}
+		}
+	},
+	"meta": {
+		"app": "http://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "spritesheet.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 545,
+			"h": 376
+		},
+		"scale": "1"
+	}
+}

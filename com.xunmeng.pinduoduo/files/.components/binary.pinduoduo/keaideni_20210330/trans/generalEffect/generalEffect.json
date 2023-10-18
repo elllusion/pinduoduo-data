@@ -1,0 +1,90 @@
+{
+    "effect": [
+        {
+            "name": "transform",
+            "vertexShader": "vshader.vsh",
+            "vUniforms": [],
+            "fragmentShader": "fshader.fsh",
+            "fUniforms": [
+                {
+                    "name": "inputImageTexture",
+                    "type": 103,
+                    "inputTextureIndex": 0
+                },
+                {
+                    "name": "inputImageTexture2",
+                    "type": 103,
+                    "inputTextureIndex": 1
+                },
+                {
+                    "name": "progress",
+                    "type": 3007,
+                    "timeType": 1,
+                    "keyframes": [
+                        {
+                            "time": 2.4,
+                            "function": "Linear",
+                            "value": 0.0
+                        },
+                        {
+                            "time": 2.6,
+                            "function": "Linear",
+                            "value": 1.0
+                        },
+                        {
+                            "time": 6.0,
+                            "function": "Linear",
+                            "value": 0.0
+                        },
+                        {
+                            "time": 7.6,
+                            "function": "Linear",
+                            "value": 1.0
+                        },
+                        {
+                            "time": 10.8,
+                            "function": "Linear",
+                            "value": 0.0
+                        },
+                        {
+                            "time": 11.8,
+                            "function": "Linear",
+                            "value": 1.0
+                        },
+                        {
+                            "time": 14.4,
+                            "function": "Linear",
+                            "value": 0.0
+                        },
+                        {
+                            "time": 15.6,
+                            "function": "Linear",
+                            "value": 1.0
+                        },
+                        {
+                            "time": 23.8,
+                            "function": "Linear",
+                            "value": 0.0
+                        },
+                        {
+                            "time": 24.0,
+                            "function": "Linear",
+                            "value": 1.0
+                        },
+                        {
+                            "time": 25.8,
+                            "function": "Linear",
+                            "value": 0.0
+                        },
+                        {
+                            "time": 26.2,
+                            "function": "Linear",
+                            "value": 1.0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "version": 1.1
+}

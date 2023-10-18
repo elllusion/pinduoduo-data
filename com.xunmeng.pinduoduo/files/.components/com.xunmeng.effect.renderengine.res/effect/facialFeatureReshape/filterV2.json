@@ -1,0 +1,12 @@
+{
+    "filterID": 0,
+    "filterVersion": 3003,
+    "filterDescription": "FacialFeatureReshapeFilter",
+    "uniforms":[],
+    "inputs":
+    {
+        "inputTexutreKey":"inputImageTexture",
+        "positionKey":"position",
+        "textureCoordinateKey":"inputTextureCoordinate"
+    }
+}

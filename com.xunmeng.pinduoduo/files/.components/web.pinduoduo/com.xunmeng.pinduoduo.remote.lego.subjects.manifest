@@ -1,0 +1,16 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+lego.pdd.com/
+lego.pdd.com/api/
+lego.pdd.com/api/promotion_op/
+lego.pdd.com/api/9k9_m2/
+lego.pdd.com/api/9k9_subject/
+lego.pdd.com/api/promotion_op/get_config/
+lego.pdd.com/api/promotion_op/get_config.lego
+lego.pdd.com/api/promotion_op/get_config/twn_three_items.lego
+lego.pdd.com/api/promotion_op/get_config/nt_three_items.lego
+lego.pdd.com/api/promotion_op/get_config/three_items.lego
+lego.pdd.com/api/9k9_m2/get_config.lego
+lego.pdd.com/api/9k9_subject/get_config.lego
+com.xunmeng.pinduoduo.remote.lego.subjects.md5checker

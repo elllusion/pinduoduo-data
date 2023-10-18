@@ -1,0 +1,13 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+assets/
+popups_timeline_qa_guide.html
+assets/css/
+assets/js/
+assets/css/react_popups_timeline_qa_guide_2478b890007aec59bbe6.css
+assets/js/react_pdd_4aa1693c013981bf574b.js
+assets/js/vendor_33c1cc25e8315632f994.js
+assets/js/react_webpack_runtime_603fb3898404601fec09.js
+assets/js/react_popups_timeline_qa_guide_1b0eadf381a488be7f3e.js
+com.xunmeng.pinduoduo.mobileQAPopups.md5checker

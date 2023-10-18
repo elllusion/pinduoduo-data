@@ -1,0 +1,24 @@
+http://212.129.222.108/pdd-marketing/2020-10-22/9f443b07-f9b7-4acc-975b-81c4bdf8e1a0.png?imageMogr2/quality/80/thumbnail/700x
+GET
+0
+HTTP/1.1 200 OK
+19
+Server: openresty/1.19.3.1
+Date: Sun, 28 Aug 2022 00:38:03 GMT
+Content-Type: image/png
+Content-Length: 2888
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Last-Modified: Wed, 03 Nov 2021 09:06:26 GMT
+Size: 2888
+Timing-Allow-Origin: *
+X-Datasrc: 1
+X-Delay: 17690 us
+X-Fop-Destination-Type: storage
+X-Info: real data
+X-Pdd-Avi-Request-Id: ab3107a3e433a0a33eb8454052186a19
+X-Reqid: MTYzNjAzMjg0MF8wX0ZGMzM2RDhFRjc0NjQ0OTVBNkM3NjBCMDgyRjMzQTQy
+X-Rtflag: 1
+Cache-Control: public, max-age=432000
+OkHttp-Sent-Millis: 1661647083483
+OkHttp-Received-Millis: 1661647083542

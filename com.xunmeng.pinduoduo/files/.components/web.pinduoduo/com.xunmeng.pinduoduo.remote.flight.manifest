@@ -1,0 +1,23 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+static.pddpic.com/
+funimg.pddpic.com/
+static.pddpic.com/assets/
+static.pddpic.com/assets/js/
+static.pddpic.com/assets/css/
+static.pddpic.com/assets/js/vendor_dd36f2c4ed374f47092f.js
+static.pddpic.com/assets/js/react_pdd_69882ab8eb6185efff40.js
+static.pddpic.com/assets/js/react_flight_ad8c97ef538ef72e612b.js
+static.pddpic.com/assets/js/react_flight_detail_d2e763df62fea5f78196.js
+static.pddpic.com/assets/js/react_flight_list_aa90018264672a01f8bf.js
+static.pddpic.com/assets/js/react_flight_checkout_093df14d46f97437bc90.js
+static.pddpic.com/assets/css/react_flight_ae98e79f58a509097186.css
+static.pddpic.com/assets/css/react_flight_detail_eb532711eb937a884207.css
+static.pddpic.com/assets/css/react_flight_list_d1306106a134f1b1f631.css
+static.pddpic.com/assets/css/react_flight_checkout_3beeab1dae7ed8466e69.css
+funimg.pddpic.com/flight/
+funimg.pddpic.com/flight/iconfont_flight_2022_05_05.ttf
+funimg.pddpic.com/flight/arrow.png
+funimg.pddpic.com/flight/defaultBg.png
+com.xunmeng.pinduoduo.remote.flight.md5checker

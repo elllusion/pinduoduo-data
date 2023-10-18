@@ -1,0 +1,22 @@
+{
+    "filterID": 0,
+    "filterVersion": 3003,
+    "filterDescription": "boxblur_alpha",
+    "uniforms":[
+        {
+        "uniformType": "float",
+        "uniformValue": 0.00390625,
+        "uniformName": "texBlurWidthOffset"
+        },
+        {
+        "uniformType": "float",
+        "uniformValue": 0.0,
+        "uniformName": "texBlurHeightOffset"
+        },
+        {
+        "uniformType": "renderTexture",
+        "uniformValue": 0,
+        "uniformName": "inputImageTexture"
+        }
+    ]
+}

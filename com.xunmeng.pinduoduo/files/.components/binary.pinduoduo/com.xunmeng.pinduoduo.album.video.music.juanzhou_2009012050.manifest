@@ -1,0 +1,20 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+juanzhou_2009012050/imageVideo/
+juanzhou_2009012050/trans/
+juanzhou_2009012050/config.json
+juanzhou_2009012050/music.mp3
+juanzhou_2009012050/video.mp4
+juanzhou_2009012050/template.json
+juanzhou_2009012050/imageVideo/generalEffect/
+juanzhou_2009012050/imageVideo/content.json
+juanzhou_2009012050/imageVideo/generalEffect/fshader.fsh
+juanzhou_2009012050/imageVideo/generalEffect/generalEffect.json
+juanzhou_2009012050/imageVideo/generalEffect/vshader.vsh
+juanzhou_2009012050/trans/generalEffect/
+juanzhou_2009012050/trans/content.json
+juanzhou_2009012050/trans/generalEffect/fshader.fsh
+juanzhou_2009012050/trans/generalEffect/generalEffect.json
+juanzhou_2009012050/trans/generalEffect/vshader.vsh
+com.xunmeng.pinduoduo.album.video.music.juanzhou_2009012050.md5checker

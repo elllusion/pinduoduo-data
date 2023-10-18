@@ -1,0 +1,21 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+funimg.pddpic.com/
+pinduoduoimg.yangkeduo.com/
+lego.pdd.com/
+funimg.pddpic.com/app/
+funimg.pddpic.com/d68662f0-5d45-456c-8ddc-756009d67e36.png
+funimg.pddpic.com/3868da75-ab8a-40db-8916-0abd8ad5b605.png.slim.png
+funimg.pddpic.com/app/lego/
+funimg.pddpic.com/app/lego/2020-06-02/
+funimg.pddpic.com/app/lego/2020-06-02/8c509e72-ad4b-4796-8d6a-6acca8450b93.png
+funimg.pddpic.com/app/lego/2020-06-02/cb5f250f-beb7-4d39-84af-795f513f4f2a.png
+pinduoduoimg.yangkeduo.com/app/
+pinduoduoimg.yangkeduo.com/app/lego/
+pinduoduoimg.yangkeduo.com/app/lego/2020-05-13/
+pinduoduoimg.yangkeduo.com/app/lego/2020-05-13/7b23da11-daec-44cc-ba0f-1aefca04a28c.png
+lego.pdd.com/api/
+lego.pdd.com/api/live_goods_list/
+lego.pdd.com/api/live_goods_list/get_config.lego
+com.xunmeng.pinduoduo.remote.LiveRedbox.md5checker

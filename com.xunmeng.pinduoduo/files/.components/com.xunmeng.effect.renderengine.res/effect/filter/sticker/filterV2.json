@@ -1,0 +1,12 @@
+{
+    "filterID": 0,
+    "filterVersion": 3003,
+    "filterDescription": " ",
+    "uniforms":[
+        {
+            "uniformType": "renderTexture",
+            "uniformValue": 0,
+            "uniformName": "stickerTexture"
+        }
+    ]
+}

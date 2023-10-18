@@ -1,0 +1,8 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+assets/
+vmp_src/
+assets/json.config
+vmp_src/mw1.bin
+com.xunmeng.pinduoduo.AliveBizComp.md5checker

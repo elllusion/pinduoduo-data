@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="oc_4" value="false" />
+    <boolean name="oc_33" value="false" />
+    <int name="oc_54" value="5" />
+    <int name="oc_11" value="86400" />
+    <int name="oc_81" value="86400" />
+    <string name="oc_57">com.igexin.sdk.PushService</string>
+    <int name="oc_9" value="1209600" />
+    <int name="oc_99" value="28800" />
+    <boolean name="oc_45" value="false" />
+    <int name="oc_version_2" value="70" />
+    <boolean name="oc_26" value="true" />
+    <boolean name="oc_24" value="false" />
+    <int name="oc_23" value="900" />
+    <int name="oc_version_1" value="70" />
+    <boolean name="oc_16" value="false" />
+    <int name="oc_48" value="86400" />
+    <boolean name="oc_52" value="false" />
+    <int name="oc_80" value="86400" />
+    <int name="oc_19" value="604800" />
+    <boolean name="oc_1004" value="false" />
+    <int name="oc_1001" value="12" />
+    <boolean name="oc_79" value="true" />
+    <int name="oc_15" value="10800" />
+    <boolean name="oc_75" value="true" />
+    <int name="oc_112" value="86400" />
+    <int name="oc_2" value="86400" />
+    <boolean name="oc_38" value="false" />
+    <int name="oc_64" value="1800" />
+    <boolean name="oc_87" value="true" />
+    <int name="oc_61" value="0" />
+    <boolean name="oc_8" value="false" />
+    <boolean name="oc_74" value="true" />
+    <int name="oc_42" value="86400" />
+    <boolean name="oc_85" value="false" />
+    <int name="oc_41" value="86400" />
+    <string name="oc_73">com.tencent.mm/com.tencent.mm.plugin.appbrand.ui.AppBrandLauncherUI,com.tencent.mm/com.tencent.mm.plugin.appbrand.ui.AppBrandNearbyWebViewUI,com.tencent.mm/com.tencent.mm.ui.chatting.gallery.AppBrandHistoryListUI,com.tencent.mm/com.tencent.mm.plugin.appbrand.ui.AppBrandSearchUI,com.tencent.mm/com.tencent.mm.plugin.appbrand.ui.AppBrandUI,com.tencent.mm/com.tencent.mm.plugin.appbrand.ui.AppBrandUI1,com.tencent.mm/com.tencent.mm.plugin.appbrand.ui.AppBrandUI2,com.tencent.mm/com.tencent.mm.plugin.appbrand.ui.AppBrandUI3,com.tencent.mm/com.tencent.mm.plugin.appbrand.ui.AppBrandUI4,com.tencent.mm/com.tencent.mm.plugin.appbrand.ui.AppBrandInToolsUI,com.tencent.mm/com.tencent.mm.plugin.appbrand.ui.AppBrandPluginUI,com.tencent.mm/com.tencent.mm.plugin.appbrand.ui.AppBrandEmbedUI,com.tencent.mm/com.tencent.mm.plugin.appbrand.launching.AppBrandLaunchProxyUI</string>
+    <boolean name="oc_36" value="false" />
+    <boolean name="oc_82" value="true" />
+    <int name="oc_29" value="120" />
+    <int name="oc_77" value="1800" />
+    <boolean name="oc_63" value="true" />
+    <int name="oc_30" value="200" />
+    <int name="oc_17" value="900" />
+    <boolean name="oc_60" value="false" />
+    <boolean name="oc_3" value="false" />
+    <int name="oc_39" value="86400" />
+    <boolean name="oc_78" value="true" />
+    <boolean name="oc_111" value="false" />
+    <boolean name="oc_12" value="false" />
+    <int name="oc_37" value="86400" />
+    <boolean name="oc_5" value="false" />
+    <int name="oc_13" value="300" />
+    <boolean name="oc_14" value="false" />
+    <string name="oc_1002">http://file.xmpush.xiaomi.com/plugin/mpcd_v8.apk</string>
+    <boolean name="oc_18" value="false" />
+    <int name="oc_44" value="900" />
+    <boolean name="oc_7" value="false" />
+    <boolean name="oc_56" value="true" />
+    <string name="oc_100">Y29tLm1pdWkud2VhdGhlcjIsY29tLm1pdWkudm9pY2Vhc3Npc3QudmVyc2lvbnR3byxjb20ubWZhc2hpb25nYWxsZXJ5LmVtYWcsY29tLnhpYW9taS5nYW1lY2VudGVyLGNvbS5kdW9rYW4ucmVhZGVyLGNvbS5zcy5hbmRyb2lkLnVnYy5hd2VtZSxjb20udGFvYmFvLnRhb2Jhbyxjb20uZWcuYW5kcm9pZC5BbGlwYXlHcGhvbmUsY29tLm1pdWkudmlydHVhbHNpbSxjb20ueGlhb21pLnNob3AsY29tLnhpYW9taS52aXBhY2NvdW50LGNvbS5taXVpLmtsby5idWdyZXBvcnQsY29tLnh1bm1lbmcucGluZHVvZHVvLGNvbS5hdXRvbmF2aS5taW5pbWFwLGNvbS54aWFvbWkucGFzcyxjb20uYmFpZHUuc2VhcmNoYm94LGNvbS50ZW5jZW50LnFxbGl2ZSxjb20ueGlhb21pLnNtYXJ0aG9tZSxjb20uc21pbGUuZ2lmbWFrZXIsY29tLnFpeWkudmlkZW8sY29tLmJhaWR1LmlucHV0X21pLGNuLndwcy5tb2ZmaWNlX2VuZyxjb20uZHVva2FuLnBob25lLnJlbW90ZWNvbnRyb2xsZXIsY29tLmJhaWR1LkJhaWR1TWFwLGNvbS5zaW5hLndlaWJvLGpkLnB1c2gsY29tLnNuZGEud2lmaWxvY2F0aW5nLGNvbS5zYW5rdWFpLm1laXR1YW4sY29tLnNzLmFuZHJvaWQuYXJ0aWNsZS5uZXdzLGNvbS50ZW5jZW50Lm10dCxjb20udGVuY2VudC5xcW11c2ljLGNvbS5rdWdvdS5hbmRyb2lkLGNvbS5taXVpLmZtLGNvbS55b3VrdS5waG9uZSxjb20ubWl1aS52b2lwLGNvbS5jYWluaWFvLmd1b2d1b3F1aWNrYXBwLGNvbS53aWZpLnF1aWNrYXBwLnJlYWRlci5mcmVlLGNvbS54aWFvbWkubzJvLGNvbS5VQ01vYmlsZSxjb20udGVuY2VudC5uZXdzLGNvbS55aWRpYW4ueGlhb21pLGNvbS5zcy5hbmRyb2lkLmFydGljbGUubGl0ZSxjb20ueGltYWxheWEudGluZy5hbmRyb2lkLGNvbS5zcy5hbmRyb2lkLmFydGljbGUudmlkZW8sY29tLnNzLmFuZHJvaWQudWdjLkxpdmUsY29tLmJhaWR1Lm5ldGRpc2ssY29tLm5ldGVhc2UuY2xvdWRtdXNpYyxjb20ueGlhb21pLmpyLGNvbS5iYWlkdS5oYW9rYW4sY29tLmR1b2d1YW5odWRvbmcuZmF3cGVudGl1bSxjb20ueGlhbmdrYW4uYW5kcm9pZC5saXRlLGNvbS5saW5rc3VyZS50dC5xdWlja2FwcCx0di5kYW5tYWt1LmJpbGksY29tLnNkdS5kaWRpLnBzbmdlcixjb20ud3ViYSxjb20ubWl1aS5taWxpdmV0YWxrLGNvbS50ZW5jZW50LmFuZHJvaWRxcW1haWwsY3RyaXAuYW5kcm9pZC52aWV3LGNvbS50ZW5jZW50LmthcmFva2UsY29tLnRtYWxsLndpcmVsZXNzLGNvbS54aWFvbWkueW91cGluLGNvbS5taXVpLnVzZXJndWlkZSxjb20udGFvYmFvLmZsZWFtYXJrZXQsY29tLmljYmMsY29tLnpoaWh1LmFuZHJvaWQsY29tLmFuZHJvaWQuYmFua2FiYyxjb20ueGlhb21pLnZpcCxjb20uc3VuaW5nLm1vYmlsZS5lYnV5LGNvbS50ZW5jZW50LmFuZHJvaWQudGVzdCxjb20ud2FsaS5saXZlLGNvbS50bXJpLmFwcC5tYWluLGNvbS5pYXNrLnF1aWNrLGNvbS5jbGVhbm1hc3Rlci5tZ3VhcmRfY24sY29tLmJhaWR1LmhvbWV3b3JrLGNvbS54aWFvbWkuY2hhbm5lbCxjb20ueGlhbmdrYW4uYW5kcm9pZCxjb20ueHl3eS54aWFvbWl4aW55aW5neW9uZyxjb20udW5pb25wYXksY29tLnRlbmNlbnQucXFwaW1zZWN1cmUsY29tLlZJUC5WSVBRdWlja0FQUCxjb20uZGlhbnBpbmcudjEsY29tLmppZmVuLnF1a2FuLGNvbS5hbmRyb2lkLmVtYWlsLGNvbS5tdC5tdHh4Lm10eHgsY29tLmdyZWVucG9pbnQuYW5kcm9pZC5tYzEwMDg2LmFjdGl2aXR5LGNvbS5hdXRvaG9tZS5xdWlja2FwcCxtZS5lbGUsY29tLmNoaW5hbXdvcmxkLmJvY21iY2ksY29tLmt1YWlzaG91Lm5lYnVsYSxjb20ueGlhb21pLm1pZHJvcCxjb20uYWxpYmFiYS5hbmRyb2lkLnJpbWV0LGNvbS54aWFvbWkuaG0uaGVhbHRoLGNvbS54aW5naW4ueGhzLGNvbS5zYW5rdWFpLm1laXR1YW4udGFrZW91dG5ldyxjb20uUXVuYXIsY21iLnBiLGNvbS5iYWlkdS50aWViYSxjb20uY3QuY2xpZW50LGNvbS54aWFvbWkuYXBwcy52aWRlb2RhaWx5LGNuLnh1ZXhpLmFuZHJvaWQsY29tLmR1b3dhbi5raXdpLGFpci50di5kb3V5dS5hbmRyb2lkLGNvbS5oYXBweWVsZW1lbnRzLkFuZHJvaWRBbmltYWwsY29tLnRlbmNlbnQucXFsaXZleGlhb21pLGNvbS54dW5sZWkuZG93bmxvYWRwcm92aWRlcixjb20ud2VsZmFyZS5uZXdzLGNvbS5uZXRlYXNlLm5ld3NyZWFkZXIuYWN0aXZpdHksY29tLmpkLmpyYXBwLGNvbS5taS5oZWFsdGgsY29tLnRlbmNlbnQud2Vpc2hpLGNuLmt1d28ucGxheWVyLGNvbS5Nb2JpbGVUaWNrZXQsY29tLmh1bmFudHYuaW1nby5hY3Rpdml0eSxjb20udGVuY2VudC5tYXAsY29tLm1laXR1Lm1laXlhbmNhbWVyYSxjb20uYWNoaWV2by52aXBzaG9wLGNvbS5xdWlja2FwcC5za3RxLndlYXRoZXIsY29tLmljYmMuaW0sY29tLmdvdG9rZWVwLmtlZXAsY29tLmtpbmdwb2ludC5nbWNjaGgsY29tLnRhcHRhcCxjb20uanp6cy5QYXJlbnRzSGVscGVyLGNvbS5jYWluaWFvLndpcmVsZXNzLHR2LnBwcy5tb2JpbGUsY29tLmN1YmljLmF1dG9ob21lLGNvbS5zaW5hLndlaWJvbGl0ZSxjb20uYmFpZHUuc2VhcmNoYm94LmxpdGUsY29tLmxlbW9uLmZhY2V1LGNvbS5taS5hbmRyb2lkLmdsb2JhbEZpbGVleHBsb3Jlcixjb20uY2FtcG1vYmlsZS5zbm93Y2FtZXJhLGNvbS5jbWJjaGluYS5jY2QucGx1dG8uY21iQWN0aXZpdHksY29tLnRhb2Jhby50cmlwLGNvbS54aWFvbWkubWlwaWNrcyxjb20ubWl1aS5zbWFydHRyYXZlbCxjb20uc2h5ei50b3V0aWFvLGNvbS5hbmp1a2UuYW5kcm9pZC5hcHAsY29tLmNoaW5hdGVsZWNvbS5iZXN0cGF5Y2xpZW50LGNvbS50ZW5jZW50LndpZmltYW5hZ2VyLGNvbS5zb2dvdS53ZWJzZWFyY2gsY29tLmptLnZpZGVvLGNvbS5hbGliYWJhLndpcmVsZXNzLGNvbS5qaW5neWFvLmVhc3liaWtlLGNvbS5odWRvbmcuYmFpa2VtaSxjb20ucGluZ2FuLmxpZmVpbnN1cmFuY2UsY29tLnhpYW9taS5taXR2LnR2cHVzaC50dnB1c2hzZXJ2aWNlLGNvbS5tb2ppLm1qd2VhdGhlcixjb20uaGFuZHNnby5qaWFrYW8uYW5kcm9pZCxjb20udGVuY2VudC53ZXdvcmssY29tLmJhbmtjb21tLkJhbmtjb21tLGNvbS5xcS5hYy5hbmRyb2lkLGNvbS5pZmVuZy5uZXdzMixjb20uaWNiYy5pbSxjb20uZGlkYXBpbmNoZS5ib29raW5nLGNvbS5oaXB1LnlpZGlhbixjb20ucGluZ2FuLmNhcm93bmVyLGNvbS5nb3JnZW91cy5saXRlLGNvbS5pbW1vbW8ubW9tbyxjb20uc2hvdWppZHVvZHVvLnJpbmd0b25lLGNvbS5kdW93YW4ubW9iaWxlLGNvbS5taXVpLm5ldHdvcmthc3Npc3RhbnQsY29tLnBpbmdhbi5wYWNlcy5jY21zLGNvbS54aWFjaHVmYW5nLGNvbS5sYWthbGEuYW5kcm9pZCxjb20ubXltb25leS5zbXMsY29tLnJvbmczNjAubG9hbnMsY29tLnlpcmVuZGFpLGNvbS5zaGNjLm1pY3JvY3JlZGl0LGNvbS5zdW5pbmcubW9iaWxlLmVwYSxjb20ud2FuZ3lpbi5wYXltZW50LGNvbS5lbG9hbmNuLm1jbGllbnQsY29tLmNoaW5haWRlYWwuYmtjbGllbnQudGFibWFpbixjb20ucmVucnVuLmFwaG9uZS5hcHAsY29tLmpkLmpyYXBwLGNvbS5iYWxhbmNlNmdhbWUuaG91c2luZ2Z1bmQsY29tLnN5cXkud2VjYXNoLGNvbS5iYW5rOWYud2VpbGljYWksY29tLnBhZW0sY29tLnBwZGFpLmxlbmRlcixjb20uY2FpbWkua3VhaWRhaSxjb20ucHBkYWkubG9hbixjb20uc2luYS5saWNhaXNoaSxjb20ucnJoLmpkYixhaXFpYW5qaW4uamllYSxjb20ucm9uZzM2MC5hcHAsY29tLmJhaWR1LnVtb25leSxjb20ubGFrYWxhLmNyZWRpdCxjb20uYmFpZHUud2FsbGV0LGNvbS56bC5mcWJhbyxjb20ubXN4Zi5sb2FuLGNvbS5tdWNmYy5ocWRhcHAsY29tLmNhc2hidXMuYW5kcm9pZC5zd2hqLGNvbS5oY2MuYXBwLGNvbS55b3VjYXNoLnp5d2FsbGV0LGNvbS5sYWlmZW5xaS5hbmRyb2lkLmFwcCxjb20uY3NpaS5zbmNmYyxjb20uZ29tZWpyLmljYXNoLGNvbS5xaWhvby5sb2FuLGNvbS5xaWJ1LmxvYW52ZXN0LGNvbS5kdXhpYW9tYW4udW1vbmV5LGNvbS5zaHVxdS5iYW55YW5tYWxsLGNvbS5saW5neXVlLnplYnJhbG9hbixjb20ud2Rqci5sb2FuLndkcGhlbG9hbixjb20ueGlhb21pLmpyLGNvbS54aWFvbWkubG9hbixjb20uZHV4aWFvbWFuLndhbGxldA==</string>
+    <int name="oc_25" value="900" />
+    <boolean name="oc_10" value="false" />
+    <boolean name="oc_43" value="false" />
+    <int name="oc_53" value="86400" />
+    <int name="oc_76" value="3600" />
+    <int name="oc_88" value="3600" />
+    <boolean name="oc_55" value="false" />
+    <int name="oc_86" value="60" />
+    <boolean name="oc_98" value="true" />
+    <boolean name="oc_31" value="false" />
+    <boolean name="oc_67" value="true" />
+    <int name="oc_46" value="0" />
+    <boolean name="oc_1" value="true" />
+    <boolean name="oc_20" value="false" />
+    <int name="oc_21" value="600" />
+    <boolean name="oc_6" value="false" />
+    <int name="oc_83" value="86400" />
+    <string name="oc_1003">598f345b44d779db0d22e23234b69671</string>
+    <boolean name="oc_22" value="false" />
+    <int name="oc_84" value="3" />
+    <boolean name="oc_47" value="false" />
+    <boolean name="oc_49" value="false" />
+    <int name="oc_35" value="86400" />
+</map>

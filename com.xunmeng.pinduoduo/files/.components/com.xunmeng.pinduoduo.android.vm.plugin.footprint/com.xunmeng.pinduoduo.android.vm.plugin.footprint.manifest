@@ -1,0 +1,7 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+resources/
+resources/manwe_business_plugin_5860.apk
+resources/manwe_business_plugin_5810.apk
+com.xunmeng.pinduoduo.android.vm.plugin.footprint.md5checker

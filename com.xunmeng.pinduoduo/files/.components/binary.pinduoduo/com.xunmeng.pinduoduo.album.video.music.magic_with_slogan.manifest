@@ -1,0 +1,19 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+magic_with_slogan/mix/
+magic_with_slogan/scale/
+magic_with_slogan/template.json
+magic_with_slogan/bg.png
+magic_with_slogan/mix/generalEffect/
+magic_with_slogan/mix/content.json
+magic_with_slogan/mix/generalEffect/resource/
+magic_with_slogan/mix/generalEffect/generalEffect.json
+magic_with_slogan/mix/generalEffect/resource/fshader.fsh
+magic_with_slogan/mix/generalEffect/resource/vshader.vsh
+magic_with_slogan/scale/generalEffect/
+magic_with_slogan/scale/content.json
+magic_with_slogan/scale/generalEffect/fshader.fsh
+magic_with_slogan/scale/generalEffect/generalEffect.json
+magic_with_slogan/scale/generalEffect/vshader.vsh
+com.xunmeng.pinduoduo.album.video.music.magic_with_slogan.md5checker

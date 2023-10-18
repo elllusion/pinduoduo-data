@@ -1,0 +1,10 @@
+{
+    "filterID": 0,
+    "filterName": "PDDGPUImageShaderToyFilter",
+    "filterDescription": "",
+    "propertys": [{
+                        "propertyType": "int",
+                        "propertyValue": 3,
+                        "propertyName": "extraTextureCount"
+                    }]
+}

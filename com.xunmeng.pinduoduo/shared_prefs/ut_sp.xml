@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="action7" value="0" />
+    <boolean name="is_first_time_user_trace_4650" value="false" />
+    <int name="device_tag" value="2" />
+    <string name="new_uuid">810d43f1-3283-4207-8ffc-f85f9a08a45b</string>
+    <long name="report_empty_push_4650" value="1262307249424" />
+</map>

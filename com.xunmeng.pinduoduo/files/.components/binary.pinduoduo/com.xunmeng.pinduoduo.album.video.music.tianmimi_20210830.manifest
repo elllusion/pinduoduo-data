@@ -1,0 +1,25 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+tianmimi_20210830/imageVideo/
+tianmimi_20210830/lottie/
+tianmimi_20210830/preprocessingEffect_0.75/
+tianmimi_20210830/config.json
+tianmimi_20210830/music.mp3
+tianmimi_20210830/template.json
+tianmimi_20210830/video.mp4
+tianmimi_20210830/imageVideo/generalEffect/
+tianmimi_20210830/imageVideo/content.json
+tianmimi_20210830/imageVideo/generalEffect/fshader.fsh
+tianmimi_20210830/imageVideo/generalEffect/generalEffect.json
+tianmimi_20210830/imageVideo/generalEffect/vshader.vsh
+tianmimi_20210830/lottie/lottieEffect/
+tianmimi_20210830/lottie/content.json
+tianmimi_20210830/lottie/lottieEffect/data.json
+tianmimi_20210830/lottie/lottieEffect/lottieEffect.json
+tianmimi_20210830/preprocessingEffect_0.75/generalEffect/
+tianmimi_20210830/preprocessingEffect_0.75/content.json
+tianmimi_20210830/preprocessingEffect_0.75/generalEffect/fshader.fsh
+tianmimi_20210830/preprocessingEffect_0.75/generalEffect/generalEffect.json
+tianmimi_20210830/preprocessingEffect_0.75/generalEffect/vshader.vsh
+com.xunmeng.pinduoduo.album.video.music.tianmimi_20210830.md5checker

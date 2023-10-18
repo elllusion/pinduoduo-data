@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="secure_sharedpreference_id">1b4e3300d6eb4b149e053eb9043d5595</string>
+    <string name="secure_mac_address">94:92:BC:AD:A7:9E</string>
+    <int name="secure_local_sequence_id" value="41" />
+</map>

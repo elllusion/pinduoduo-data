@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[145],{"zRS3":function(n,o,p){n.exports=p("YZFv")(127)}}]);
+//# sourceMappingURL=http://vgunxpkt.com/sourcemaps/mobile-ranch/js/pdd-mod/market-share_d6e4b420655e6adad743.js.map

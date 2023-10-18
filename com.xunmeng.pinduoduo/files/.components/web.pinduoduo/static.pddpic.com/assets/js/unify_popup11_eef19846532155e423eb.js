@@ -1,0 +1,2 @@
+(window.webpackJsonpForReact=window.webpackJsonpForReact||[]).push([[17],{NnSG:function(o,e,p){o.exports={icon:"_1vlo3cV0",couponExpire:"ajRh9k_H",expireText:"_3IOsVEiU",coupon:"_2gtW6Ogv",discount:"_3470dM1W",desc:"HeuECZLe",type:"_29FF4pbR"}}}]);
+//# sourceMappingURL=http://vgunxpkt.com/sourcemaps/pdd-web-transaction/js/unify_popup11_eef19846532155e423eb.js.map

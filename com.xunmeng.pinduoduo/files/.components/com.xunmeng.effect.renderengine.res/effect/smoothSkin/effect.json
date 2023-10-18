@@ -1,0 +1,46 @@
+{
+    "effectRenderChain": [
+      {
+        "type": "Filter",
+        "name": "boxblur",
+        "inputEffects":[],
+        "viewport":[256,256],
+        "path": "boxblur"
+      },
+      {
+        "type": "Filter",
+        "name": "boxblur2",
+        "inputEffects":["inputTexture"],
+        "viewport":[256,256],
+        "path": "boxblur_2"
+      },
+      {
+        "type": "Filter",
+        "name": "boxblur_alpha",
+        "inputEffects":[],
+        "viewport":[256,256],
+        "path": "boxblur_alpha"
+      },
+      {
+        "type": "Filter",
+        "name": "boxblur_alpha2",
+        "inputEffects":[],
+        "viewport":[256,256],
+        "path": "boxblur_alpha_2"
+      },
+      {
+        "type": "faceMaskFilter",
+        "name": "faceMask",
+        "inputEffects":[],
+        "viewport":[256,256],
+        "path": "faceMask"
+      },
+      {
+        "type": "Filter",
+        "name": "new_smooth",
+        "inputEffects":["boxblur_alpha2", "inputTexture"],
+        "path": "new_smooth"
+      }
+    ]
+
+}

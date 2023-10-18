@@ -1,0 +1,27 @@
+{
+  "name": "dazuizousifang",
+  "effect":{
+    "renderList": [
+        {
+          "type": "Filter",
+          "renderOrder": 5000,
+          "path": "blur1",
+          "name": "blurBackground"
+        },
+        {
+          "type": "Filter",
+          "renderOrder": 5001,
+          "path": "blur2",
+          "name": "blurMask"
+        },
+        {
+          "type": "Filter",
+          "renderOrder": 5002,
+          "path": "mix",
+          "name": "mix",
+          "inputEffects": ["blurBackground", "blurMask"]
+        }
+    ]
+  },
+  "minVersion": 1.0
+}

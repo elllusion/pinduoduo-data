@@ -1,0 +1,11 @@
+#from old version:986b837c063462375fe1321bc814da5b to new version:986b837c063462375fe1321bc814da5b
+#Sun Aug 21 22:18:00 GMT+08:00 2022
+is_protected_app=0
+new=986b837c063462375fe1321bc814da5b
+old=986b837c063462375fe1321bc814da5b
+print=GiONEE/GN5001S/GiONEE_BBL7332\:5.1/LMY47D/1481226108\:user/release-keys
+path_version_path=/data/data/com.xunmeng.pinduoduo/tinker/patch-986b837c
+dir=odex
+has_check_elf_file=1
+is_remove_interpret_oat_dir=0
+is_remove_new_version=0

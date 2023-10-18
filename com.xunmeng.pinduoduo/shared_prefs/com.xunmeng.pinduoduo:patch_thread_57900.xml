@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="ab_thread_limitcount_58000" value="false" />
+    <boolean name="ab_threadpool_ignore_logs_59000" value="false" />
+</map>

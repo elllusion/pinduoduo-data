@@ -1,0 +1,9 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+test.md
+react_pdd_test.css
+test.apk
+com.xunmeng.pinduoduo.vita.activity.test.a_index.json
+com.xunmeng.pinduoduo.vita.activity.test.b_index.json
+com.xunmeng.pinduoduo.vita.activity.test.md5checker

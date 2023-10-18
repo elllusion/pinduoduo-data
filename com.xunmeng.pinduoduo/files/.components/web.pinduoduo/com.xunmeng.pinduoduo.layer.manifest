@@ -1,0 +1,9 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+hybrid/
+__MACOSX/
+hybrid/.DS_Store
+__MACOSX/hybrid/
+__MACOSX/hybrid/._.DS_Store
+com.xunmeng.pinduoduo.layer.md5checker

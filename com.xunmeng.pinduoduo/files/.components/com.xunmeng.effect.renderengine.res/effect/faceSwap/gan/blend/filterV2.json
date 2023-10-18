@@ -1,0 +1,13 @@
+{
+    "filterID": 0,
+    "filterVersion": 3003,
+    "filterDescription": "",
+    "uniforms":[
+        {
+            "uniformType": "image",
+            "uniformValue":"mask_blur.jpg",
+            "uniformName": "mask"
+        }
+    ]
+}
+

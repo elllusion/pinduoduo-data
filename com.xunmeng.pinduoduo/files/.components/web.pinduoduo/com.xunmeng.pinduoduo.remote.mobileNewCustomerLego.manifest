@@ -1,0 +1,19 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+funimg.pddpic.com/
+lego.pdd.com/
+promotion.pddpic.com/
+funimg.pddpic.com/wxappimg/
+funimg.pddpic.com/454b8ff7-3549-4f0d-8455-33c2e3304c6c.png.slim.png
+funimg.pddpic.com/159bc3b9-5ea7-4447-b41f-76734eb7a313.png.slim.png
+funimg.pddpic.com/wxappimg/b2bd04ac-c012-47ae-9332-7f2d528d9426.png.slim.png
+lego.pdd.com/api/
+lego.pdd.com/api/mobile_popups_new_customer_lego/
+lego.pdd.com/api/mobile_popups_new_customer_lego/get_config/
+lego.pdd.com/api/mobile_popups_new_customer_lego/get_config/silent_index.lego
+lego.pdd.com/api/mobile_popups_new_customer_lego/get_config/optimize_index.lego
+promotion.pddpic.com/upload/
+promotion.pddpic.com/upload/cart/
+promotion.pddpic.com/upload/cart/b797c6ad-d631-4505-86e1-4ee0f8dadce9.png.slim.png
+com.xunmeng.pinduoduo.remote.mobileNewCustomerLego.md5checker

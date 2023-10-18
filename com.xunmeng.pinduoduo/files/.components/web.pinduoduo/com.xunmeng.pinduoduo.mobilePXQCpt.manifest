@@ -1,0 +1,5 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+source/
+com.xunmeng.pinduoduo.mobilePXQCpt.md5checker

@@ -1,0 +1,20 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+jilumeihao2_20211025/imageVideo/
+jilumeihao2_20211025/lottie/
+jilumeihao2_20211025/config.json
+jilumeihao2_20211025/music.mp3
+jilumeihao2_20211025/video.mp4
+jilumeihao2_20211025/template.json
+jilumeihao2_20211025/imageVideo/generalEffect/
+jilumeihao2_20211025/imageVideo/content.json
+jilumeihao2_20211025/imageVideo/generalEffect/generalEffect.json
+jilumeihao2_20211025/imageVideo/generalEffect/vshader.vsh
+jilumeihao2_20211025/imageVideo/generalEffect/fshader.fsh
+jilumeihao2_20211025/lottie/lottieEffect/
+jilumeihao2_20211025/lottie/content.json
+jilumeihao2_20211025/lottie/lottieEffect/ca.py
+jilumeihao2_20211025/lottie/lottieEffect/data.json
+jilumeihao2_20211025/lottie/lottieEffect/lottieEffect.json
+com.xunmeng.pinduoduo.album.video.music.jilumeihao2_20211025.md5checker

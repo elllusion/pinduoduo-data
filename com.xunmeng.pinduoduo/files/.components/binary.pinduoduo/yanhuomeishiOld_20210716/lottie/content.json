@@ -1,0 +1,9 @@
+{
+    "tag": "GE_ForegroundDouble",
+    "version": "1.0",
+    "content": {
+        "path": "lottieEffect/",
+        "config": "lottieEffect.json",
+        "version": "1.2"
+    }
+}

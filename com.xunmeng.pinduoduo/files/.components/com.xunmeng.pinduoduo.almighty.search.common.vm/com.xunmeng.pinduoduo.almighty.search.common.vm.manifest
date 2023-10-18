@@ -1,0 +1,6 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+config.json
+android_search_common_vm.pkg
+com.xunmeng.pinduoduo.almighty.search.common.vm.md5checker

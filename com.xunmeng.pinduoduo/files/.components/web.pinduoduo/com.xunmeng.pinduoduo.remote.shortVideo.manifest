@@ -1,0 +1,19 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+static.pddpic.com/
+promotion.pddpic.com/
+funimg.pddpic.com/
+static.pddpic.com/assets/
+static.pddpic.com/assets/js/
+static.pddpic.com/assets/css/
+static.pddpic.com/assets/js/vendor_9039f52c0d1783fa9974.js
+static.pddpic.com/assets/js/react_pdd_7f9102b13afdac6b6aa2.js
+static.pddpic.com/assets/js/react_svideo_personal_677e25409d54bc5d3644.js
+static.pddpic.com/assets/css/react_svideo_personal_cb54e124541b917b8ce9.css
+promotion.pddpic.com/mobile_live/
+promotion.pddpic.com/mobile_live/0ae4d33f-7691-406c-9975-3adbf0e1b30c.ttf
+funimg.pddpic.com/mobile_short_video/
+funimg.pddpic.com/mobile_short_video/2020-12-02/
+funimg.pddpic.com/mobile_short_video/2020-12-02/1f8b7685-c439-407b-8f05-2fc44320be28.png
+com.xunmeng.pinduoduo.remote.shortVideo.md5checker

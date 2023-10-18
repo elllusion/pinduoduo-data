@@ -1,0 +1,21 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+hello_november_album_20211029/imageVideo/
+hello_november_album_20211029/lottie/
+hello_november_album_20211029/config.json
+hello_november_album_20211029/music.mp3
+hello_november_album_20211029/template.json
+hello_november_album_20211029/video.mp4
+hello_november_album_20211029/imageVideo/generalEffect/
+hello_november_album_20211029/imageVideo/content.json
+hello_november_album_20211029/imageVideo/generalEffect/fshader.fsh
+hello_november_album_20211029/imageVideo/generalEffect/generalEffect.json
+hello_november_album_20211029/imageVideo/generalEffect/vshader.vsh
+hello_november_album_20211029/lottie/lottieEffect/
+hello_november_album_20211029/lottie/content.json
+hello_november_album_20211029/lottie/lottieEffect/images/
+hello_november_album_20211029/lottie/lottieEffect/data.json
+hello_november_album_20211029/lottie/lottieEffect/lottieEffect.json
+hello_november_album_20211029/lottie/lottieEffect/images/img_0.jpg
+com.xunmeng.pinduoduo.album.video.music.hello_november_album_20211029.md5checker

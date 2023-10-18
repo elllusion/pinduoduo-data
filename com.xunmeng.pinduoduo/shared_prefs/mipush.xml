@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="vName">5.90.0</string>
+    <boolean name="valid" value="true" />
+    <string name="regId">7eEy43i+lY4uG/47qZ8kxptTXEAxTXN1E4+3qOPe83gfa4yxLA1d56vodoNqRuXW</string>
+    <int name="envType" value="1" />
+    <string name="appRegion">China</string>
+    <string name="appId">2882303761517405162</string>
+    <string name="regSec">AJuQ89OAgRijpqw+FTAAAA==</string>
+    <string name="appToken">5411740563162</string>
+    <string name="regResource">UkCxwR</string>
+    <string name="devId">365C06673344A498424F0D5ED33D4B41583A7394</string>
+</map>

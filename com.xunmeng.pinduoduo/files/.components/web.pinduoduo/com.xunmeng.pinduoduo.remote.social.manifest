@@ -1,0 +1,25 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+static.pddpic.com/
+static.pddpic.com/assets/
+static.pddpic.com/assets/js/
+static.pddpic.com/assets/css/
+static.pddpic.com/assets/js/vendor_c340bc493c0c52e99256.js
+static.pddpic.com/assets/js/react_pdd_6cff26107b1e2183c5bb.js
+static.pddpic.com/assets/js/react_timeline_red_packet_9c198b614564a1072032.js
+static.pddpic.com/assets/js/react_timeline_red_packet_room_692f4d06e1eef2d39c7d.js
+static.pddpic.com/assets/js/react_timeline_medal_wall_8c76e46a40f3c96b41d9.js
+static.pddpic.com/assets/js/react_timeline_qa_49c35a6e3f4914cfe502.js
+static.pddpic.com/assets/js/react_timeline_qa_rank_c2bd965842d81e0744b6.js
+static.pddpic.com/assets/js/react_timeline_want_buy_ed0ccc7a549ee9de8700.js
+static.pddpic.com/assets/js/react_timeline_want_share_a4f24d64eef9e98ecbe3.js
+static.pddpic.com/assets/js/react_timeline_photo_video_d3c6162d5ef28ceaccc0.js
+static.pddpic.com/assets/js/react_timeline_redpacket_rules_popup_b43d825adcfb39b63ae6.js
+static.pddpic.com/assets/js/react_setting_privacy_88acd0e06e99a9db3c3f.js
+static.pddpic.com/assets/js/react_timeline_invite_mission_6df6c42db4af232f945c.js
+static.pddpic.com/assets/js/react_timeline_group_chat_invitation_0be71ccccce143ca980a.js
+static.pddpic.com/assets/css/react_pdd_57706a296534ee0849a8.css
+static.pddpic.com/assets/css/react_timeline_red_packet_52dbc1647f942eb9f2e9.css
+static.pddpic.com/assets/css/react_timeline_medal_wall_b9085aa6bbee900bca0c.css
+com.xunmeng.pinduoduo.remote.social.md5checker

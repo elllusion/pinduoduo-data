@@ -1,0 +1,13 @@
+{
+    "tag": "imageVideo_38F8EDF6-588E-4953-A0B0-EEC61C8CB557",
+    "version": "1.0",
+    "requirement": {
+        "faceDetect": false,
+        "matting": false
+    },
+    "content": {
+        "path": "generalEffect/",
+        "config": "generalEffect.json",
+        "version": "1.2"
+    }
+}

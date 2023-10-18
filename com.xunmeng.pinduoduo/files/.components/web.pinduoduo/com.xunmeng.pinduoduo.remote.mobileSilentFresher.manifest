@@ -1,0 +1,22 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+funimg.pddpic.com/
+static.pddpic.com/
+funimg.pddpic.com/brand/
+funimg.pddpic.com/mobile-subjects/
+funimg.pddpic.com/brand/activity/
+funimg.pddpic.com/brand/activity/b96415ae-5a96-4215-bb22-6a301f830566.ttf
+funimg.pddpic.com/mobile-subjects/fonts/
+funimg.pddpic.com/mobile-subjects/fonts/iconfont_20190508.ttf
+static.pddpic.com/assets/
+static.pddpic.com/assets/js/
+static.pddpic.com/assets/js/lottie_460a50583140b8295c5a.js
+static.pddpic.com/assets/js/ms_native_c_45197773282c62e284fd.js
+static.pddpic.com/assets/js/react_pdd_f41ccae940032e8e1c5e.js
+static.pddpic.com/assets/js/react_ug_coupon_before_order_ea359500f67bf2f0264c.js
+static.pddpic.com/assets/js/react_ug_one_cent_lottery_61dc907b5950eeeb1cbb.js
+static.pddpic.com/assets/js/react_ug_one_hundred_3a65198ce84b5995ec63.js
+static.pddpic.com/assets/js/react_ug_oneyuan_buy_9d40ee5d6771c223b2e1.js
+static.pddpic.com/assets/js/vendor_7b3cc7fb3d6a098c2414.js
+com.xunmeng.pinduoduo.remote.mobileSilentFresher.md5checker

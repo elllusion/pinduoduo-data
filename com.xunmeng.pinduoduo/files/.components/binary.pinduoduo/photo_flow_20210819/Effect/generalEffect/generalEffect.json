@@ -1,0 +1,138 @@
+{
+    "effect": [
+        {
+            "name": "pass0",
+            "viewport": [
+                0,
+                0,
+                720,
+                1080
+            ],
+            "vertexShader": "shaders/Effect.vsh",
+            "vUniforms": [
+                
+            ],
+            "fragmentShader": "shaders/Effect.fsh",
+            "fUniforms": [
+                {
+                    "name": "image1",
+                    "type": 103,
+                    "inputTextureIndex": 0
+                },
+                {
+                    "name": "image2",
+                    "type": 103,
+                    "inputTextureIndex": 1
+                },
+                {
+                    "name": "image3",
+                    "type": 103,
+                    "inputTextureIndex": 2
+                },
+                {
+                    "name": "image4",
+                    "type": 103,
+                    "inputTextureIndex": 3
+                },
+                {
+                    "name": "image5",
+                    "type": 103,
+                    "inputTextureIndex": 4
+                },
+                {
+                    "name": "image6",
+                    "type": 103,
+                    "inputTextureIndex": 5
+                },
+                {
+                    "name": "video",
+                    "type": 103,
+                    "inputTextureIndex": 6
+                },
+                {
+                    "name": "imageSize1",
+                    "type": 3008,
+                    "inputTextureIndex": 0
+                },
+                {
+                    "name": "imageSize2",
+                    "type": 3008,
+                    "inputTextureIndex": 1
+                },
+                {
+                    "name": "imageSize3",
+                    "type": 3008,
+                    "inputTextureIndex": 2
+                },
+                {
+                    "name": "imageSize4",
+                    "type": 3008,
+                    "inputTextureIndex": 3
+                },
+                {
+                    "name": "imageSize5",
+                    "type": 3008,
+                    "inputTextureIndex": 4
+                },
+                {
+                    "name": "imageSize6",
+                    "type": 3008,
+                    "inputTextureIndex": 5
+                },
+                {
+                    "name": "position",
+                    "type": 4,
+                    "data":[0.0,0.0]
+                },
+                {
+                    "name": "scale",
+                    "type": 4,
+                    "data":[1.3,1.3]
+                },
+                {
+                    "name": "ratio",
+                    "type": 4,
+                    "data":[720.0,1280.0]
+                },
+                {
+                    "name": "iTime",
+                    "timeType" : 1,
+                    "type": 3007,
+                    "keyframes": [
+                        {
+                            "time": 1.5,
+                            "value": 0.0,
+                            "function": "Linear"
+                        },
+                        {
+                            "time": 21.0,
+                            "value": 1.0,
+                            "function": "Linear"
+                        }
+                    ]
+                },
+                {
+                    "name": "rotate",
+                    "type": 3,
+                    "data":[0.0]
+                },
+                {
+                    "name": "rotateCenter",
+                    "type": 4,
+                    "data":[0.5,0.5]
+                },
+                {
+                    "name": "scaleMotion",
+                    "type": 3,
+                    "data":[0.1]
+                },
+                {
+                    "name": "alphaMotion",
+                    "type": 3,
+                    "data":[0.0]
+                }    
+            ]
+        }
+    ],
+    "version": 1.1
+}

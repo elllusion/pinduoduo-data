@@ -1,0 +1,23 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+assets/
+sub_activity.html
+sub_ddpay_real_name_cert.html
+assets/css/
+assets/js/
+assets/css/react_common_8c92c70df6c60ace4285.css
+assets/css/react_sub_activity_d98c5a2752a0cab296a3.css
+assets/css/react_sub_ddpay_real_name_cert_a4fe2e0b6b54bf162e34.css
+assets/js/pdd-mod/
+assets/js/9_bd89473ad947d102c0da.js
+assets/js/react_common_eaba39de603ab99b8cbb.js
+assets/js/react_pdd_0c1ee6aaa484dae5ac21.js
+assets/js/react_sub_activity_9019d750c4c7b8ffef41.js
+assets/js/react_sub_ddpay_real_name_cert_5a2d7889a85126eb2c6c.js
+assets/js/react_vendor_903b2a726e98f9374e7f.js
+assets/js/vendor_93e84b5f103fa04a7b01.js
+assets/js/pdd-mod/market-share_ce9720b3ce9d6b45a3e2.js
+assets/js/pdd-mod/qq-service_c33c243f9eba34cf1e59.js
+assets/js/pdd-mod/wechat-service_231916d739259683fcfd.js
+com.xunmeng.pinduoduo.transacSubsidiaryHybrid.md5checker

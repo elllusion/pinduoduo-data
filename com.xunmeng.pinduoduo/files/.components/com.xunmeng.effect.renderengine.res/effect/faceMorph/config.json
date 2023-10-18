@@ -1,0 +1,59 @@
+{
+  "name": "faceMorph",
+  "effect":{
+    "renderList": [
+        {
+            "type": "Filter",
+            "renderOrder": 6000,
+            "path": "morph",
+            "name": "morph0"
+        },
+        {
+            "type": "Filter",
+            "renderOrder": 6000,
+            "path": "morph",
+            "name": "morph1"
+        },
+        {
+            "type": "Filter",
+            "renderOrder": 6000,
+            "path": "mix1",
+            "name": "mix10"
+        },
+        {
+            "type": "Filter",
+            "renderOrder": 6000,
+            "path": "mix1",
+            "name": "mix11"
+        },
+        {
+            "type": "Filter",
+            "renderOrder": 6000,
+            "path": "mix2",
+            "name": "mix2"
+        },
+        {
+            "type": "Filter",
+            "renderOrder": 6000,
+            "path": "mix3",
+            "name": "mix3"
+        },
+        {
+            "type": "Filter",
+            "renderOrder": 6000,
+            "path": "background",
+            "name": "bg0"
+        },
+        {
+            "type": "Filter",
+            "renderOrder": 6000,
+            "path": "background",
+            "name": "bg1"
+        }
+    ]
+  },
+  "faceDetect":{
+      "requireFace": true
+  },
+  "minVersion": 1.0
+}

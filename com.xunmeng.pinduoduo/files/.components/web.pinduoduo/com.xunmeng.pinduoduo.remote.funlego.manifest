@@ -1,0 +1,22 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+funimg.pddpic.com/
+lego.pdd.com/
+funimg.pddpic.com/fit/
+funimg.pddpic.com/fit/popup_close_btn.png
+funimg.pddpic.com/fit/fit_rank_like_v2.png
+funimg.pddpic.com/fit/blue_line_right.png
+funimg.pddpic.com/fit/blue_line_left.png
+funimg.pddpic.com/fit/fit_rank_liked_v2.png
+funimg.pddpic.com/fit/fit_pull_avatar_2.png.slim.png
+funimg.pddpic.com/fit/fit_pull_avatar_1.png.slim.png
+funimg.pddpic.com/fit/fit_pull_avatar_3.png.slim.png
+funimg.pddpic.com/fit/fit_pull_avatar_5.png.slim.png
+funimg.pddpic.com/fit/fit_pull_avatar_4.png.slim.png
+lego.pdd.com/api/
+lego.pdd.com/api/mobile_fun_lego_pull/
+lego.pdd.com/api/mobile_fun_lego_pull/get_config/
+lego.pdd.com/api/mobile_fun_lego_pull/get_config/fitrank.lego
+lego.pdd.com/api/mobile_fun_lego_pull/get_config/fit.lego
+com.xunmeng.pinduoduo.remote.funlego.md5checker

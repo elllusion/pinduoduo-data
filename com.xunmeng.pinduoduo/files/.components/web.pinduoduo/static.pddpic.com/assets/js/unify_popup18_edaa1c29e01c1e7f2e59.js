@@ -1,0 +1,2 @@
+(window.webpackJsonpForReact=window.webpackJsonpForReact||[]).push([[18],{ogoi:function(o,n,w){}}]);
+//# sourceMappingURL=http://vgunxpkt.com/sourcemaps/pdd-web-transaction/js/unify_popup18_edaa1c29e01c1e7f2e59.js.map

@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="emergence_timestamp" value="1661044407457" />
+    <long name="emergence_req_interval" value="2592000000" />
+</map>

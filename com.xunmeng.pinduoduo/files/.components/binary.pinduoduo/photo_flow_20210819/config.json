@@ -1,0 +1,26 @@
+{
+    "effect": {
+        "Link": [
+            {
+                "type": "GeneralEffect",
+                "zorder": 10000,
+                "path": "Start/",
+                "defaultLoad":false
+            },
+            {
+                "type": "GeneralEffect",
+                "zorder": 10000,
+                "path": "Effect/",
+                "defaultLoad":false
+            },
+            {
+                "type": "GeneralEffect",
+                "zorder": 5004,
+                "path": "End/",
+                "defaultLoad":false
+            }
+        ]
+    },
+    "name": "pingyi_F1EF01EA-ACFE-2643-89B2-CB461EE860F0",
+    "version": "4.6.0"
+}

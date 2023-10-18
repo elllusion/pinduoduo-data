@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="last_reg_request" value="1697574993796" />
+    <long name="first_try_ts" value="1697549739103" />
+    <long name="last_sync_info" value="1697549729" />
+    <long name="last_job_time2" value="1697549734118" />
+    <int name="service_boot_mode" value="0" />
+</map>

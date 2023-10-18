@@ -1,0 +1,11 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+static.pddpic.com/
+static.pddpic.com/assets/
+static.pddpic.com/assets/js/
+static.pddpic.com/assets/js/react_webpack_runtime_dc390f3d735f219cfc64.js
+static.pddpic.com/assets/js/vendor_a16c0e9b7abe8c78cd63.js
+static.pddpic.com/assets/js/react_pdd_97ee8007057a23c234f2.js
+static.pddpic.com/assets/js/react_pxq_moment_red_packet_rule_popup_321b707138f2a7021267.js
+com.xunmeng.pinduoduo.remote.mobilePXQ.md5checker

@@ -1,0 +1,14 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+static.pddpic.com/
+static.pddpic.com/assets/
+static.pddpic.com/assets/js/
+static.pddpic.com/assets/js/react_vendor_de60aa9fcbe63eaefb6f.js
+static.pddpic.com/assets/js/vendor_entry_12_3927ed12943f9be9b44a.js
+static.pddpic.com/assets/js/react_pdd_entry_12_ea0df3a48e500935865a.js
+static.pddpic.com/assets/js/react_search_view_df0e521e1dafe5aebf19.js
+static.pddpic.com/assets/js/vendor_entry_13_a027741cc4ba0a8879ba.js
+static.pddpic.com/assets/js/react_pdd_entry_13_70f7165bc1a3e3fb5fe8.js
+static.pddpic.com/assets/js/react_search_view_promotion_e74d83cad60fb02231cc.js
+com.xunmeng.pinduoduo.remote.mobileSearch.md5checker

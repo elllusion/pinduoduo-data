@@ -1,0 +1,26 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+ganxieyouni_20210802/imageVideo/
+ganxieyouni_20210802/scale/
+ganxieyouni_20210802/trans/
+ganxieyouni_20210802/config.json
+ganxieyouni_20210802/music.mp3
+ganxieyouni_20210802/template.json
+ganxieyouni_20210802/video.mp4
+ganxieyouni_20210802/imageVideo/generalEffect/
+ganxieyouni_20210802/imageVideo/content.json
+ganxieyouni_20210802/imageVideo/generalEffect/fshader.fsh
+ganxieyouni_20210802/imageVideo/generalEffect/vshader.vsh
+ganxieyouni_20210802/imageVideo/generalEffect/generalEffect.json
+ganxieyouni_20210802/scale/generalEffect/
+ganxieyouni_20210802/scale/content.json
+ganxieyouni_20210802/scale/generalEffect/fshader.fsh
+ganxieyouni_20210802/scale/generalEffect/generalEffect.json
+ganxieyouni_20210802/scale/generalEffect/vshader.vsh
+ganxieyouni_20210802/trans/generalEffect/
+ganxieyouni_20210802/trans/content.json
+ganxieyouni_20210802/trans/generalEffect/fshader.fsh
+ganxieyouni_20210802/trans/generalEffect/generalEffect.json
+ganxieyouni_20210802/trans/generalEffect/vshader.vsh
+com.xunmeng.pinduoduo.album.video.music.ganxieyouni_20210802.md5checker

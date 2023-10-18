@@ -1,0 +1,11 @@
+{
+    "filterID": 0,
+    "filterVersion": 3003,
+    "filterDescription": " ",
+    "uniforms":[
+    {
+        "uniformType": "float",
+        "uniformValue": 1.0,
+        "uniformName": "scale"
+    }]
+}

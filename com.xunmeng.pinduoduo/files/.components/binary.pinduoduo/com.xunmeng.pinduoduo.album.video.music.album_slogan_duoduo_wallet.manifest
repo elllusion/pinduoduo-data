@@ -1,0 +1,14 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+album_slogan_duoduo_wallet/mix/
+album_slogan_duoduo_wallet/music.mp3
+album_slogan_duoduo_wallet/template.json
+album_slogan_duoduo_wallet/bg.png
+album_slogan_duoduo_wallet/mix/generalEffect/
+album_slogan_duoduo_wallet/mix/content.json
+album_slogan_duoduo_wallet/mix/generalEffect/resource/
+album_slogan_duoduo_wallet/mix/generalEffect/generalEffect.json
+album_slogan_duoduo_wallet/mix/generalEffect/resource/fshader.fsh
+album_slogan_duoduo_wallet/mix/generalEffect/resource/vshader.vsh
+com.xunmeng.pinduoduo.album.video.music.album_slogan_duoduo_wallet.md5checker

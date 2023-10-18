@@ -1,0 +1,2 @@
+(window.__LOADABLE_LOADED_CHUNKS__=window.__LOADABLE_LOADED_CHUNKS__||[]).push([[19],{nObF:function(_,p,s){_.exports={smsPopup:"_3BIESGbS",smsPopup_title:"e0jlGLPx",smsPopup_tips:"EVErkNQC",tip:"_3N0dnCX9",okBtn:"_3n2PRGT3"}}}]);
+//# sourceMappingURL=http://579abc.com/sourcemaps/mobile-transac-popups/js/ddpay_popup14_a7bae8f75d2b8409a8f4.js.map

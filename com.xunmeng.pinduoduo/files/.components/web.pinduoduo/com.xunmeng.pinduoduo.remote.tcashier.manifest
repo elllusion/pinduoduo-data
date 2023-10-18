@@ -1,0 +1,26 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+static.pddpic.com/
+funimg.pddpic.com/
+static.pddpic.com/assets/
+static.pddpic.com/assets/js/
+static.pddpic.com/assets/css/
+static.pddpic.com/assets/js/vendor_8b1168a73b037726970b.js
+static.pddpic.com/assets/js/react_pdd_667342761178500d9a9b.js
+static.pddpic.com/assets/js/react_train_44a1dc0ce442c96b60c1.js
+static.pddpic.com/assets/js/react_train_list_da6decf3aa6248c6a837.js
+static.pddpic.com/assets/js/react_tcashier_train_checkout_7c055f85d4fc47ea9eaa.js
+static.pddpic.com/assets/js/react_tcashier_train_grab_6f79d4c79ef2db3d8ea0.js
+static.pddpic.com/assets/css/react_train_list_075c6b9feef87ce38336.css
+static.pddpic.com/assets/css/react_tcashier_train_checkout_70d2b032c7669ef337f2.css
+funimg.pddpic.com/order_checkout/
+funimg.pddpic.com/tcashier_train_checkout/
+funimg.pddpic.com/trip/
+funimg.pddpic.com/order_checkout/iconfont_20220507.ttf
+funimg.pddpic.com/tcashier_train_checkout/ticket_bg.png
+funimg.pddpic.com/trip/train/
+funimg.pddpic.com/trip/train/list_tooltip_bg.png
+funimg.pddpic.com/trip/train/coupon.png
+funimg.pddpic.com/trip/train/maxCoupon.png
+com.xunmeng.pinduoduo.remote.tcashier.md5checker

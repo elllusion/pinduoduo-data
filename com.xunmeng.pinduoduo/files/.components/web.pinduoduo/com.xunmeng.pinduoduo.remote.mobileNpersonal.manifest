@@ -1,0 +1,12 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+static.pddpic.com/
+static.pddpic.com/assets/
+static.pddpic.com/assets/css/
+static.pddpic.com/assets/js/
+static.pddpic.com/assets/css/comment_result_6d2e29abec1fef162b36.css
+static.pddpic.com/assets/js/comment_result_pdd_vendors_997ed9582dea87a26ec5.js
+static.pddpic.com/assets/js/comment_result_429a14285af528e09991.js
+static.pddpic.com/assets/js/comment_result_vendors_d5e03c93d3c45ab84901.js
+com.xunmeng.pinduoduo.remote.mobileNpersonal.md5checker

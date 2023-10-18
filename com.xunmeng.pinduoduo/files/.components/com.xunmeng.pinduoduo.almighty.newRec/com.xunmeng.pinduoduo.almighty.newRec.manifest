@@ -1,0 +1,12 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+config.json
+rec_home.pkg
+rec_home_opt1.pkg
+android_personal_rec.pkg
+android_express_rec.pkg
+android_chat_rec.pkg
+android_order_rec.pkg
+android_goods_detail_rec.pkg
+com.xunmeng.pinduoduo.almighty.newRec.md5checker

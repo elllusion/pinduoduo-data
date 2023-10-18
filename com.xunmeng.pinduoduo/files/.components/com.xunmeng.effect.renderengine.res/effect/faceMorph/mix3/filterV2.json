@@ -1,0 +1,16 @@
+{
+    "filterID": 0,
+    "filterVersion": 3003,
+    "filterDescription": "mix3",
+    "uniforms":[
+        {
+            "uniformType": "renderTexture",
+            "uniformName": "inputImageTexture2",
+            "uniformValue": 0
+        },{
+            "uniformType": "float",
+            "uniformName": "progress",
+            "uniformValue": 0.0
+        }
+    ]
+}

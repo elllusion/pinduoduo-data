@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="is_oversea" value="false" />
+    <int name="tbs_download_failed_retrytimes" value="0" />
+    <long name="tbs_downloadflow" value="0" />
+    <long name="retry_interval" value="86400" />
+    <long name="last_check" value="1661044395670" />
+    <string name="tbs_downloadurl_list"></string>
+    <long name="count_request_fail_in_24hours" value="0" />
+    <long name="tbs_downloadstarttime" value="1661044395952" />
+    <int name="tbs_downloaddecouplecore" value="0" />
+    <int name="app_versioncode" value="59000" />
+    <int name="tbs_download_failed_max_retrytimes" value="10" />
+    <string name="app_versionname">5.90.0</string>
+    <string name="last_thirdapp_sendrequest_coreversion">[]</string>
+    <string name="tbs_deskey_token"></string>
+    <string name="tbs_downloadurl">https://tbs.imtt.qq.com/others/release/x5/tbs_core_046010_20220402101035_nolog_fs_obfs_armeabi_release.tbs</string>
+    <boolean name="tbs_needdownload" value="true" />
+    <long name="tbs_single_timeout" value="1200000" />
+    <int name="tbs_download_maxflow" value="300" />
+    <string name="device_cpuabi"></string>
+    <long name="tbs_download_interrupt_time" value="1661091527400" />
+    <int name="use_backup_version" value="0" />
+    <int name="tbs_download_min_free_space" value="0" />
+    <long name="request_fail" value="0" />
+    <long name="tbs_apkfilesize" value="42743493" />
+    <string name="tbs_apk_md5">7243de3ba8c287810d60c7a722831a5a</string>
+    <int name="tbs_download_version" value="46010" />
+    <long name="last_request_success" value="1661044395687" />
+    <int name="tbs_decouplecoreversion" value="0" />
+    <int name="tbs_download_success_max_retrytimes" value="3" />
+    <int name="tbs_download_interrupt_code" value="-118" />
+    <int name="tbs_download_success_retrytimes" value="0" />
+    <string name="app_metadata">null</string>
+    <int name="tbs_responsecode" value="1" />
+    <int name="tbs_download_version_type" value="0" />
+</map>

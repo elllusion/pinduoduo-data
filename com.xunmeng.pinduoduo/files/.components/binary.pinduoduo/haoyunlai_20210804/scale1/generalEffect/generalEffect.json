@@ -1,0 +1,65 @@
+{
+    "effect": [
+        {
+            "name": "transform",
+            "vertexShader": "vshader.vsh",
+            "vUniforms": [],
+            "fragmentShader": "fshader.fsh",
+            "fUniforms": [
+                {
+                    "name": "image0",
+                    "type": 103,
+                    "inputTextureIndex": 0
+                },
+                {
+                    "name": "scale",
+                    "type": 3007,
+                    "timeType": 1,
+                    "keyframes": [
+                        {
+                            "time": 0.0,
+                            "function": "Linear",
+                            "value": 1.0
+                        },
+                        {
+                            "time": 3.5,
+                            "function": "Linear",
+                            "value": 1.1
+                        },
+                        {
+                            "time": 4.7,
+                            "function": "Linear",
+                            "value": 1.0
+                        },
+                        {
+                            "time": 7.5,
+                            "function": "Linear",
+                            "value": 1.1
+                        },
+                                                {
+                            "time": 9.0,
+                            "function": "Linear",
+                            "value": 1.0
+                        },
+                        {
+                            "time": 12.0,
+                            "function": "Linear",
+                            "value": 1.1
+                        },
+                        {
+                            "time": 13.3,
+                            "function": "Linear",
+                            "value": 1.0
+                        },
+                        {
+                            "time": 16.0,
+                            "function": "Linear",
+                            "value": 1.1
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "version": 1.1
+}

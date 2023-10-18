@@ -1,0 +1,290 @@
+{
+    "version": "1.0",
+    "fps": 30,
+    "duration": 17.0,
+    "resolution": {
+        "w": 720,
+        "h": 1280
+    },
+    "durationList": [17.0, 17.0, 17.0, 17.0, 17.0, 17.0, 17.0, 17.0],
+    "coverTimes": [1.0, 3.0, 5.5, 7.6, 9.0, 11.5, 13.0, 17.0],
+    "placeholder": "placeholder.png",
+    "resources": [
+        {
+            "rid": 11,
+            "type": "video",
+            "from": "model",
+            "content": "video.mp4",
+            "default_content": "video.mp4",
+            "ts": {
+                "src_in": 0.0,
+                "src_out": 17.0,
+                "dest_in": 0.0,
+                "dest_out": 17.0
+            },
+            "ts_allow_modify": true,
+            "resolution": {
+                "w": 720,
+                "h": 1280
+            },
+            "coordinate": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "fill_mode": "AspectFill"
+        },
+        {
+            "rid": 111,
+            "type": "audio",
+            "from": "model",
+            "content": "music.mp3",
+            "default_content": "music.mp3",
+            "ts": {
+                "src_in": 0.0,
+                "src_out": 17.0,
+                "dest_in": 0.0,
+                "dest_out": 17.0
+            },
+            "ts_allow_modify": true,
+            "resolution": {
+                "w": 720,
+                "h": 1280
+            },
+            "coordinate": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "fill_mode": "AspectFill",
+            "ease_in": false,
+            "ease_out": false
+        },
+        {
+            "rid": 1,
+            "type": "img",
+            "from": "user",
+            "needGaussianBlur": true,
+            "gaussDegree": 50.0,
+            "ts": {
+                "src_in": 0.0,
+                "src_out": 17.0,
+                "dest_in": 0.0,
+                "dest_out": 17.0
+            },
+            "ts_allow_modify": true,
+            "resolution": {
+                "w": 720,
+                "h": 1280
+            },
+            "coordinate": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "fill_mode": "AspectFill"
+        },
+        {
+            "rid": 2,
+            "type": "img",
+            "from": "user",
+            "needGaussianBlur": true,
+            "gaussDegree": 50.0,
+            "ts": {
+                "src_in": 0.0,
+                "src_out": 17.0,
+                "dest_in": 0.0,
+                "dest_out": 17.0
+            },
+            "ts_allow_modify": true,
+            "resolution": {
+                "w": 720,
+                "h": 1280
+            },
+            "coordinate": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "fill_mode": "AspectFill"
+        },
+        {
+            "rid": 3,
+            "type": "img",
+            "from": "user",
+            "needGaussianBlur": true,
+            "gaussDegree": 50.0,
+            "ts": {
+                "src_in": 0.0,
+                "src_out": 17.0,
+                "dest_in": 0.0,
+                "dest_out": 17.0
+            },
+            "ts_allow_modify": true,
+            "resolution": {
+                "w": 720,
+                "h": 1280
+            },
+            "coordinate": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "fill_mode": "AspectFill"
+        },
+        {
+            "rid": 4,
+            "type": "img",
+            "from": "user",
+            "needGaussianBlur": true,
+            "gaussDegree": 50.0,
+            "ts": {
+                "src_in": 0.0,
+                "src_out": 17.0,
+                "dest_in": 0.0,
+                "dest_out": 17.0
+            },
+            "ts_allow_modify": true,
+            "resolution": {
+                "w": 720,
+                "h": 1280
+            },
+            "coordinate": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "fill_mode": "AspectFill"
+        },
+        {
+            "rid": 5,
+            "type": "img",
+            "from": "user",
+            "needGaussianBlur": true,
+            "gaussDegree": 50.0,
+            "ts": {
+                "src_in": 0.0,
+                "src_out": 17.0,
+                "dest_in": 0.0,
+                "dest_out": 17.0
+            },
+            "ts_allow_modify": true,
+            "resolution": {
+                "w": 720,
+                "h": 1280
+            },
+            "coordinate": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "fill_mode": "AspectFill"
+        },
+        {
+            "rid": 6,
+            "type": "img",
+            "from": "user",
+            "needGaussianBlur": true,
+            "gaussDegree": 50.0,
+            "ts": {
+                "src_in": 0.0,
+                "src_out": 17.0,
+                "dest_in": 0.0,
+                "dest_out": 17.0
+            },
+            "ts_allow_modify": true,
+            "resolution": {
+                "w": 720,
+                "h": 1280
+            },
+            "coordinate": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "fill_mode": "AspectFill"
+        },
+        {
+            "rid": 7,
+            "type": "img",
+            "from": "user",
+            "needGaussianBlur": true,
+            "gaussDegree": 50.0,
+            "ts": {
+                "src_in": 0.0,
+                "src_out": 17.0,
+                "dest_in": 0.0,
+                "dest_out": 17.0
+            },
+            "ts_allow_modify": true,
+            "resolution": {
+                "w": 720,
+                "h": 1280
+            },
+            "coordinate": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "fill_mode": "AspectFill"
+        },
+        {
+            "rid": 8,
+            "type": "img",
+            "from": "user",
+            "needGaussianBlur": true,
+            "gaussDegree": 50.0,
+            "ts": {
+                "src_in": 0.0,
+                "src_out": 17.0,
+                "dest_in": 0.0,
+                "dest_out": 17.0
+            },
+            "ts_allow_modify": true,
+            "resolution": {
+                "w": 720,
+                "h": 1280
+            },
+            "coordinate": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "fill_mode": "AspectFill"
+        }
+    ],
+    "action": [],
+    "effects": [
+        {
+            "eid": 1000,
+            "type": "LottieEffect",
+            "path": "lottie/",
+            "clips": [
+                {
+                    "ts_type": "abs",
+                    "in_ts": 0.0,
+                    "out_ts": 17.0,
+                    "inputs": [
+                        8, 7, 6, 5, 4, 3, 2, 1
+                    ]
+                }
+            ]
+        },
+        {
+            "eid": 1001,
+            "type": "GeneralEffect",
+            "path": "imageVideo/",
+            "clips": [
+                {
+                    "ts_type": "abs",
+                    "in_ts": 0.0,
+                    "out_ts": 17.0,
+                    "inputs": [
+                        1000,
+                        11
+                    ]
+                }
+            ]
+        }
+    ]
+}

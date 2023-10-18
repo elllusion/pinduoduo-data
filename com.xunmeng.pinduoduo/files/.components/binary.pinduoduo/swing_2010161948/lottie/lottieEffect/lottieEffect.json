@@ -1,0 +1,628 @@
+{
+    "effect": [
+        {
+            "name": "animation",
+            "aeData": "data.json",
+            "imageKey": [
+                "image_0", "image_1","image_2","image_3","image_4","image_5","image_6","image_7"
+            ],
+            "externalEffect":[
+                            {
+                                  "effectImageLayerName": "pic-1.png",
+                                  "name": "horizontalBlur1",
+                                  "vertexShader": "externalEffect/horizontalBlur/vshader.vsh",
+                                  "vUniforms": [
+                                  ],
+                                  "fragmentShader": "externalEffect/horizontalBlur/fshader.fsh",
+                                  "fUniforms": [
+                                      {
+                                        "name": "blurIntensity",
+                                        "type": 3007,
+                                        "keyframes": [
+                                          {
+                                            "time": 24.0,
+                                            "value": 1.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 40.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          }
+                                        ]
+                                      }
+                                  ]
+                            },
+                            {
+                                  "effectImageLayerName": "pic-1-1.png",
+                                  "name": "horizontalBlur2",
+                                  "vertexShader": "externalEffect/horizontalBlur/vshader.vsh",
+                                  "vUniforms": [
+                                  ],
+                                  "fragmentShader": "externalEffect/horizontalBlur/fshader.fsh",
+                                  "fUniforms": [
+                                      {
+                                        "name": "blurIntensity",
+                                        "type": 3007,
+                                        "keyframes": [
+                                          {
+                                            "time": 24.0,
+                                            "value": 1.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 40.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          }
+                                        ]
+                                      }
+                                  ]
+                            },
+                            {
+                                  "effectImageLayerName": "pic-1-2.png",
+                                  "name": "horizontalBlur3",
+                                  "vertexShader": "externalEffect/horizontalBlur/vshader.vsh",
+                                  "vUniforms": [
+                                  ],
+                                  "fragmentShader": "externalEffect/horizontalBlur/fshader.fsh",
+                                  "fUniforms": [
+                                      {
+                                        "name": "blurIntensity",
+                                        "type": 3007,
+                                        "keyframes": [
+                                          {
+                                            "time": 24.0,
+                                            "value": 1.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 40.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          }
+                                        ]
+                                      }
+                                  ]
+                            },
+                            {
+                                  "effectImageLayerName": "pic-2.png",
+                                  "name": "horizontalBlur4",
+                                  "vertexShader": "externalEffect/horizontalBlur/vshader.vsh",
+                                  "vUniforms": [
+                                  ],
+                                  "fragmentShader": "externalEffect/horizontalBlur/fshader.fsh",
+                                  "fUniforms": [
+                                      {
+                                        "name": "blurIntensity",
+                                        "type": 3007,
+                                        "keyframes": [
+                                          {
+                                            "time": 45.0,
+                                            "value": 3.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 57.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 75.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 87.0,
+                                            "value": 3.0,
+                                            "function": "Linear"
+                                          }
+                                        ]
+                                      }
+                                  ]
+                            },
+                            {
+                                  "effectImageLayerName": "pic-2-1.png",
+                                  "name": "horizontalBlur5",
+                                  "vertexShader": "externalEffect/horizontalBlur/vshader.vsh",
+                                  "vUniforms": [
+                                  ],
+                                  "fragmentShader": "externalEffect/horizontalBlur/fshader.fsh",
+                                  "fUniforms": [
+                                      {
+                                        "name": "blurIntensity",
+                                        "type": 3007,
+                                        "keyframes": [
+                                          {
+                                            "time": 45.0,
+                                            "value": 3.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 57.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 75.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 87.0,
+                                            "value": 3.0,
+                                            "function": "Linear"
+                                          }
+                                        ]
+                                      }
+                                  ]
+                            },
+                            {
+                                  "effectImageLayerName": "pic-2-2.png",
+                                  "name": "horizontalBlur6",
+                                  "vertexShader": "externalEffect/horizontalBlur/vshader.vsh",
+                                  "vUniforms": [
+                                  ],
+                                  "fragmentShader": "externalEffect/horizontalBlur/fshader.fsh",
+                                  "fUniforms": [
+                                      {
+                                        "name": "blurIntensity",
+                                        "type": 3007,
+                                        "keyframes": [
+                                          {
+                                            "time": 45.0,
+                                            "value": 3.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 57.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 75.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 87.0,
+                                            "value": 3.0,
+                                            "function": "Linear"
+                                          }
+                                        ]
+                                      }
+                                  ]
+                            },
+                            {
+                                  "effectImageLayerName": "pic-6.png",
+                                  "name": "horizontalBlur7",
+                                  "vertexShader": "externalEffect/horizontalBlur/vshader.vsh",
+                                  "vUniforms": [
+                                  ],
+                                  "fragmentShader": "externalEffect/horizontalBlur/fshader.fsh",
+                                  "fUniforms": [
+                                      {
+                                        "name": "blurIntensity",
+                                        "type": 3007,
+                                        "keyframes": [
+                                          {
+                                            "time": 87.0,
+                                            "value": 3.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 99.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 114.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 126.0,
+                                            "value": 3.0,
+                                            "function": "Linear"
+                                          }
+                                        ]
+                                      }
+                                  ]
+                            },
+                            {
+                                  "effectImageLayerName": "pic-6-1.png",
+                                  "name": "horizontalBlur8",
+                                  "vertexShader": "externalEffect/horizontalBlur/vshader.vsh",
+                                  "vUniforms": [
+                                  ],
+                                  "fragmentShader": "externalEffect/horizontalBlur/fshader.fsh",
+                                  "fUniforms": [
+                                      {
+                                        "name": "blurIntensity",
+                                        "type": 3007,
+                                        "keyframes": [
+                                          {
+                                            "time": 87.0,
+                                            "value": 3.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 99.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 114.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 126.0,
+                                            "value": 3.0,
+                                            "function": "Linear"
+                                          }
+                                        ]
+                                      }
+                                  ]
+                            },
+                            {
+                                  "effectImageLayerName": "pic-6-2.png",
+                                  "name": "horizontalBlur8",
+                                  "vertexShader": "externalEffect/horizontalBlur/vshader.vsh",
+                                  "vUniforms": [
+                                  ],
+                                  "fragmentShader": "externalEffect/horizontalBlur/fshader.fsh",
+                                  "fUniforms": [
+                                      {
+                                        "name": "blurIntensity",
+                                        "type": 3007,
+                                        "keyframes": [
+                                          {
+                                            "time": 87.0,
+                                            "value": 3.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 99.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 114.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 126.0,
+                                            "value": 3.0,
+                                            "function": "Linear"
+                                          }
+                                        ]
+                                      }
+                                  ]
+                            },
+                            {
+                                  "effectImageLayerName": "pic-7.png",
+                                  "name": "horizontalBlur9",
+                                  "vertexShader": "externalEffect/horizontalBlur/vshader.vsh",
+                                  "vUniforms": [
+                                  ],
+                                  "fragmentShader": "externalEffect/horizontalBlur/fshader.fsh",
+                                  "fUniforms": [
+                                      {
+                                        "name": "blurIntensity",
+                                        "type": 3007,
+                                        "keyframes": [
+                                          {
+                                            "time": 126.0,
+                                            "value": 3.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 138.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 147.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 160.0,
+                                            "value": 3.0,
+                                            "function": "Linear"
+                                          }
+                                        ]
+                                      }
+                                  ]
+                            },
+                            {
+                                  "effectImageLayerName": "pic-7-1.png",
+                                  "name": "horizontalBlur10",
+                                  "vertexShader": "externalEffect/horizontalBlur/vshader.vsh",
+                                  "vUniforms": [
+                                  ],
+                                  "fragmentShader": "externalEffect/horizontalBlur/fshader.fsh",
+                                  "fUniforms": [
+                                      {
+                                        "name": "blurIntensity",
+                                        "type": 3007,
+                                        "keyframes": [
+                                          {
+                                            "time": 126.0,
+                                            "value": 3.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 138.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 147.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 160.0,
+                                            "value": 3.0,
+                                            "function": "Linear"
+                                          }
+                                        ]
+                                      }
+                                  ]
+                            },
+                            {
+                                  "effectImageLayerName": "pic-7-2.png",
+                                  "name": "horizontalBlur11",
+                                  "vertexShader": "externalEffect/horizontalBlur/vshader.vsh",
+                                  "vUniforms": [
+                                  ],
+                                  "fragmentShader": "externalEffect/horizontalBlur/fshader.fsh",
+                                  "fUniforms": [
+                                      {
+                                        "name": "blurIntensity",
+                                        "type": 3007,
+                                        "keyframes": [
+                                          {
+                                            "time": 126.0,
+                                            "value": 3.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 138.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 147.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 160.0,
+                                            "value": 3.0,
+                                            "function": "Linear"
+                                          }
+                                        ]
+                                      }
+                                  ]
+                            },
+                            {
+                                  "effectImageLayerName": "pic-3.png",
+                                  "name": "horizontalBlur12",
+                                  "vertexShader": "externalEffect/horizontalBlur/vshader.vsh",
+                                  "vUniforms": [
+                                  ],
+                                  "fragmentShader": "externalEffect/horizontalBlur/fshader.fsh",
+                                  "fUniforms": [
+                                      {
+                                        "name": "blurIntensity",
+                                        "type": 3007,
+                                        "keyframes": [
+                                          {
+                                            "time": 160.0,
+                                            "value": 3.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 174.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          }
+                                        ]
+                                      }
+                                  ]
+                            },
+                            {
+                                  "effectImageLayerName": "pic-3-1.png",
+                                  "name": "horizontalBlur13",
+                                  "vertexShader": "externalEffect/horizontalBlur/vshader.vsh",
+                                  "vUniforms": [
+                                  ],
+                                  "fragmentShader": "externalEffect/horizontalBlur/fshader.fsh",
+                                  "fUniforms": [
+                                      {
+                                        "name": "blurIntensity",
+                                        "type": 3007,
+                                        "keyframes": [
+                                          {
+                                            "time": 160.0,
+                                            "value": 3.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 174.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          }
+                                        ]
+                                      }
+                                  ]
+                            },
+                            {
+                                  "effectImageLayerName": "pic-3.png",
+                                  "name": "zoomBlur14",
+                                  "vertexShader": "externalEffect/zoomBlur/vshader.vsh",
+                                  "vUniforms": [
+                                  ],
+                                  "fragmentShader": "externalEffect/zoomBlur/fshader.fsh",
+                                  "fUniforms": [
+                                      {
+                                        "name": "blurIntensity",
+                                        "type": 3007,
+                                        "keyframes": [
+                                          {
+                                            "time": 174.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 192.0,
+                                            "value": 1.46,
+                                            "function": "Linear"
+                                          }
+                                        ]
+                                      }
+                                  ]
+                            },
+                            {
+                                  "effectImageLayerName": "pic-3-1.png",
+                                  "name": "zoomBlur15",
+                                  "vertexShader": "externalEffect/zoomBlur/vshader.vsh",
+                                  "vUniforms": [
+                                  ],
+                                  "fragmentShader": "externalEffect/zoomBlur/fshader.fsh",
+                                  "fUniforms": [
+                                      {
+                                        "name": "blurIntensity",
+                                        "type": 3007,
+                                        "keyframes": [
+                                          {
+                                            "time": 174.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 192.0,
+                                            "value": 1.46,
+                                            "function": "Linear"
+                                          }
+                                        ]
+                                      }
+                                  ]
+                            },
+                            {
+                                  "effectImageLayerName": "pic-4.png",
+                                  "name": "zoomBlur16",
+                                  "vertexShader": "externalEffect/zoomBlur/vshader.vsh",
+                                  "vUniforms": [
+                                  ],
+                                  "fragmentShader": "externalEffect/zoomBlur/fshader.fsh",
+                                  "fUniforms": [
+                                      {
+                                        "name": "blurIntensity",
+                                        "type": 3007,
+                                        "keyframes": [
+                                          {
+                                            "time": 192.0,
+                                            "value": 1.46,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 195.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 228.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 231.0,
+                                            "value": 1.46,
+                                            "function": "Linear"
+                                          }
+                                        ]
+                                      }
+                                  ]
+                            },
+                            {
+                                  "effectImageLayerName": "pic-5.png",
+                                  "name": "zoomBlur17",
+                                  "vertexShader": "externalEffect/zoomBlur/vshader.vsh",
+                                  "vUniforms": [
+                                  ],
+                                  "fragmentShader": "externalEffect/zoomBlur/fshader.fsh",
+                                  "fUniforms": [
+                                      {
+                                        "name": "blurIntensity",
+                                        "type": 3007,
+                                        "keyframes": [
+                                          {
+                                            "time": 231.0,
+                                            "value": 1.46,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 234.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 261.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 266.0,
+                                            "value": 1.46,
+                                            "function": "Linear"
+                                          }
+                                        ]
+                                      }
+                                  ]
+                            },
+                            {
+                                  "effectImageLayerName": "pic-5-1.png",
+                                  "name": "zoomBlur18",
+                                  "vertexShader": "externalEffect/zoomBlur/vshader.vsh",
+                                  "vUniforms": [
+                                  ],
+                                  "fragmentShader": "externalEffect/zoomBlur/fshader.fsh",
+                                  "fUniforms": [
+                                      {
+                                        "name": "blurIntensity",
+                                        "type": 3007,
+                                        "keyframes": [
+                                          {
+                                            "time": 231.0,
+                                            "value": 1.46,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 234.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 261.0,
+                                            "value": 0.0,
+                                            "function": "Linear"
+                                          },
+                                          {
+                                            "time": 266.0,
+                                            "value": 1.46,
+                                            "function": "Linear"
+                                          }
+                                        ]
+                                      }
+                                  ]
+                            }
+                        ]
+        }
+    ],
+    "version": 1.1
+}

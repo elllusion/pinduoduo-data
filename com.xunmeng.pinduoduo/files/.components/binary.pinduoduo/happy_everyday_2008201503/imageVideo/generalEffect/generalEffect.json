@@ -1,0 +1,51 @@
+{
+    "effect": [
+        {
+            "name": "transform",
+            "vertexShader": "vshader.vsh",
+            "vUniforms": [],
+            "fragmentShader": "fshader.fsh",
+            "fUniforms": [
+                {
+                    "name": "image0",
+                    "type": 103,
+                    "inputTextureIndex": 0
+                },
+                {
+                    "name": "video",
+                    "type": 103,
+                    "inputTextureIndex": 1
+                },
+                {
+                    "name": "cropCenterX",
+                    "type": 3,
+                    "data": [
+                      361.0
+                    ]
+                },
+                {
+                    "name": "cropCenterY",
+                    "type": 3,
+                    "data": [
+                      641.5
+                    ]
+                },
+                {
+                    "name": "cropWidth",
+                    "type": 3,
+                    "data": [
+                      586.0
+                    ]
+                },
+                {
+                    "name": "cropHeight",
+                    "type": 3,
+                    "data": [
+                      955.0
+                    ]
+                }
+            ]
+        }
+    ],
+    "version": 1.1
+}

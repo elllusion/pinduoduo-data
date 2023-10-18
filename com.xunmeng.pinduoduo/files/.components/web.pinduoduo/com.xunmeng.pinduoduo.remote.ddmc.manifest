@@ -1,0 +1,21 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+static.pddpic.com/
+funimg.pddpic.com/
+static.pddpic.com/assets/
+static.pddpic.com/assets/js/
+static.pddpic.com/assets/css/
+static.pddpic.com/assets/js/react_vendor_2ff7d23597f92ba87180.js
+static.pddpic.com/assets/js/react_webpack_runtime_b834707fa4b21b2ebd9d_modern.js
+static.pddpic.com/assets/js/react_common_4e9d5cea6ed3cb0a62c4_modern.js
+static.pddpic.com/assets/js/react_module_26777b044334d67d93d2_modern.js
+static.pddpic.com/assets/js/react_pdd_aa6c84f3da9e8b34c68e_modern.js
+static.pddpic.com/assets/js/vgt_mall_list_38f39137dbf06bf72556_modern.js
+static.pddpic.com/assets/js/ShakingPacketActivity_14b95147ee4cd4bf2502_modern.js
+static.pddpic.com/assets/css/vgt_mall_list_d3ca71303b5bb466af30.css
+static.pddpic.com/assets/css/vgt_mall_list_a2c43b629ecba1114658_modern.css
+funimg.pddpic.com/fonts/
+funimg.pddpic.com/fonts/iconfont_20180706.ttf
+funimg.pddpic.com/fonts/iconfont_vgt_20211020.ttf
+com.xunmeng.pinduoduo.remote.ddmc.md5checker

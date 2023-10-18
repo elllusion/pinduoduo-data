@@ -1,0 +1,23 @@
+{
+  "name": "faceSwapV4",
+  "effect":{
+    "renderList": [
+        {
+            "type": "Filter",
+            "renderOrder": 6000,
+            "path": "paster",
+            "name": "paster"
+        },
+        {
+            "type": "Filter",
+            "renderOrder": 6000,
+            "path": "blend",
+            "name": "blend"
+        }
+    ]
+  },
+  "faceDetect":{
+      "requireFace": true
+  },
+  "minVersion": 1.0
+}

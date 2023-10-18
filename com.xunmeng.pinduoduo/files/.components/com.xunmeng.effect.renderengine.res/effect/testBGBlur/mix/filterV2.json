@@ -1,0 +1,9 @@
+{
+    "filterID": 0,
+    "filterVersion": 3003,
+    "filterDescription": "背景模糊",
+    "inputs":
+    {
+        "externalTextureKeys":["inputImageTexture2","inputImageTexture3"]
+    }
+}

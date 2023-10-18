@@ -1,0 +1,79 @@
+[
+  {
+    "icon":"https://funimg.pddpic.com/2021-01-28/ef8a62cd-dfd5-43c2-b0a1-8bcbb11db231.png",
+    "short_name": "玫瑰花",
+    "long_name": "送你一束玫瑰花",
+    "animation": {
+        "duration": 5000,
+        "resource_type": 0,
+        "resource_name": "meiguihua",
+        "full_screen": true
+    }
+  },
+  {
+    "icon":"https://funimg.pddpic.com/2021-01-28/c471e7fd-f27e-430f-8a2e-6d976dbb2b02.png",
+    "short_name": "剪纸",
+    "long_name": "送你一个剪纸",
+    "animation": {
+        "duration": 4300,
+        "resource_type": 0,
+        "resource_name": "jianzhi",
+        "full_screen": false
+    }
+  },
+  {
+    "icon":"https://funimg.pddpic.com/2021-01-28/49438805-ce54-41b5-8649-c92fb1ac9a65.png",
+    "short_name": "春联",
+    "long_name": "送你一副春联",
+    "animation": {
+        "duration": 6000,
+        "resource_type": 0,
+        "resource_name": "chunlian",
+        "full_screen": false
+    }
+  },
+  {
+    "icon":"https://funimg.pddpic.com/2021-01-28/434e1ce6-69ca-4b28-8406-3678ecae5c1d.png",
+    "short_name": "存钱罐",
+    "long_name": "送你一个存钱罐",
+    "animation": {
+        "duration": 4300,
+        "resource_type": 0,
+        "resource_name": "cunqianguan",
+        "full_screen": false
+    }
+  },
+  {
+    "icon":"https://funimg.pddpic.com/2021-01-28/cf811918-b8f3-491b-b7e6-23ed8cf71c38.png",
+    "short_name": "饺子",
+    "long_name": "送你一盘饺子",
+    "animation": {
+        "duration": 5000,
+        "resource_type": 0,
+        "resource_name": "jiaozi",
+        "full_screen": true
+    }
+  },
+  {
+    "icon":"https://funimg.pddpic.com/2021-01-28/318d0608-99b9-4965-99c2-7ab8d9904412.png",
+    "short_name": "糖果",
+    "long_name": "送你一捧糖果",
+    "animation": {
+        "duration": 5000,
+        "resource_type": 0,
+        "resource_name": "tangguo",
+        "full_screen": true
+    }
+  },
+  {
+    "icon":"https://funimg.pddpic.com/2021-01-28/19e73e9f-8645-4e28-af13-31464084108c.png",
+    "short_name": "鞭炮",
+    "long_name": "送你一串鞭炮",
+    "animation": {
+        "duration": 5000,
+        "resource_type": 0,
+        "resource_name": "bianpao",
+        "full_screen": false
+    }
+  }
+]

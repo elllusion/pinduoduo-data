@@ -1,0 +1,40 @@
+{
+    "effect": [
+        {
+            "name": "pass0",
+            "clearColor": [
+                0,
+                0,
+                0,
+                1
+            ],
+            "viewport": [
+                0,
+                0,
+                720,
+                1280
+            ],
+            "vertexShader": "resource/vshader.vsh",
+            "vUniforms": [],
+            "fragmentShader": "resource/fshader.fsh",
+            "fUniforms": [
+                {
+                    "name": "logo",
+                    "type": 103,
+                    "inputTextureIndex": 0
+                },
+                {
+                    "name": "bg",
+                    "type": 103,
+                    "inputTextureIndex": 1
+                },
+                {
+                    "name": "imageSize",
+                    "type": 3008,
+                    "inputTextureIndex": 0
+                }
+            ]
+        }
+    ],
+    "version": 1.1
+}

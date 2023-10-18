@@ -1,0 +1,622 @@
+{
+    "version": "1.0",
+    "fps": 30,
+    "duration": 16,
+    "resolution": {
+        "w": 720,
+        "h": 1280
+    },
+    "durationList": [
+        8.9,
+        8.9,
+        8.9,
+        8.9,
+        8.9,
+        8.9,
+        16.0,
+        16.0
+    ],
+    "coverTimes": [
+        0.4,
+        1.6,
+        3.8,
+        5.7,
+        7.6,
+        8.9,
+        12.1,
+        15.0
+    ],
+    "placeholder": "placeholder.png",
+    "resources": [
+        {
+            "rid": 11,
+            "type": "video",
+            "from": "model",
+            "content": "video.mp4",
+            "default_content": "video.mp4",
+            "ts": {
+                "src_in": 0,
+                "src_out": 16,
+                "dest_in": 0.0,
+                "dest_out": 16
+            },
+            "ts_allow_modify": true,
+            "resolution": {
+                "w": 720,
+                "h": 1280
+            },
+            "coordinate": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "fill_mode": "AspectFill"
+        },
+        {
+            "rid": 111,
+            "type": "audio",
+            "from": "model",
+            "content": "music.mp3",
+            "default_content": "music.mp3",
+            "ts": {
+                "src_in": 0.0,
+                "src_out": 16,
+                "dest_in": 0.0,
+                "dest_out": 16
+            },
+            "ts_allow_modify": true,
+            "resolution": {
+                "w": 720,
+                "h": 1280
+            },
+            "coordinate": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "fill_mode": "AspectFill",
+            "ease_in": false,
+            "ease_out": false
+        },
+        {
+            "rid": 12,
+            "type": "img",
+            "from": "model",
+            "content": "lut.png",
+            "default_content": "lut.png",
+            "ts": {
+                "src_in": 0.0,
+                "src_out": 16.0,
+                "dest_in": 0.0,
+                "dest_out": 16.0
+            },
+            "ts_allow_modify": true,
+            "resolution": {
+                "w": 720,
+                "h": 1280
+            },
+            "coordinate": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "fill_mode": "AspectFill"
+        },
+        {
+            "rid": 1,
+            "type": "img",
+            "from": "user",
+            "needGaussianBlur": true,
+            "gaussDegree": 50.0,
+            "preprocessingPath": "preprocessingEffect/",
+            "ts": {
+                "src_in": 0,
+                "src_out": 16,
+                "dest_in": 0.0,
+                "dest_out": 16
+            },
+            "ts_allow_modify": true,
+            "resolution": {
+                "w": 720,
+                "h": 1280
+            },
+            "coordinate": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "fill_mode": "AspectFill"
+        },
+        {
+            "rid": 2,
+            "type": "img",
+            "from": "user",
+            "needGaussianBlur": true,
+            "gaussDegree": 50.0,
+            "preprocessingPath": "preprocessingEffect/",
+            "ts": {
+                "src_in": 0,
+                "src_out": 16,
+                "dest_in": 0.0,
+                "dest_out": 16
+            },
+            "ts_allow_modify": true,
+            "resolution": {
+                "w": 720,
+                "h": 1280
+            },
+            "coordinate": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "fill_mode": "AspectFill"
+        },
+        {
+            "rid": 3,
+            "type": "img",
+            "from": "user",
+            "needGaussianBlur": true,
+            "gaussDegree": 50.0,
+            "preprocessingPath": "preprocessingEffect/",
+            "ts": {
+                "src_in": 0,
+                "src_out": 16,
+                "dest_in": 0.0,
+                "dest_out": 16
+            },
+            "ts_allow_modify": true,
+            "resolution": {
+                "w": 720,
+                "h": 1280
+            },
+            "coordinate": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "fill_mode": "AspectFill"
+        },
+        {
+            "rid": 4,
+            "type": "img",
+            "from": "user",
+            "needGaussianBlur": true,
+            "gaussDegree": 50.0,
+            "preprocessingPath": "preprocessingEffect/",
+            "ts": {
+                "src_in": 0,
+                "src_out": 16,
+                "dest_in": 0.0,
+                "dest_out": 16
+            },
+            "ts_allow_modify": true,
+            "resolution": {
+                "w": 720,
+                "h": 1280
+            },
+            "coordinate": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "fill_mode": "AspectFill"
+        },
+        {
+            "rid": 5,
+            "type": "img",
+            "from": "user",
+            "needGaussianBlur": true,
+            "gaussDegree": 50.0,
+            "preprocessingPath": "preprocessingEffect/",
+            "ts": {
+                "src_in": 0,
+                "src_out": 16,
+                "dest_in": 0.0,
+                "dest_out": 16
+            },
+            "ts_allow_modify": true,
+            "resolution": {
+                "w": 720,
+                "h": 1280
+            },
+            "coordinate": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "fill_mode": "AspectFill"
+        },
+        {
+            "rid": 6,
+            "type": "img",
+            "from": "user",
+            "needGaussianBlur": true,
+            "gaussDegree": 50.0,
+            "preprocessingPath": "preprocessingEffect/",
+            "ts": {
+                "src_in": 0,
+                "src_out": 16,
+                "dest_in": 0.0,
+                "dest_out": 16
+            },
+            "ts_allow_modify": true,
+            "resolution": {
+                "w": 720,
+                "h": 1280
+            },
+            "coordinate": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "fill_mode": "AspectFill"
+        },
+        {
+            "rid": 7,
+            "type": "img",
+            "from": "user",
+            "needGaussianBlur": true,
+            "gaussDegree": 50.0,
+            "preprocessingPath": "preprocessingEffect/",
+            "ts": {
+                "src_in": 0,
+                "src_out": 16,
+                "dest_in": 0.0,
+                "dest_out": 16
+            },
+            "ts_allow_modify": true,
+            "resolution": {
+                "w": 720,
+                "h": 1280
+            },
+            "coordinate": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "fill_mode": "AspectFill"
+        },
+        {
+            "rid": 8,
+            "type": "img",
+            "from": "user",
+            "needGaussianBlur": true,
+            "gaussDegree": 50.0,
+            "preprocessingPath": "preprocessingEffect/",
+            "ts": {
+                "src_in": 0,
+                "src_out": 16,
+                "dest_in": 0.0,
+                "dest_out": 16
+            },
+            "ts_allow_modify": true,
+            "resolution": {
+                "w": 720,
+                "h": 1280
+            },
+            "coordinate": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "fill_mode": "AspectFill"
+        }
+    ],
+    "action": [],
+    "effects": [
+        {
+            "eid": 1000,
+            "type": "GeneralEffect",
+            "path": "scale1/",
+            "clips": [
+                {
+                    "ts_type": "abs",
+                    "in_ts": 0.0,
+                    "out_ts": 0.7,
+                    "inputs": [
+                        1
+                    ]
+                },
+                {
+                    "ts_type": "abs",
+                    "in_ts": 1.6,
+                    "out_ts": 4.5,
+                    "inputs": [
+                        3
+                    ]
+                },
+                {
+                    "ts_type": "abs",
+                    "in_ts": 5.7,
+                    "out_ts": 8.5,
+                    "inputs": [
+                        5
+                    ]
+                },
+                {
+                    "ts_type": "abs",
+                    "in_ts": 8.9,
+                    "out_ts": 13.8,
+                    "inputs": [
+                        7
+                    ]
+                }
+            ]
+        },
+        {
+            "eid": 1001,
+            "type": "GeneralEffect",
+            "path": "scale2/",
+            "clips": [
+                {
+                    "ts_type": "abs",
+                    "in_ts": 0.4,
+                    "out_ts": 2.2,
+                    "inputs": [
+                        2
+                    ]
+                },
+                {
+                    "ts_type": "abs",
+                    "in_ts": 3.8,
+                    "out_ts": 6.7,
+                    "inputs": [
+                        4
+                    ]
+                },
+                {
+                    "ts_type": "abs",
+                    "in_ts": 7.6,
+                    "out_ts": 9.3,
+                    "inputs": [
+                        6
+                    ]
+                },
+                {
+                    "ts_type": "abs",
+                    "in_ts": 12.1,
+                    "out_ts": 16.0,
+                    "inputs": [
+                        8
+                    ]
+                }
+            ]
+        },
+        {
+            "eid": 1002,
+            "type": "GeneralEffect",
+            "path": "trans/",
+            "clips": [
+                {
+                    "ts_type": "abs",
+                    "in_ts": 0.4,
+                    "out_ts": 0.7,
+                    "inputs": [
+                        1000,
+                        1001,
+                        11
+                    ]
+                },
+                {
+                    "ts_type": "abs",
+                    "in_ts": 1.6,
+                    "out_ts": 2.2,
+                    "inputs": [
+                        1001,
+                        1000,
+                        11
+                    ]
+                },
+                {
+                    "ts_type": "abs",
+                    "in_ts": 3.8,
+                    "out_ts": 4.5,
+                    "inputs": [
+                        1000,
+                        1001,
+                        11
+                    ]
+                },
+                {
+                    "ts_type": "abs",
+                    "in_ts": 5.7,
+                    "out_ts": 6.7,
+                    "inputs": [
+                        1001,
+                        1000,
+                        11
+                    ]
+                },
+                {
+                    "ts_type": "abs",
+                    "in_ts": 7.6,
+                    "out_ts": 8.4,
+                    "inputs": [
+                        1000,
+                        1001,
+                        11
+                    ]
+                },
+                {
+                    "ts_type": "abs",
+                    "in_ts": 8.9,
+                    "out_ts": 9.3,
+                    "inputs": [
+                        1001,
+                        1000,
+                        11
+                    ]
+                },
+                {
+                    "ts_type": "abs",
+                    "in_ts": 12.1,
+                    "out_ts": 13.8,
+                    "inputs": [
+                        1000,
+                        1001,
+                        11
+                    ]
+                }
+            ]
+        },
+        {
+            "eid": 1004,
+            "type": "GeneralEffect",
+            "path": "Filter/",
+            "clips": [
+                {
+                    "ts_type": "abs",
+                    "in_ts": 0.0,
+                    "out_ts": 0.4,
+                    "inputs": [
+                        1000,
+                        12
+                    ]
+                },
+                {
+                    "ts_type": "abs",
+                    "in_ts": 0.4,
+                    "out_ts": 0.7,
+                    "inputs": [
+                        1002,
+                        12
+                    ]
+                },
+                {
+                    "ts_type": "abs",
+                    "in_ts": 0.7,
+                    "out_ts": 1.6,
+                    "inputs": [
+                        1001,
+                        12
+                    ]
+                },
+                {
+                    "ts_type": "abs",
+                    "in_ts": 1.6,
+                    "out_ts": 2.2,
+                    "inputs": [
+                        1002,
+                        12
+                    ]
+                },
+                {
+                    "ts_type": "abs",
+                    "in_ts": 2.2,
+                    "out_ts": 3.8,
+                    "inputs": [
+                        1000,
+                        12
+                    ]
+                },
+                {
+                    "ts_type": "abs",
+                    "in_ts": 3.8,
+                    "out_ts": 4.5,
+                    "inputs": [
+                        1002,
+                        12
+                    ]
+                },
+                {
+                    "ts_type": "abs",
+                    "in_ts": 4.5,
+                    "out_ts": 5.7,
+                    "inputs": [
+                        1001,
+                        12
+                    ]
+                },
+                {
+                    "ts_type": "abs",
+                    "in_ts": 5.7,
+                    "out_ts": 6.7,
+                    "inputs": [
+                        1002,
+                        12
+                    ]
+                },
+                {
+                    "ts_type": "abs",
+                    "in_ts": 6.7,
+                    "out_ts": 7.6,
+                    "inputs": [
+                        1000,
+                        12
+                    ]
+                },
+                {
+                    "ts_type": "abs",
+                    "in_ts": 7.6,
+                    "out_ts": 8.4,
+                    "inputs": [
+                        1002,
+                        12
+                    ]
+                },
+                {
+                    "ts_type": "abs",
+                    "in_ts": 8.4,
+                    "out_ts": 8.9,
+                    "inputs": [
+                        1001,
+                        12
+                    ]
+                },
+                {
+                    "ts_type": "abs",
+                    "in_ts": 8.9,
+                    "out_ts": 9.3,
+                    "inputs": [
+                        1002,
+                        12
+                    ]
+                },
+                {
+                    "ts_type": "abs",
+                    "in_ts": 9.3,
+                    "out_ts": 12.1,
+                    "inputs": [
+                        1000,
+                        12
+                    ]
+                },
+                {
+                    "ts_type": "abs",
+                    "in_ts": 12.1,
+                    "out_ts": 13.8,
+                    "inputs": [
+                        1002,
+                        12
+                    ]
+                },
+                {
+                    "ts_type": "abs",
+                    "in_ts": 13.8,
+                    "out_ts": 16.0,
+                    "inputs": [
+                        1001,
+                        12
+                    ]
+                }
+            ]
+        },
+        {
+            "eid": 1005,
+            "type": "GeneralEffect",
+            "path": "imageVideo/",
+            "clips": [
+                {
+                    "ts_type": "abs",
+                    "in_ts": 0.0,
+                    "out_ts": 16.0,
+                    "inputs": [
+                        1004,
+                        11
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+nuannuan_20210722/imageVideo/
+nuannuan_20210722/trans/
+nuannuan_20210722/trans2/
+nuannuan_20210722/config.json
+nuannuan_20210722/music.mp3
+nuannuan_20210722/template.json
+nuannuan_20210722/video.mp4
+nuannuan_20210722/imageVideo/generalEffect/
+nuannuan_20210722/imageVideo/content.json
+nuannuan_20210722/imageVideo/generalEffect/fshader.fsh
+nuannuan_20210722/imageVideo/generalEffect/generalEffect.json
+nuannuan_20210722/imageVideo/generalEffect/vshader.vsh
+nuannuan_20210722/trans/generalEffect/
+nuannuan_20210722/trans/content.json
+nuannuan_20210722/trans/generalEffect/fshader.fsh
+nuannuan_20210722/trans/generalEffect/generalEffect.json
+nuannuan_20210722/trans/generalEffect/vshader.vsh
+nuannuan_20210722/trans2/generalEffect/
+nuannuan_20210722/trans2/content.json
+nuannuan_20210722/trans2/generalEffect/fshader.fsh
+nuannuan_20210722/trans2/generalEffect/generalEffect.json
+nuannuan_20210722/trans2/generalEffect/vshader.vsh
+com.xunmeng.pinduoduo.album.video.music.nuannuan_20210722.md5checker

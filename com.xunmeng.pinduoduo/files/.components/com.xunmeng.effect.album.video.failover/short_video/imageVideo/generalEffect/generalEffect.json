@@ -1,0 +1,18 @@
+{
+    "effect": [
+        {
+            "name": "transform",
+            "vertexShader": "vshader.vsh",
+            "vUniforms": [],
+            "fragmentShader": "fshader.fsh",
+            "fUniforms": [
+                {
+                    "name": "image0",
+                    "type": 103,
+                    "inputTextureIndex": 0
+                }
+            ]
+        }
+    ],
+    "version": 1.1
+}

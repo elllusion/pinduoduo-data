@@ -1,0 +1,87 @@
+{
+    "filterID": 0,
+    "filterVersion": 3003,
+    "filterDescription": "smooth_skin",
+    "uniforms":[
+        {
+            "uniformType": "float",
+            "uniformValue": 0.00138889,
+            "uniformName": "texEpmWidthOffset"
+        },
+        {
+            "uniformType": "float",
+            "uniformValue": 0.00078125,
+            "uniformName": "texEpmHeightOffset"
+        },
+        {
+            "uniformType": "float",
+            "uniformValue": 1.0,
+            "uniformName": "blurAlpha"
+        },
+        {
+            "uniformType": "float",
+            "uniformValue": 1.5,
+            "uniformName": "sharpen"
+        },
+        {
+            "uniformType": "float",
+            "uniformValue": 1.0,
+            "uniformName": "whitenIntensity"
+        },
+        {
+            "uniformType": "float",
+            "uniformValue": 0.02,
+            "uniformName": "noise"
+        },
+        {
+            "uniformType": "float",
+            "uniformValue": 0.3,
+            "uniformName": "epm"
+        },
+        {
+            "uniformType": "float",
+            "uniformValue": 0.0,
+            "uniformName": "useMask"
+        },
+        {
+            "uniformType": "float",
+            "uniformValue": 0.0,
+            "uniformName": "videoReductionNoise"
+        },
+        {
+            "uniformType": "float",
+            "uniformValue": 1.0,
+            "uniformName": "useNewSmooth"
+        },
+        {
+            "uniformType": "int",
+            "uniformValue": 0,
+            "uniformName": "useFaceMask"
+        },
+        {
+            "uniformType": "renderTexture",
+            "uniformValue": 0,
+            "uniformName": "maskTexture"
+        },
+        {
+            "uniformType": "renderTexture",
+            "uniformValue": 1,
+            "uniformName": "inputImageTexture2"
+        },
+        {
+            "uniformType": "renderTexture",
+            "uniformValue": 2,
+            "uniformName": "inputImageTexture"
+        },
+        {
+            "uniformType": "image",
+            "uniformValue":"white.png",
+            "uniformName": "inputImageTexture4"
+        },
+        {
+            "uniformType": "image",
+            "uniformValue":"skin_model.png",
+            "uniformName": "inputImageTexture5"
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "version": "1.0",
+    "fps": 16,
+    "duration": 3.0,
+    "resolution": {
+        "w": 720,
+        "h": 1280
+    },
+    "placeholder": "placeholder.png",
+    "resources": [
+        {
+            "rid": 11,
+            "type": "audio",
+            "from": "model",
+            "content": "music.mp3",
+            "default_content": "music.mp3",
+            "ts": {
+                "src_in": 0.0,
+                "src_out": 3.0,
+                "dest_in": 0.0,
+                "dest_out": 3.0
+            },
+            "ts_allow_modify": true,
+            "resolution": {
+                "w": 720,
+                "h": 1280
+            },
+            "coordinate": {
+                "x": 0,
+                "y": 0,
+                "z": 1
+            },
+            "fill_mode": "AspectFill"
+        },
+        {
+            "rid": 1,
+            "type": "img",
+            "from": "user",
+            "ts": {
+                "src_in": 0,
+                "src_out": 0,
+                "dest_in": 0.0,
+                "dest_out": 3.9375
+            }
+        },
+        {
+            "rid": 2,
+            "type": "img",
+            "from": "model",
+            "content": "bg.png",
+            "default_content": "bg.png",
+            "ts": {
+                "src_in": 0,
+                "src_out": 0,
+                "dest_in": 0.0,
+                "dest_out": 3.9375
+            }
+        }
+    ],
+    "action": [],
+    "effects": [
+        {
+            "eid": 1000,
+            "type": "GeneralEffect",
+            "path": "mix/",
+            "clips": [
+                {
+                    "ts_type": "abs",
+                    "in_ts": 0.0,
+                    "out_ts": 3.0,
+                    "inputs": [
+                        1,
+                        2
+                    ]
+                }
+            ]
+        }
+    ],
+    "time_effects": []
+}

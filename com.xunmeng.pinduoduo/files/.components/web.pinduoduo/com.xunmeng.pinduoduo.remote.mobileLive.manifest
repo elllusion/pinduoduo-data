@@ -1,0 +1,14 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+promotion.pddpic.com/
+static.pddpic.com/
+promotion.pddpic.com/mobile_live/
+promotion.pddpic.com/mobile_live/5461abcc-e759-45e4-892a-1e28d324015a.ttf
+static.pddpic.com/assets/
+static.pddpic.com/assets/js/
+static.pddpic.com/assets/css/
+static.pddpic.com/assets/js/loadable_LiveRoom_LazyComponent_d50af979313f8e58d7bf.js
+static.pddpic.com/assets/js/loadable_liveRoom_LotteryResultDialog_f46b9152c69ecc5cdc26.js
+static.pddpic.com/assets/css/loadable_LiveRoom_LazyComponent_861a2053fedc5ef84e34.css
+com.xunmeng.pinduoduo.remote.mobileLive.md5checker

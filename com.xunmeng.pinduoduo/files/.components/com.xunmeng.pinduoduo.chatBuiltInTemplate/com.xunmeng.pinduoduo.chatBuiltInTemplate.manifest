@@ -1,0 +1,7 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+template
+template.bin
+template.crc
+com.xunmeng.pinduoduo.chatBuiltInTemplate.md5checker

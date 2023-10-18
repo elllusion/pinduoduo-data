@@ -1,0 +1,10 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+static.pddpic.com/
+static.pddpic.com/assets/
+static.pddpic.com/assets/js/
+static.pddpic.com/assets/js/vendor_9709e0f4c06af1344a34.js
+static.pddpic.com/assets/js/react_pdd_cc2ec34ac019d32282ac.js
+static.pddpic.com/assets/js/react_bmall_ramble_pro_8a44e9fddf217f5cb14f.js
+com.xunmeng.pinduoduo.remote.mobileBrandMall.md5checker

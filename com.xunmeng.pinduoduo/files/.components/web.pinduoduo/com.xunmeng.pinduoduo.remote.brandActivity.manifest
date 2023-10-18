@@ -1,0 +1,23 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+funimg.pddpic.com/
+static.pddpic.com/
+funimg.pddpic.com/common/
+funimg.pddpic.com/mobile-subjects/
+funimg.pddpic.com/common/brand/
+funimg.pddpic.com/common/brand/dinot.ttf/
+funimg.pddpic.com/common/brand/dinot.ttf/05830c95-bf4e-4aab-8391-384b55493bce.ttf
+funimg.pddpic.com/common/brand/dinot.ttf/eff82e2f-f260-4a72-b592-1c70b044e0a4.ttf
+funimg.pddpic.com/mobile-subjects/fonts/
+funimg.pddpic.com/mobile-subjects/fonts/iconfont_20190508.ttf
+static.pddpic.com/assets/
+static.pddpic.com/assets/css/
+static.pddpic.com/assets/js/
+static.pddpic.com/assets/css/react_brand_activity_search_result_f84324d6a5ef14db65e8.css
+static.pddpic.com/assets/js/react_brand_activity_search_result_13de2a1292129c9529c4.js
+static.pddpic.com/assets/js/react_brand_activity_subsidy_658c77385be11c138026.js
+static.pddpic.com/assets/js/react_brand_enterprise_auth_ab46ab96affc0c98545c.js
+static.pddpic.com/assets/js/react_pdd_e9b18ebb2b915eeb3488.js
+static.pddpic.com/assets/js/vendor_c8b7d9b26f79c9faad6f.js
+com.xunmeng.pinduoduo.remote.brandActivity.md5checker

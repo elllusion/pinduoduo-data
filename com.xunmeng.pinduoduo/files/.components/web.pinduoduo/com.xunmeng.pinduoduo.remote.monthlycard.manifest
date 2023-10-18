@@ -1,0 +1,22 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+funimg.pddpic.com/
+static.pddpic.com/
+funimg.pddpic.com/hub_monthly_card/
+funimg.pddpic.com/hub_monthly_card/badges/
+funimg.pddpic.com/hub_monthly_card/month_card_v3_top_card_red_bg.png
+funimg.pddpic.com/hub_monthly_card/portal_privi_icon_v12_8.png
+funimg.pddpic.com/hub_monthly_card/month_card_v3_top_card_bg_v3.png
+funimg.pddpic.com/hub_monthly_card/8b2cd684-0f1e-4245-a901-d0cc4d08f514.png
+funimg.pddpic.com/hub_monthly_card/hub_mc_month_card_vip_tag.png
+funimg.pddpic.com/hub_monthly_card/badges/combine_v2.1.png
+static.pddpic.com/assets/
+static.pddpic.com/assets/js/
+static.pddpic.com/assets/css/
+static.pddpic.com/assets/js/hub_monthly_card_c4d223295e302ef29f1b.js
+static.pddpic.com/assets/js/react_common_5deed25df440a6ad2937.js
+static.pddpic.com/assets/js/react_module_cf9e44d931af73bb4e8d.js
+static.pddpic.com/assets/js/react_vendor_d85a21e10c3179d53f16.js
+static.pddpic.com/assets/css/hub_monthly_card_7d78c334ca0096f24188.css
+com.xunmeng.pinduoduo.remote.monthlycard.md5checker

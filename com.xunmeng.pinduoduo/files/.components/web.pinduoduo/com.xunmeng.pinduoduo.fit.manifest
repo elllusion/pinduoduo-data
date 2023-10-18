@@ -1,0 +1,7 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+assets/
+assets/js/
+assets/js/fun_babel_polyfill_6.26.0_ead7c4b40c.js
+com.xunmeng.pinduoduo.fit.md5checker

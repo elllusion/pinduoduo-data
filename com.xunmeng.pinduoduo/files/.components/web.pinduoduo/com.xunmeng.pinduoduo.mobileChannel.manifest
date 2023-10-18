@@ -1,0 +1,15 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+assets/
+chl_low_price.html
+assets/js/
+assets/css/
+assets/js/pdd_vendors_cf163af8f23fce032ff9.js
+assets/js/pdd_vendors_cf163af8f23fce032ff9.js.map
+assets/js/chl_low_price_b8694b498c70d08ff416.js.map
+assets/js/chl_low_price_b8694b498c70d08ff416.js
+assets/js/vendors_eccfc0793b755834435e.js.map
+assets/js/vendors_eccfc0793b755834435e.js
+assets/css/chl_low_price_1ad560cf4350f3d01ac8.css
+com.xunmeng.pinduoduo.mobileChannel.md5checker

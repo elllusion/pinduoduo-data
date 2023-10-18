@@ -1,0 +1,25 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+static.pddpic.com/
+funimg.pddpic.com/
+static.pddpic.com/domino/
+static.pddpic.com/assets/
+static.pddpic.com/react_pdd_db318eb739b7b5fe2a73.css
+static.pddpic.com/react_group_a51a233692770a7a8e03.css
+static.pddpic.com/react_grp_lite_group_640ee61e2ffa73680abd.css
+static.pddpic.com/domino/assets/
+static.pddpic.com/domino/assets/js/
+static.pddpic.com/domino/assets/js/polyfill-d622431d.js
+static.pddpic.com/assets/js/
+static.pddpic.com/assets/js/react_vendor_387bc7b82df1e9e38e58.js
+static.pddpic.com/assets/js/vendor_6518a51ae075fb33031c.js
+static.pddpic.com/assets/js/react_pdd_82f8c3af84acf30d6ee2.js
+static.pddpic.com/assets/js/react_group_07100e2f843c870b7c75.js
+static.pddpic.com/assets/js/react_grp_lite_group_d99036efcfc625903c52.js
+funimg.pddpic.com/fonts/
+funimg.pddpic.com/group/
+funimg.pddpic.com/fonts/iconfont_20180706.ttf
+funimg.pddpic.com/group/2021-01-27/
+funimg.pddpic.com/group/2021-01-27/585de5c8-1529-46b4-afa8-8b72ab4e407e.ttf
+com.xunmeng.pinduoduo.remote.ngroup.md5checker

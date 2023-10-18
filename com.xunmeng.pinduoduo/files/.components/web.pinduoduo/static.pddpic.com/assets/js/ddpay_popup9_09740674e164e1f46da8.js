@@ -1,0 +1,2 @@
+(window.__LOADABLE_LOADED_CHUNKS__=window.__LOADABLE_LOADED_CHUNKS__||[]).push([[21],{"N5F/":function(_,e,o){_.exports={layout:"afMe8IaS",container:"_1FkA8xA1",introPopup:"_1Vwerhz4",wrapper:"_1qhRsQ56",header:"_3I0DNXLs",walletIcon:"_26gtBM6T",walletName:"_3UgZUjdT",walletDesc:"_2RYKEh8D",placeholder:"cfrECGEt",okBtn:"_1BEaA8Md",dot:"_16tojfV_"}}}]);
+//# sourceMappingURL=http://579abc.com/sourcemaps/mobile-transac-popups/js/ddpay_popup9_09740674e164e1f46da8.js.map

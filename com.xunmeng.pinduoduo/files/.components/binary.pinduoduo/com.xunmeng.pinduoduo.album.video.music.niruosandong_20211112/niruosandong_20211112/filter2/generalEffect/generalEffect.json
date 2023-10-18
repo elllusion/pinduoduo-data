@@ -1,0 +1,23 @@
+{
+    "effect": [
+        {
+            "name": "transform",
+            "vertexShader": "vshader.vsh",
+            "vUniforms": [],
+            "fragmentShader": "fshader.fsh",
+            "fUniforms": [
+                {
+                    "name": "image0",
+                    "type": 103,
+                    "inputTextureIndex": 0
+                },
+                {
+                    "name": "video",
+                    "type": 103,
+                    "inputTextureIndex": 1
+                }
+            ]
+        }
+    ],
+    "version": 1.1
+}

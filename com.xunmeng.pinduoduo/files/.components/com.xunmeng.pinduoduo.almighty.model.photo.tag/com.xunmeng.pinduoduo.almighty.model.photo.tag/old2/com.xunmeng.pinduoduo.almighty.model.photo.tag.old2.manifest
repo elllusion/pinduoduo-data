@@ -1,0 +1,10 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+label.json
+config.json
+PhotoTag.tnnmodel
+PhotoTag.tnnproto
+gray8_lmk_best_model_alltime_3.opt.tnnmodel
+gray8_lmk_best_model_alltime_3.opt.tnnproto
+com.xunmeng.pinduoduo.almighty.model.photo.tag.old2.md5checker

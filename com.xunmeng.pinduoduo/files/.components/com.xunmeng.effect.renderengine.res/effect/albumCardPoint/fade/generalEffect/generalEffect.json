@@ -1,0 +1,46 @@
+{
+    "effect": [
+        {
+            "name": "transform",
+            "vertexShader": "vshader.vsh",
+            "vUniforms": [],
+            "fragmentShader": "fshader.fsh",
+            "fUniforms": [
+                {
+                    "name": "image0",
+                    "type": 103,
+                    "inputTextureIndex": 0
+                },
+                {
+                    "name": "extraImage",
+                    "type": 9000
+                },
+                {
+                    "name": "toScale",
+                    "type": 9001,
+                    "data": [
+                        1.15
+                    ]
+                },
+                {
+                    "name": "progress",
+                    "type": 3007,
+                    "timeType": 2,
+                    "keyframes":[
+                        {
+                            "time": 0.0,
+                            "function": "Linear",
+                            "value": 0.0
+                        },
+                        {
+                            "time": 1.0,
+                            "function": "Linear",
+                            "value": 1.0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "version": 1.1
+}

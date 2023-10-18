@@ -1,0 +1,16 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+static.pddpic.com/
+static.pddpic.com/assets/
+static.pddpic.com/assets/css/
+static.pddpic.com/assets/js/
+static.pddpic.com/assets/css/chl_low_price_332f77ed2b8d9401bee9.css
+static.pddpic.com/assets/js/pdd_vendors_f58043735d9c70714ba7.js
+static.pddpic.com/assets/js/react_webpack_runtime_97110897709ec98efa51.js
+static.pddpic.com/assets/js/chl_low_price_de91ff1313841afd6ce5.js
+static.pddpic.com/assets/js/vendor_13b075d918b001b496ff.js
+static.pddpic.com/assets/js/react_index_d55decc13c2c7027abd1.js
+static.pddpic.com/assets/js/react_pdd_9a1bc17d8c13c70f9f88.js
+static.pddpic.com/assets/js/vendors_c506b0813e0a58bd1f51.js
+com.xumeng.pinduoduo.remote.mobileChannel.md5checker

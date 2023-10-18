@@ -1,0 +1,6 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+config.json
+uno_almighty_plugin.pkg
+com.xunmeng.pinduoduo.almighty.uno.md5checker

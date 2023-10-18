@@ -1,0 +1,32 @@
+{
+    "filterID": 0,
+    "filterVersion": 3003,
+    "filterDescription": "boxblur2",
+    "uniforms":[
+        {
+        "uniformType": "float",
+        "uniformValue": 0.0,
+        "uniformName": "texBlurWidthOffset"
+        },
+        {
+        "uniformType": "float",
+        "uniformValue": 0.00390625,
+        "uniformName": "texBlurHeightOffset"
+        },
+        {
+        "uniformType": "float",
+        "uniformValue": 7.07,
+        "uniformName": "diffFactor"
+        },
+        {
+        "uniformType": "renderTexture",
+        "uniformValue": 0,
+        "uniformName": "inputImageTexture2"
+        },
+        {
+        "uniformType": "renderTexture",
+        "uniformValue": 1,
+        "uniformName": "inputImageTexture"
+        }
+    ]
+}

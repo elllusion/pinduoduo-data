@@ -1,0 +1,13 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+config.json
+xrec_global.pkg
+xrec_home.pkg
+xrec_home_opt1.pkg
+android_personal_xrec.pkg
+android_chat_xrec.pkg
+android_order_xrec.pkg
+android_express_xrec.pkg
+android_goods_detail_xrec.pkg
+com.xunmeng.pinduoduo.almighty.newXrec.md5checker

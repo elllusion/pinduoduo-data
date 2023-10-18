@@ -1,0 +1,17 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+static.pddpic.com/
+static.pddpic.com/assets/
+static.pddpic.com/assets/js/
+static.pddpic.com/assets/css/
+static.pddpic.com/assets/js/react_vendor_mobile_tarot-20210722001.js
+static.pddpic.com/assets/js/react_regis_61a5dca51a0fe3520a5c.js
+static.pddpic.com/assets/js/react_pdd_nd_79f1f9e349a8dc0377e5.js
+static.pddpic.com/assets/js/react_common_0dbca8f648acbce6dc4e.js
+static.pddpic.com/assets/js/react_pdd_fc881cad16ef3b48f5b1.js
+static.pddpic.com/assets/js/vendor_9edcffa14efa11a1a15a.js
+static.pddpic.com/assets/js/mtr_deck_e3c8bb2fce7811871185.js
+static.pddpic.com/assets/css/react_pdd_045408119450e6ad17c3.css
+static.pddpic.com/assets/css/mtr_deck_277c8fa5c03122747e29.css
+com.xunmeng.pinduoduo.remote.mobileTarot.md5checker

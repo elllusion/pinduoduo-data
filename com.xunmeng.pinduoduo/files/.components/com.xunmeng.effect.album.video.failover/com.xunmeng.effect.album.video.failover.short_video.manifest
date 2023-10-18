@@ -1,0 +1,19 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+short_video/imageVideo/
+short_video/scale/
+short_video/.DS_Store
+short_video/music.mp3
+short_video/template.json
+short_video/imageVideo/generalEffect/
+short_video/imageVideo/content.json
+short_video/imageVideo/generalEffect/fshader.fsh
+short_video/imageVideo/generalEffect/generalEffect.json
+short_video/imageVideo/generalEffect/vshader.vsh
+short_video/scale/generalEffect/
+short_video/scale/content.json
+short_video/scale/generalEffect/fshader.fsh
+short_video/scale/generalEffect/generalEffect.json
+short_video/scale/generalEffect/vshader.vsh
+com.xunmeng.effect.album.video.failover.short_video.md5checker

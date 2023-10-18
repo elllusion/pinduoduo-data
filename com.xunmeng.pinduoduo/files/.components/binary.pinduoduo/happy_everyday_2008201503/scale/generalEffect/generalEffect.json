@@ -1,0 +1,165 @@
+{
+    "effect": [
+        {
+            "name": "transform",
+            "vertexShader": "vshader.vsh",
+            "vUniforms": [],
+            "fragmentShader": "fshader.fsh",
+            "fUniforms": [
+                {
+                    "name": "image0",
+                    "type": 103,
+                    "inputTextureIndex": 0
+                },
+                {
+                    "name": "scale",
+                    "type": 3007,
+                    "timeType": 1,
+                    "keyframes": [
+                        {
+                            "time": 0.0,
+                            "function": "Linear",
+                            "value": 1.0
+                        },
+                        {
+                            "time": 1.0,
+                            "function": "Linear",
+                            "value": 1.0
+                        },
+                        {
+                            "time": 1.1,
+                            "function": "Linear",
+                            "value": 1.2
+                        },
+                        {
+                            "time": 1.2,
+                            "function": "Linear",
+                            "value": 1.0
+                        },
+                                                {
+                            "time": 3.1,
+                            "function": "Linear",
+                            "value": 1.0
+                        },
+                        {
+                            "time": 3.2,
+                            "function": "Linear",
+                            "value": 1.2
+                        },
+                        {
+                            "time": 3.3,
+                            "function": "Linear",
+                            "value": 1.0
+                        },
+                        {
+                            "time": 3.5,
+                            "function": "Linear",
+                            "value": 1.0
+                        },
+                        {
+                            "time": 3.6,
+                            "function": "Linear",
+                            "value": 1.2
+                        },
+                        {
+                            "time": 3.7,
+                            "function": "Linear",
+                            "value": 1.0
+                        },
+                        {
+                            "time": 4.5,
+                            "function": "Linear",
+                            "value": 1.0
+                        },
+                        {
+                            "time": 4.51,
+                            "function": "Linear",
+                            "value": 1.15
+                        },
+                        {
+                            "time": 6.7,
+                            "function": "Linear",
+                            "value": 1.0
+                        },
+                        {
+                            "time": 6.8,
+                            "function": "Linear",
+                            "value": 1.0
+                        },
+                        {
+                            "time": 8.9,
+                            "function": "Linear",
+                            "value": 1.15
+                        },
+                        {
+                            "time": 9.0,
+                            "function": "Linear",
+                            "value": 1.15
+                        },
+                        {
+                            "time": 11.2,
+                            "function": "Linear",
+                            "value": 1.0
+                        },
+                        {
+                            "time": 11.3,
+                            "function": "Linear",
+                            "value": 1.0
+                        },
+                        {
+                            "time": 13.5,
+                            "function": "Linear",
+                            "value": 1.15
+                        },
+                        {
+                            "time": 13.6,
+                            "function": "Linear",
+                            "value": 1.15
+                        },
+                        {
+                            "time": 16.0,
+                            "function": "Linear",
+                            "value": 1.0
+                        },
+                        {
+                            "time": 17.1,
+                            "function": "Linear",
+                            "value": 1.0
+                        },
+                        {
+                            "time": 17.2,
+                            "function": "Linear",
+                            "value": 1.2
+                        },
+                        {
+                            "time": 17.3,
+                            "function": "Linear",
+                            "value": 1.0
+                        },
+                        {
+                            "time": 18.1,
+                            "function": "Linear",
+                            "value": 1.0
+                        },
+                        {
+                            "time": 18.2,
+                            "function": "Linear",
+                            "value": 1.2
+                        },
+                        {
+                            "time": 18.3,
+                            "function": "Linear",
+                            "value": 1.0
+                        },
+                        {
+                            "time": 20.0,
+                            "function": "Linear",
+                            "value": 1.0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "version": 1.1
+}

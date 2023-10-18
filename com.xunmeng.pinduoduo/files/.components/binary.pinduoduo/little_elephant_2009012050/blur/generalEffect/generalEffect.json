@@ -1,0 +1,101 @@
+{
+  "effect": [
+    {
+      "name": "GaussianBlur1",
+      "viewport": [
+        0,
+        0,
+        720,
+        1280
+      ],
+      "vertexShader": "resource/vshader.vsh",
+      "vUniforms": [],
+      "fragmentShader": "resource/fshader.fsh",
+      "fUniforms": [
+        {
+          "name": "texture_in",
+          "type": 100
+        },
+        {
+          "name": "degree",
+          "type": 3,
+          "data": [
+            50
+          ]
+        },
+        {
+          "name": "origin",
+          "type": 2,
+          "data": [
+            2
+          ]
+        },
+        {
+          "name": "textureWidth",
+          "type": 2,
+          "data": [
+            720
+          ]
+        },
+        {
+          "name": "textureHeight",
+          "type": 2,
+          "data": [
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GaussianBlur2",
+      "viewport": [
+        0,
+        0,
+        720,
+        1280
+      ],
+      "inputEffect": [
+        "GaussianBlur1"
+      ],
+      "vertexShader": "resource/vshader.vsh",
+      "vUniforms": [],
+      "fragmentShader": "resource/fshader.fsh",
+      "fUniforms": [
+        {
+          "name": "texture_in",
+          "type": 1000,
+          "inputEffectIndex": 0
+        },
+        {
+          "name": "degree",
+          "type": 3007,
+          "data": [
+            50
+          ]
+        },
+        {
+          "name": "origin",
+          "type": 2,
+          "data": [
+            3
+          ]
+        },
+        {
+          "name": "textureWidth",
+          "type": 2,
+          "data": [
+            720
+          ]
+        },
+        {
+          "name": "textureHeight",
+          "type": 2,
+          "data": [
+            1280
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1.1
+}

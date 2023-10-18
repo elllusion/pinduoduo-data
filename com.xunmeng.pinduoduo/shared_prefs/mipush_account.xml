@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="env_type" value="1" />
+    <string name="device_id">BB489A7193B3242D1920B4FA15EE64DEF18326D2</string>
+    <string name="security">RoCXRXNo8SvsyW5ewXU5TA==</string>
+    <string name="token">S384VhMRhwCP+PeaY07sYsoFH74JfyoMrCvN7jYZ0eRc3WSJ01gTfThrWtHTw5eacuUep2NAnon09AGh41/GY5k+8vtMaHfEvcXoQLsD+Pq/lBFj2iwOiMdcST6q8b1NE6dzjysCkIUrE4gE+AamtZkUYcuxndzOX8koUucXR8SV1jDpzBhf2R3BlRqvLEvLXZ5aoQ4ZjcheX6pdicPyWQ==</string>
+    <string name="uuid">70558148311@xiaomi.com/ani6nPCf</string>
+    <string name="app_token">5411740563162</string>
+    <int name="enc_req_fail_count" value="0" />
+    <string name="app_id">2882303761517405162</string>
+    <string name="package_name">com.xunmeng.pinduoduo</string>
+</map>

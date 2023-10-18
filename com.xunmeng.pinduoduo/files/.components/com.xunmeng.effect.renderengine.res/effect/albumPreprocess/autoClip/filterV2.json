@@ -1,0 +1,27 @@
+{
+    "filterID": 0,
+    "filterVersion": 3003,
+    "filterDescription": " ",
+    "inputs":
+    {
+        "externalTextureKeys":["inputImageTexture2"]
+    },
+    "uniforms":[
+        {
+            "uniformType": "floatVector",
+            "uniformValue":[],
+            "uniformName": "imageOriginSize"
+        },
+        {
+            "uniformType": "floatVector",
+            "uniformValue":[],
+            "uniformName": "faceRect"
+        },
+        {
+            "uniformType": "floatVector",
+            "uniformValue":[],
+            "uniformName": "safeArea"
+        }
+        
+    ]
+}

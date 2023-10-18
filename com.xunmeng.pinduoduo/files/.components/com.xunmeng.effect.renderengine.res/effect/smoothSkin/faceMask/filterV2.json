@@ -1,0 +1,17 @@
+{
+    "filterID": 0,
+    "filterVersion": 3003,
+    "filterDescription": "faceMask",
+    "uniforms":[
+        {
+            "uniformType": "image",
+            "uniformValue":"faceMask.png",
+            "uniformName": "faceMaskTexture"
+        },
+        {
+            "uniformType": "image",
+            "uniformValue":"shadowMask.png",
+            "uniformName": "shadowMaskTexture"
+        }
+    ]
+}

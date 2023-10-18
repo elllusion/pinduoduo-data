@@ -1,0 +1,26 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+qulvxing2_20211011/dark/
+qulvxing2_20211011/imageVideo/
+qulvxing2_20211011/trans/
+qulvxing2_20211011/config.json
+qulvxing2_20211011/music.mp3
+qulvxing2_20211011/template.json
+qulvxing2_20211011/video.mp4
+qulvxing2_20211011/dark/generalEffect/
+qulvxing2_20211011/dark/content.json
+qulvxing2_20211011/dark/generalEffect/fshader.fsh
+qulvxing2_20211011/dark/generalEffect/generalEffect.json
+qulvxing2_20211011/dark/generalEffect/vshader.vsh
+qulvxing2_20211011/imageVideo/generalEffect/
+qulvxing2_20211011/imageVideo/content.json
+qulvxing2_20211011/imageVideo/generalEffect/fshader.fsh
+qulvxing2_20211011/imageVideo/generalEffect/generalEffect.json
+qulvxing2_20211011/imageVideo/generalEffect/vshader.vsh
+qulvxing2_20211011/trans/generalEffect/
+qulvxing2_20211011/trans/content.json
+qulvxing2_20211011/trans/generalEffect/fshader.fsh
+qulvxing2_20211011/trans/generalEffect/generalEffect.json
+qulvxing2_20211011/trans/generalEffect/vshader.vsh
+com.xunmeng.pinduoduo.album.video.music.qulvxing2_20211011.md5checker

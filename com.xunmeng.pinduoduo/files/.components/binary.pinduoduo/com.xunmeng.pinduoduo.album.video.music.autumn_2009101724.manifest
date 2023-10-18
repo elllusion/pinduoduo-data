@@ -1,0 +1,26 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+autumn_2009101724/imageVideo/
+autumn_2009101724/scale/
+autumn_2009101724/trans/
+autumn_2009101724/config.json
+autumn_2009101724/music.mp3
+autumn_2009101724/template.json
+autumn_2009101724/video.mp4
+autumn_2009101724/imageVideo/generalEffect/
+autumn_2009101724/imageVideo/content.json
+autumn_2009101724/imageVideo/generalEffect/fshader.fsh
+autumn_2009101724/imageVideo/generalEffect/generalEffect.json
+autumn_2009101724/imageVideo/generalEffect/vshader.vsh
+autumn_2009101724/scale/generalEffect/
+autumn_2009101724/scale/content.json
+autumn_2009101724/scale/generalEffect/fshader.fsh
+autumn_2009101724/scale/generalEffect/generalEffect.json
+autumn_2009101724/scale/generalEffect/vshader.vsh
+autumn_2009101724/trans/generalEffect/
+autumn_2009101724/trans/content.json
+autumn_2009101724/trans/generalEffect/fshader.fsh
+autumn_2009101724/trans/generalEffect/generalEffect.json
+autumn_2009101724/trans/generalEffect/vshader.vsh
+com.xunmeng.pinduoduo.album.video.music.autumn_2009101724.md5checker

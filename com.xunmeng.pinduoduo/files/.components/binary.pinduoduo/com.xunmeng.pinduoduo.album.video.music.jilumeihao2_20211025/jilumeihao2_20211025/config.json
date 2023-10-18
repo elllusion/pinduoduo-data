@@ -1,0 +1,26 @@
+{
+    "effect": {
+        "Link": [
+            {
+                "type": "GeneralEffect",
+                "zorder": 10000,
+                "path": "blur/",
+                "defaultLoad":false
+            },
+            {
+                "type": "GeneralEffect",
+                "zorder": 10000,
+                "path": "trans/",
+                "defaultLoad":false
+            },
+            {
+                "type": "GeneralEffect",
+                "zorder": 5004,
+                "path": "imageVideo/",
+                "defaultLoad":false
+            }
+        ]
+    },
+    "name": "litte_elephant",
+    "version": "4.6.0"
+}

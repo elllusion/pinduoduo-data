@@ -1,0 +1,11 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+arm32flat/jniLibs/
+arm32flat/SystemWebView.apk
+arm32flat/config.json
+arm32flat/jniLibs/libc++_shared.so
+arm32flat/jniLibs/libcutils_meco.so
+arm32flat/jniLibs/libwebviewchromium_plat_support_meco.so
+arm32flat/jniLibs/libwebviewchromiummeco.so
+com.xunmeng.pinduoduo.meco.arm32flat.md5checker

@@ -1,0 +1,12 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+pai_config.pi
+config.json
+face.tnnmodel
+face.tnnproto
+face_image.tnnmodel
+face_image.tnnproto
+point.tnnmodel
+point.tnnproto
+com.xunmeng.pinduoduo.almighty.model.four.low.md5checker

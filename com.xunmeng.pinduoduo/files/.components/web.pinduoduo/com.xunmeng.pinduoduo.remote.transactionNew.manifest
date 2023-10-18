@@ -1,0 +1,18 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+static.pddpic.com/
+funimg.pddpic.com/
+static.pddpic.com/assets/
+static.pddpic.com/assets/js/
+static.pddpic.com/assets/css/
+static.pddpic.com/assets/js/vendor_3f2a8824f41f98bbf340.js
+static.pddpic.com/assets/js/react_pdd_08c3981960cf9d46e18a.js
+static.pddpic.com/assets/js/react_order_46a60ce2a3d617e87a4c.js
+static.pddpic.com/assets/css/react_order_f9d9105f609f74757993.css
+funimg.pddpic.com/fonts/
+funimg.pddpic.com/transaction/
+funimg.pddpic.com/87ebef41-2702-4d19-9ec9-8545c7eb8c0b.css
+funimg.pddpic.com/fonts/iconfont_20180706.ttf
+funimg.pddpic.com/transaction/iconfont-20201227.ttf
+com.xunmeng.pinduoduo.remote.transactionNew.md5checker

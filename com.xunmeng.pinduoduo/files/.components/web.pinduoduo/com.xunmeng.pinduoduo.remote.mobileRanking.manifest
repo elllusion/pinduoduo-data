@@ -1,0 +1,18 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+static.pddpic.com/
+static.pddpic.com/assets/
+static.pddpic.com/assets/js/
+static.pddpic.com/assets/js/react_vendor_f843d8065e88388b45af.js
+static.pddpic.com/assets/js/vendor_5e510ee7a09916e832e1.js
+static.pddpic.com/assets/js/react_pdd_9ea03444942c85650b9d.js
+static.pddpic.com/assets/js/react_sjs_cat_rank_list_39b676b2758ebc9341ae.js
+static.pddpic.com/assets/js/react_ranking_common_land_bca7f80cd9c40acf4ecb.js
+static.pddpic.com/assets/js/react_search_brand_051a0003f385772f05d3.js
+static.pddpic.com/assets/js/react_search_category_rank_97a7b17c1f1a29e853d4.js
+static.pddpic.com/assets/js/react_search_rank_list_9004531d0f68a6b33f82.js
+static.pddpic.com/assets/js/react_ranking_recommend_75cf2ff5a53de0a5b329.js
+static.pddpic.com/assets/js/react_ranking_rec2_common_list_09082db514bc60bc6bba.js
+static.pddpic.com/assets/js/react_ranking_editor_rec_4bd2a3ccd10194b8f4e6.js
+com.xunmeng.pinduoduo.remote.mobileRanking.md5checker

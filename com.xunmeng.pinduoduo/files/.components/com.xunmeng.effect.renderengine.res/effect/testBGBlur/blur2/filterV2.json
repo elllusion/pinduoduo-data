@@ -1,0 +1,16 @@
+
+{
+    "filterID": 0,
+    "filterVersion": 3003,
+    "filterDescription": "背景模糊",
+    "uniforms":[
+    {
+        "uniformType": "floatVector",
+        "uniformValue":[],
+        "uniformName": "inputImageTextureSize"
+    }],
+    "algorithm":{
+        "hasSegmentKey":"hasMask",
+        "segmentTextureKey" : "inputImageTexture2"
+    }
+}

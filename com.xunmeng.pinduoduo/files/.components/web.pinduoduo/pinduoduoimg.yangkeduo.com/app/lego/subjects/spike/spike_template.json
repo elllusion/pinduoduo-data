@@ -1,0 +1,897 @@
+{
+  "type": "PFrameLayout",
+  "attributes": {
+    "layoutHeight": "match_parent",
+    "layoutWidth": "match_parent"
+  },
+  "category": "lego",
+  "elements": [
+    {
+      "type": "LegoList",
+      "attributes": {
+        "layoutWidth": "match_parent",
+        "layoutHeight": "match_parent",
+        "background": "#f4f4f4",
+        "orientation": "V",
+        "visibility": "${v2}",
+        "onRefresh": "@callJs:onRefresh2",
+        "onLoadmore": "@callJs:onLoadMore2",
+        "showScrollbar": "true",
+        "loadmoreOffset": "10",
+        "firstSpace": "30",
+        "showTopView": "true",
+        "paddingBottom": "${brandTabHeight}",
+        "topViewBottomOffset": "${topViewBottomOffset}"
+      },
+      "category": "lego",
+      "elements": [
+        {
+          "type": "Section",
+          "attributes": {
+            "width": "750rp",
+            "height": "416rp",
+            "dataTag": "${shareGoods}"
+          },
+          "category": "lego",
+          "elements": [
+            {
+              "type": "Cell",
+              "attributes": {},
+              "category": "lego",
+              "elements": [
+                {
+                  "type": "NVHLayout",
+                  "attributes": {
+                    "templates": [
+                      {
+                        "name": "358bc0f5de8966d0af268397eaddeb7f",
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAAF2AAABgcAAAMDAAAJDgAAAAAAAAkSAAAAAAABAAAAAAABACAzNThiYzBmNWRlODk2NmQwYWYyNjgzOTdlYWRkZWI3ZgWwAAAdAqoy9dAAAAAAAC//bAAAACADXNXw8QAAAaBYSHHDAAAAEXdwrLwAAALuAAACqy9+NgyceRpdihv31GdHMwAAAAPtAR7HC8QAAAAEBFzV8PEAAABAhofQvQAAAAx3cKy8AAAAQMgObJIAAAAQAAABAAG95CwBmlcAAAEAAAcEHscLxAAAAARc1fDx/////ndwrLz////+wJsuNv9YWVsCxC06zgAAABiGh9C9AAAACAAAAQA2RS3Ma+0CAAABAAAHBB7HC8QAAAAEXNXw8f////53cKy8/////sCbLjb/FRUWAsQtOs4AAAAahofQvQAAAAgAAAEANkUtpPaaZQAAAQAAGwIexwvEAAAABLCYVS7/9PT0A1zV8PEAAADWhofQvQAAABR3cKy8AAACrgABUGr73kEgAAAAAAAAAAkBHscLxAAAACADSm59nwAAABBc1fDxAAAAtHdwrLwAAAC0AAABAAG95MQei2QAAAEAABwEqjL10AAAAABc1fDx/////3cmzwEAAAABd3CsvP////8DSm59nwAAAAyGh9C9AAAAElhIccMAAAAQAAAAAAAAAAcFXNXw8f////6Lbht1AAAAAndwrLz/////BiNO/wAAAALAmy42/xUVFgHELTrOAAAAGAAAAQA2RS02/uipAAABAAAdA6oy9dAAAAABXNXw8f////53cKy8/////gGGh9C9AAAADAAAAAAAAAAZAR7HC8QAAAAgAwO3l4QAAAAUXNXw8QAAABh3cKy8AAABAgAAAXO2YxLhCs73AAAAABkDXNXw8f////+wmFUu//OrqXdwrLz/////AAABUGr73kFAAAAAAAABAAAHAlzV8PH/////sJhVLv/gLiQAAAFQavveQUAAAAF3cKy8A7Tt1gAAAQAABwQexwvEAAAAJFzV8PH////+d3CsvP////7Amy42/////wHELTrOAAAAFAAAAQA2RS2MLVD+AAABAQAABwMexwvEAAAAIFzV8PH////+d3CsvP////4BxC06zgAAABgAAAIANkUtXQ/edsCbLjb0nvKQAAABAQAAAQNc1fDx/////otuG3UAAAAId3CsvP////8AAAAAAAAAABwEqjL10AAAAAEexwvEAAAAEFzV8PH////+d3CsvP////4AAAAAAAAAAAcEHscLxAAAABBc1fDx/////ndwrLz////+wJsuNv/gLiQBxC06zgAAABgAAAEANkUtAAD/5QAAAQAABwQexwvEAAAAEFzV8PH////+d3CsvP////7Amy42/+AuJALELTrOAAAAKAwPsZz////7AAABADZFLcg6eeEAAAEAAAcFHscLxAAAABBc1fDx/////sF/HIQAAAAId3CsvP////7Amy42/5mZmQNKbn2fAAAACsQtOs4AAAAYWEhxwwAAAAIAAAEANkUtdmy/fQAAAQEAAB0EqjL10AAAAAEAL/9sAAAAIB7HC8QAAAASd3CsvP////4EA7eXhAAAABBc1fDxAAAAPCqMeIsAAAAJpoXfuAAAAAkBUGr73kAAAAAAA7CYVS66Xuauqy9+NrN6FHtdihv3MQbA0AAAAAPrAx7HC8QAAAAkXNXw8f////53cKy8/////gHELTrOAAAAFAAAA3O2YxKEEfa4ADZFLXGaILzAmy42qDVTiAAAAQAABwQexwvEAAAAJFzV8PH////+i24bdQAAAAR3cKy8/////gPELTrOAAAAGiqMeIsAAAADpoXfuAAAAAMAAAIANkUtGotZz8CbLjaoNVOIAAABAAPrAx7HC8QAAAAkXNXw8f////53cKy8/////gHELTrOAAAAFAAAA3O2YxISkih7ADZFLQF3TOnAmy42qDVTiAAAAQEBAQEAABkCsJhVLv/09PR3cKy8/////wJc1fDxAAAAEoaH0L0AAAAUAAAAAAABAQAAABmzehR7AEVAeyR7ZGF0YS5idXR0b25JbmZvLmFjdGlvbn0/JHtkYXRhLmJ1dHRvbkluZm8uYWN0aW9ufToke2RhdGEuYWN0aW9ufX0ai1nPABcke2RhdGEuYnV0dG9uSW5mby50ZXh0fQyceRoADiR7ZGF0YS5hY3Rpb2599J7ykAAoQHske2RhdGEuY3VycmVudENhbkJ1eX0/Izk5OTk5OTojRTAyRTI0fXZsv30AEyR7ZGF0YS5tYXJrZXRQcmljZX2k9pplABAke2RhdGEuZGVzY3JpYmV9jC1Q/gARJHtkYXRhLnNhbGVzUmF0ZX3UZ0czABMke2RhdGEuYWN0aW9uUGFyYW19LAGaVwAOJHtkYXRhLmF2YXRhcn0xBsDQADNAeyR7ZGF0YS5idXR0b25JbmZvLmFjdGlvbn0/IiI6JHtkYXRhLmFjdGlvblBhcmFtfX02/uipABEke2RhdGEuZ29vZHNOYW1lfcg6eeEADSR7ZGF0YS5wcmljZX3IDmySAAZyYWRpdXMBd0zpABwke2RhdGEuYnV0dG9uSW5mby5yaWdodEljb259A7Tt1gATJHtkYXRhLnN0YXR1c1dpZHRofQAA/+UAA++/pXGaILwAGyR7ZGF0YS5idXR0b25JbmZvLmxlZnRJY29ufcxr7QIAECR7ZGF0YS5uaWNrTmFtZX2EEfa4ACtAeyR7ZGF0YS5idXR0b25JbmZvLmxlZnRJY29ufT92aXNpYmxlOmdvbmV9EpIoewAsQHske2RhdGEuYnV0dG9uSW5mby5yaWdodEljb259P3Zpc2libGU6Z29uZX26XuauAB0ke2RhdGEuYnV0dG9uSW5mby5iYWNrZ3JvdW5kfV0P3nYADyR7ZGF0YS5zYWxlVGlwfcQei2QADiR7ZGF0YS5pbWdVcmx94QrO9wAlQHske2RhdGEuY3VycmVudENhbkJ1eX0/dmlzaWJsZTpnb25lfag1U4gAHCR7ZGF0YS5idXR0b25JbmZvLnRleHRDb2xvcn0AAAAA",
+                        "cellType": "mainbin"
+                      }
+                    ]
+                  },
+                  "category": "vv",
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Section",
+          "attributes": {
+            "layout": "stickyLayout",
+            "width": "250rp",
+            "height": "80rp"
+          },
+          "category": "lego",
+          "elements": [
+            {
+              "type": "Cell",
+              "attributes": {},
+              "category": "lego",
+              "elements": [
+                {
+                  "type": "NVHLayout",
+                  "attributes": {
+                    "templates": [
+                      {
+                        "name": "1ffccbea7840877ddadd04ab3a981fec",
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAACXgAAAo0AAAB+AAADDwAAAAAAAAMTAAAAAAABAAAAAAABACAxZmZjY2JlYTc4NDA4NzdkZGFkZDA0YWIzYTk4MWZlYwI2AAAdA6oy9dAAAAABsJhVLv////93cKy8/////wNc1fDxAAAAUCqMeIsAAAAgpoXfuAAAACAAAAAAAAAAGQIAL/9sAAAAIFzV8PH/////AXdwrLwAAADmAAABqy9+Ng5apWIAAAAABwQexwvEAAAAJFzV8PH////+d3CsvP////7Amy42/xUVFgHELTrOAAAAHgAAAQA2RS0yJoW4AAABAAANBKoy9dAAAAABHscLxAAAABQFpy9j/+AuJHO2YxIAAAACA1zV8PEAAAAEd3CsvAAAAIAvRdAIAAAABAAAAAAAAQEAABkCAC//bAAAACBc1fDx/////wF3cKy8AAAA5AAAAasvfjYOWqVjAAAAAAcEHscLxAAAACRc1fDx/////ndwrLz////+wJsuNv8VFRYBxC06zgAAAB4AAAEANkUtJ1Rp1QAAAQAADQSqMvXQAAAAAR7HC8QAAAAUBacvY//gLiRztmMSAAAAAgNc1fDxAAAABHdwrLwAAACAL0XQCAAAAAQAAAAAAAEBAAAZAgAv/2wAAAAgXNXw8f////8Bd3CsvAAAAOQAAAGrL342DlqlZAAAAAAHBB7HC8QAAAAkXNXw8f////53cKy8/////sCbLjb/4C4kAcQtOs4AAAAgAAABADZFLS/1hB0AAAEAAA0EqjL10AAAAAEexwvEAAAAFAWnL2P/4C4kc7ZjEgAAAAEDXNXw8QAAAAR3cKy8AAAAgC9F0AgAAAAEAAAAAAABAQEAAAAGJ1Rp1QAM5Y2z5bCG5byA5oqiMiaFuAAM5q2j5Zyo55av5oqiL/WEHQAM5piO5pel6aKE5ZGKDlqlYgASQGNhbGxKczpzd2l0Y2hUYWIwDlqlYwASQGNhbGxKczpzd2l0Y2hUYWIxDlqlZAASQGNhbGxKczpzd2l0Y2hUYWIyAAAAAA==",
+                        "cellType": "mainbin"
+                      }
+                    ]
+                  },
+                  "category": "vv",
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Section",
+          "attributes": {
+            "dataTag": "${sunday_banner}",
+            "width": "750rp",
+            "height": "144rp"
+          },
+          "category": "lego",
+          "elements": [
+            {
+              "type": "Cell",
+              "attributes": {},
+              "category": "lego",
+              "elements": [
+                {
+                  "type": "NFrameLayout",
+                  "attributes": {
+                    "templates": [
+                      {
+                        "name": "1437b295ff325fb8dbc63ccb66ed46dc",
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAAAfgAAAK0AAAAwAAAA4QAAAAAAAADlAAAAAAABAAAAAAABACAxNDM3YjI5NWZmMzI1ZmI4ZGJjNjNjY2I2NmVkNDZkYwBWAAAZAXdwrLz/////AVzV8PEAAACQAAAAAAAAAAkDAC//bAAAACBc1fDx/////3dwrLz/////AAAAAwABveREacBwqy9+Nn2QdFBdihv3fgwAQgAAAQEAAAADfZB0UAAJJHthY3Rpb259fgwAQgAPJHthY3Rpb25fcGFyYW19RGnAcAAGJHtzcmN9AAAAAA==",
+                        "cellType": "mainbin"
+                      }
+                    ]
+                  },
+                  "category": "vv",
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Section",
+          "attributes": {
+            "dataTag": "${more}",
+            "layout": "gridLayout"
+          },
+          "category": "lego",
+          "elements": [
+            {
+              "type": "Cell",
+              "attributes": {
+                "cellType": "spikeMultiBrand",
+                "width": "750rp",
+                "height": "466rp"
+              },
+              "category": "lego",
+              "elements": [
+                {
+                  "type": "NFrameLayout",
+                  "attributes": {
+                    "templates": [
+                      {
+                        "name": "775c11e61eed90343e2ac239f19d1e81",
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAACywAAAvoAAAJIAAAFRgAAAAAAAAVKAAAAAAABAAAAAAABACA3NzVjMTFlNjFlZWQ5MDM0M2UyYWMyMzlmMTlkMWU4MQKjAAAZAwAv/2wAAABgsJhVLv/w8PB3cKy8/////wFc1fDxAAAB0gAAAqsvfjYMnHkaXYob97iBnnQAAAAACQF3cKy8/////wFc1fDxAAABJAAAAQABveTQgAxfAAABAAAHBFzV8PH////+wX8chAAAAAF3cKy8/////sCbLjb/////A0pufZ8AAAAaxC06zgAAACaGh9C9AAAAGgAAAQA2RS3OlCqyAAABAAAdAqoy9dAAAAABd3CsvP////4FSm59nwAAABpc1fDxAAAALiqMeIsAAAAahofQvQAAAFCmhd+4AAAAGgABUGr73kG4AAACXuaylnpBP/yaivfvhG4fFQAAAAAHBB7HC8QAAAAgXNXw8f////7BfxyEAAAAAXdwrLz////+AcQtOs4AAAAYAAACADZFLdhWUxHAmy42pegf+QAAAQAD6wQexwvEAAAAIFzV8PH////+wX8chAAAAAF3cKy8/////gJKbn2fAAAABsQtOs4AAAAQAAACADZFLQAA53fAmy42pegf+QAAAQEAAAcCHscLxAAAAAIQuHJOAAAAJAQDt5eEAAAAGMQtOs4AAAAYXNXw8QAAACx3cKy8AAAAzgACIqV0UEGAAAAjD9PXQYAAAAVe5rKWnxeKC3O2YxJeATG+mor378zaIWQANkUtjOz9osCbLjarAeDIAAABAAPyArCYVS7/////oT56I//09PQHSm59nwAAABCfYHnSAAAACAO3l4QAAAAQXNXw8QAAASyGh9C9AAAAklhIccMAAAAQd3CsvAAAAs4Bx2eSyz8AAAAAAAAAAAARA1zV8PH/////2BfPbwAAAAN3cKy8/////wNlKeV4AAAAEGOdHhoAAAEMfumMJQAAABAAAAFWBT+QFoh4qgAAAQEBAAAAFQyceRoADiR7ZGF0YS5hY3Rpb2592FZTEQARJHtkYXRhLnN1Yl90aXRsZX2rAeDIABwke2RhdGEuc2FsZXNfdGlwX3RleHRfY29sb3J9jOz9ogARJHtkYXRhLnNhbGVzX3RpcH2l6B/5ABwke2RhdGEuc3ViX3RpdGxlX3RleHRfY29sb3J9ZSnleAAMbGF5b3V0TWFyZ2lunxeKCwAmJHtkYXRhLnNhbGVzX3RpcF9iYWNrZ3JvdW5kX2VuZF9jb2xvcn2hPnojAAtzaGFkb3dDb2xvctCADF8AESR7ZGF0YS5pbWFnZV91cmx9Foh4qgARJHtkYXRhLmdvb2RfbGlzdH2aivfvABRiYWNrZ3JvdW5kU3RhcnRDb2xvcs6UKrIADSR7ZGF0YS50aXRsZX3HZ5LLAA1zaGFkb3dPcGFjaXR5XuaylgASYmFja2dyb3VuZEVuZENvbG9yn2B50gAMc2hhZG93UmFkaXVzuIGedAAUJHtkYXRhLmFjdGlvblBhcmFtc30AAOd3AAPunbeEbh8VACgke2RhdGEuc3ViX3RpdGxlX2JhY2tncm91bmRfc3RhcnRfY29sb3J9ekE//AAmJHtkYXRhLnN1Yl90aXRsZV9iYWNrZ3JvdW5kX2VuZF9jb2xvcn3M2iFkACgke2RhdGEuc2FsZXNfdGlwX2JhY2tncm91bmRfc3RhcnRfY29sb3J9XgExvgAqQHske2RhdGEuc2FsZXNfdGlwfSA/IHZpc2libGUgOiBpbnZpc2libGV9AAAAAA==",
+                        "cellType": "mainbin"
+                      },
+                      {
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAABhAAAAbMAAACxAAACaAAAAAAAAAJsAAAAAAABAAAAAAABABpzcGlrZV9icmFuZF9nb29kcy50ZW1wbGF0ZQFiAAAZAwAv/2wAAABgXNXw8f////93cKy8/////wAAAAPpe3MD5NAR8asvfjZ9kHRQXYob90vd2SoAAAAD7QMrFYaX//Ly8rCYVS7/////d3CsvP////8AAAEsLIT6QAAAAAJc1fDxY/jEUAABveRI3r1pAAABAAPtASsVhpf/8vLyBEpufZ8AAAAIXNXw8QAAADaGh9C9AAAACHdwrLwAAAA2AAEsLIT6QAAAAAJztmMSAOOVmQABveTycSwLAAABAAAdBKoy9dAAAAABHscLxAAAABRc1fDx/////ndwrLz////+AAAAAAAAAAP2AlzV8PH////+d3CsvP////4AAAABADZFLcvfP+sAAAEAAAcFHscLxAAAABBc1fDx/////sF/HIQAAAAId3CsvP////7Amy42/5mZmQNKbn2fAAAACsQtOs4AAAAYWEhxwwAAAAIAAAEANkUtARy2QAAAAQEBAAAACX2QdFAACSR7YWN0aW9ufQEctkAADyR7bWFya2V0X3ByaWNlfeTQEfEADCR7ZGF0YVBhcmFtfWP4xFAACiR7aW1hZ2VfaH3L3z/rAAgke3ByaWNlfUvd2SoADyR7YWN0aW9uUGFyYW1zfUjevWkADCR7aW1hZ2VfdXJsfQDjlZkAH0B7JHtsb2dvX3VybH0gPyB2aXNpYmxlIDogZ29uZX3ycSwLAAske2xvZ29fdXJsfQAAAAA=",
+                        "name": "spike_brand_goods.template",
+                        "cellType": "spike_brand_goods.template"
+                      }
+                    ]
+                  },
+                  "category": "vv",
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "type": "Cell",
+              "attributes": {
+                "cellType": "spikeSingleBrand",
+                "width": "750rp",
+                "height": "460rp"
+              },
+              "category": "lego",
+              "elements": [
+                {
+                  "type": "NFrameLayout",
+                  "attributes": {
+                    "templates": [
+                      {
+                        "name": "48647c82094967509d23a00889a0e7dc",
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAACkwAAAsIAAAGzAAAEeQAAAAAAAAR9AAAAAAABAAAAAAABACA0ODY0N2M4MjA5NDk2NzUwOWQyM2EwMDg4OWEwZTdkYwJrAAAZAwAv/2wAAABgsJhVLv/w8PB3cKy8/////wFc1fDxAAABzAAAAqsvfjYMnHkaXYob97iBnnQAAAAACQF3cKy8/////wFc1fDxAAABJAAAAQABveTQgAxfAAABAAPtAAVKbn2fAAAAGFzV8PEAAABkhofQvQAAABh3cKy8AAAAZMgObJIAAAAIAAABAAG95O6PJlUAAAEAAAcEXNXw8f////7BfxyEAAAAAXdwrLz////+wJsuNv////8DSm59nwAAAJTELTrOAAAAJoaH0L0AAAAgAAABADZFLc6UKrIAAAEAAB0DqjL10AAAAAFc1fDx/////ndwrLz////+AkpufZ8AAACUhofQvQAAAFoAAAAAAAAABwUexwvEAAAAIFzV8PH////+wX8chAAAAAF3cKy8/////sCbLjb/////AcQtOs4AAAAYAAABADZFLdhWUxEAAAEAA+sFHscLxAAAACBc1fDx/////sF/HIQAAAABd3CsvP////7Amy42/////wJKbn2fAAAABsQtOs4AAAAQAAABADZFLQAA53cAAAEBAAAHAh7HC8QAAAACELhyTgAAACQEA7eXhAAAABjELTrOAAAAGFzV8PEAAAAsd3CsvAAAAM4AAiKldFBBgAAAIw/T10GAAAAFXuaylp8XigtztmMSXgExvpqK9+/M2iFkADZFLYzs/aLAmy42qwHgyAAAAQAAEQOwmFUu/////9gXz28AAAADd3CsvP////8Fz/A8EQAAABRc1fDxAAABOGOdHhoAAAEQhofQvQAAAJJ+6YwlAAAAEAAAAVYFP5AWiHiqAAABAQAAABEMnHkaAA4ke2RhdGEuYWN0aW9ufdhWUxEAESR7ZGF0YS5zdWJfdGl0bGV9qwHgyAAcJHtkYXRhLnNhbGVzX3RpcF90ZXh0X2NvbG9yfYzs/aIAESR7ZGF0YS5zYWxlc190aXB97o8mVQAQJHtkYXRhLmxvZ29fdXJsfcgObJIABnJhZGl1c58XigsAJiR7ZGF0YS5zYWxlc190aXBfYmFja2dyb3VuZF9lbmRfY29sb3J90IAMXwARJHtkYXRhLmltYWdlX3VybH3P8DwRAAdwYWRkaW5nFoh4qgARJHtkYXRhLmdvb2RfbGlzdH2aivfvABRiYWNrZ3JvdW5kU3RhcnRDb2xvcs6UKrIADSR7ZGF0YS50aXRsZX1e5rKWABJiYWNrZ3JvdW5kRW5kQ29sb3K4gZ50ABQke2RhdGEuYWN0aW9uUGFyYW1zfQAA53cAA+6dt8zaIWQAKCR7ZGF0YS5zYWxlc190aXBfYmFja2dyb3VuZF9zdGFydF9jb2xvcn1eATG+ACpAeyR7ZGF0YS5zYWxlc190aXB9ID8gdmlzaWJsZSA6IGludmlzaWJsZX0AAAAA",
+                        "cellType": "mainbin"
+                      },
+                      {
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAABhAAAAbMAAACxAAACaAAAAAAAAAJsAAAAAAABAAAAAAABABpzcGlrZV9icmFuZF9nb29kcy50ZW1wbGF0ZQFiAAAZAwAv/2wAAABgXNXw8f////93cKy8/////wAAAAPpe3MD5NAR8asvfjZ9kHRQXYob90vd2SoAAAAD7QMrFYaX//Ly8rCYVS7/////d3CsvP////8AAAEsLIT6QAAAAAJc1fDxY/jEUAABveRI3r1pAAABAAPtASsVhpf/8vLyBEpufZ8AAAAIXNXw8QAAADaGh9C9AAAACHdwrLwAAAA2AAEsLIT6QAAAAAJztmMSAOOVmQABveTycSwLAAABAAAdBKoy9dAAAAABHscLxAAAABRc1fDx/////ndwrLz////+AAAAAAAAAAP2AlzV8PH////+d3CsvP////4AAAABADZFLcvfP+sAAAEAAAcFHscLxAAAABBc1fDx/////sF/HIQAAAAId3CsvP////7Amy42/5mZmQNKbn2fAAAACsQtOs4AAAAYWEhxwwAAAAIAAAEANkUtARy2QAAAAQEBAAAACX2QdFAACSR7YWN0aW9ufQEctkAADyR7bWFya2V0X3ByaWNlfeTQEfEADCR7ZGF0YVBhcmFtfWP4xFAACiR7aW1hZ2VfaH3L3z/rAAgke3ByaWNlfUvd2SoADyR7YWN0aW9uUGFyYW1zfUjevWkADCR7aW1hZ2VfdXJsfQDjlZkAH0B7JHtsb2dvX3VybH0gPyB2aXNpYmxlIDogZ29uZX3ycSwLAAske2xvZ29fdXJsfQAAAAA=",
+                        "name": "spike_brand_goods.template",
+                        "cellType": "spike_brand_goods.template"
+                      }
+                    ]
+                  },
+                  "category": "vv",
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "type": "Cell",
+              "attributes": {
+                "cellType": "spikeGoods",
+                "width": "750rp",
+                "height": "280rp"
+              },
+              "category": "lego",
+              "elements": [
+                {
+                  "type": "NFrameLayout",
+                  "attributes": {
+                    "templates": [
+                      {
+                        "name": "25db7032152d16d862848aa2a07f55c5",
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAAHGgAAB0kAAATwAAAMPQAAAAAAAAxBAAAAAAABAAAAAAABACAyNWRiNzAzMjE1MmQxNmQ4NjI4NDhhYTJhMDdmNTVjNQbyAAAZAwAv/2wAAABgsJhVLv////93cKy8/////wFc1fDxAAABGAAAAqsvfjYMnHkaXYob99RnRzMAAAAAGQMexwvEAAAAIFzV8PH////+d3CsvP////4AAAAAAAAAA+wBHscLxAAAACACXNXw8QAAAPB3cKy8AAAA8AAAAgABveTEHotk8zjchJphJ4YAAAEAAAcEHscLxAAAABCwmFUu///y8hC4ck4AAAAkwJsuNv/gLiQDxC06zgAAABpc1fDxAAAAIndwrLwAAADwAAACc7ZjEmXUaLwANkUt8DkFKwAAAQAD7AEexwvEAAAAIAJc1fDxAAAA8HdwrLwAAADwAAACc7ZjEv5BbaoAAb3knk9fqQAAAQEAAAIDqjL10AAAAABc1fDx/////3dwrLz/////AkpufZ8AAAEMA7eXhAAAABwAAAAAAAAD9gNc1fDx/////gYjTv8AAAACd3CsvP////8BhofQvQAAABoAAb1Xkb5BAAAAAQA2RS02/uipAAABAAAdA6oy9dAAAAABXNXw8f////53cKy8/////gGGh9C9AAAACAAAAAAAAAAZAR7HC8QAAAAgAwO3l4QAAAAUXNXw8QAAABh3cKy8AAABBAAAAXO2YxLhCs73AAAAAAcDHscLxAAAACBc1fDx/////7CYVS7/86upAXdwrLwAAAECAAFQavveQUAAAAAAAAEAAAcDHscLxAAAACBc1fDx/////7CYVS7/4C4kAAABUGr73kFAAAABd3CsvAO07dYAAAEAABkDHscLxAAAACRc1fDx/////ndwrLz////+AAAAAAAAAAAJAAJc1fDxAAAAFndwrLwAAABQAAACc7ZjEkeVua0AAb3kfUzXZAAAAQAABwNc1fDx/////ndwrLz////+wJsuNv////8BxC06zgAAABQAAAJztmMS24LFvQA2RS2MLVD+AAABAQAAGQMexwvEAAAAIlzV8PH////+d3CsvP////4AAAABc7ZjEkeVua0AAAAACQACXNXw8QAAABl3cKy8AAAAGQAAAQABveRRM5n5AAABAQEAAAcDHscLxAAAACBc1fDx/////ndwrLz////+AcQtOs4AAAAYAAADc7ZjEpIueboANkUtXQ/edsCbLjZP96JQAAABAAAHBB7HC8QAAAAgXNXw8f////53cKy8/////sCbLjb/mZmZAcQtOs4AAAAYAAACc7ZjEv5BbaoANkUtXQ/edgAAAQEAAAcFHscLxAAAABBc1fDx/////rCYVS7///Lyd3CsvP////7Amy42//9AQgLELTrOAAAAFoaH0L0AAAASAAFQavveQAAAAAJztmMSki55ugA2RS2K9F0qAAABAQAAHASqMvXQAAAAAR7HC8QAAAAQXNXw8f////53cKy8/////wNKbn2fAAABDAO3l4QAAAAcWEhxwwAAABoAAAAAAAAAAgSqMvXQAAAAAR7HC8QAAAAQXNXw8f////53cKy8/////gAAAAAAAAAABwUexwvEAAAAEFzV8PH////+wX8chAAAAAF3cKy8/////sCbLjb/4C4kAcQtOs4AAAAYAAABADZFLQAAAKUAAAEAAAcGHscLxAAAABAMD7Gc/////lzV8PH////+wX8chAAAAAF3cKy8/////sCbLjb/4C4kAkpufZ8AAAAExC06zgAAACgAAAEANkUtUjoGiAAAAQAABwUexwvEAAAAEFzV8PH////+wX8chAAAAAh3cKy8/////sCbLjb/nJycAkpufZ8AAAAMxC06zgAAABgAAAEANkUtAAAApQAAAQAABwUexwvEAAAAEFzV8PH////+wX8chAAAAAh3cKy8/////sCbLjb/nJycAcQtOs4AAAAYAAABADZFLXZsv30AAAEBAAP3AwAv/2wAAABgHscLxAAAABCLbht1AAAABAJc1fDxAAAAPFhIccMAAAACAAFQavveQQAAAAWwmFUuul7mrqsvfjazehR7Jiqa8Fm1bQ53cKy8PC2ueF2KG/cxBsDQAAAAAB0EqjL10AAAAAEexwvEAAAAJFzV8PH/////d3CsvP////4AAAAAAAAAA+sDHscLxAAAACRc1fDx/////ndwrLz////+AgO3l4QAAAAIxC06zgAAABoAAANztmMShBH2uAA2RS1xmiC8wJsuNqg1U4gAAAEAAAcEHscLxAAAACRc1fDx/////otuG3UAAAAEd3CsvP////4BxC06zgAAABwAAAIANkUtGotZz8CbLjaoNVOIAAABAAPrAx7HC8QAAAAkXNXw8f////53cKy8/////gHELTrOAAAAEgAAA3O2YxISkih7ADZFLQAA53fAmy42qDVTiAAAAQEBAQEAAAAks3oUewBFQHske2RhdGEuYnV0dG9uSW5mby5hY3Rpb259PyR7ZGF0YS5idXR0b25JbmZvLmFjdGlvbn06JHtkYXRhLmFjdGlvbn19GotZzwAXJHtkYXRhLmJ1dHRvbkluZm8udGV4dH0MnHkaAA4ke2RhdGEuYWN0aW9ufVEzmfkAQ2h0dHA6Ly9waW5kdW9kdW9pbWcueWFuZ2tlZHVvLmNvbS9hcHAvYXBwL2xlZ28vc3Bpa2UvY2xvY2tfaWNvbi5wbmd2bL99ABMke2RhdGEubWFya2V0UHJpY2V98DkFKwAS5bey6aKE57qm55qE5ZWG5ZOBjC1Q/gARJHtkYXRhLnNhbGVzUmF0ZX3UZ0czABMke2RhdGEuYWN0aW9uUGFyYW19ki55ugAfQHske2RhdGEuc2VsbE91dH0/Z29uZTp2aXNpYmxlfTwtrngAGCR7ZGF0YS5idXR0b25JbmZvLndpZHRofTEGwNAAM0B7JHtkYXRhLmJ1dHRvbkluZm8uYWN0aW9ufT8iIjoke2RhdGEuYWN0aW9uUGFyYW19fTb+6KkAESR7ZGF0YS5nb29kc05hbWV9Jiqa8AARcHJlc3NlZEJhY2tncm91bmSK9F0qAA4ke2RhdGEuY291cG9ufQO07dYAEyR7ZGF0YS5zdGF0dXNXaWR0aH0AAAClAALCpZ5PX6kAOmh0dHBzOi8vcGluZHVvZHVvaW1nLnlhbmdrZWR1by5jb20vc3Bpa2Uvc3Bpa2Vfc29sZG91dC5wbmdxmiC8ABske2RhdGEuYnV0dG9uSW5mby5sZWZ0SWNvbn2aYSeGABEke2RhdGEud2F0ZXJNYXJrfU/3olAAKEB7JHtkYXRhLmN1cnJlbnRDYW5CdXl9PyM5OTk5OTk6I0ZGQzQyQX1l1Gi8ACFAeyR7ZGF0YS5zdWJzY3JpYmV9P3Zpc2libGU6Z29uZX19TNdkAEhodHRwOi8vcGluZHVvZHVvaW1nLnlhbmdrZWR1by5jb20vYXBwL2FwcC9sZWdvL3NwaWtlL2Z1dHVyZV9zZWxsX291dC5wbmeEEfa4ACtAeyR7ZGF0YS5idXR0b25JbmZvLmxlZnRJY29ufT92aXNpYmxlOmdvbmV9EpIoewAsQHske2RhdGEuYnV0dG9uSW5mby5yaWdodEljb259P3Zpc2libGU6Z29uZX3+QW2qAB9AeyR7ZGF0YS5zZWxsT3V0fT92aXNpYmxlOmdvbmV9ul7mrgAdJHtkYXRhLmJ1dHRvbkluZm8uYmFja2dyb3VuZH1SOgaIABEke2RhdGEuc2FsZVByaWNlfQAA53cAA+6dt0eVua0AJUB7JHtkYXRhLmZ1dHVyZVNlbGxvdXR9P3Zpc2libGU6Z29uZX1dD952AA8ke2RhdGEuc2FsZVRpcH3EHotkAA4ke2RhdGEuaW1nVXJsfVm1bQ4AJCR7ZGF0YS5idXR0b25JbmZvLnByZXNzZWRCYWNrZ3JvdW5kffM43IQACXdhdGVyTWFya+EKzvcAJUB7JHtkYXRhLmN1cnJlbnRDYW5CdXl9P3Zpc2libGU6Z29uZX2oNVOIABwke2RhdGEuYnV0dG9uSW5mby50ZXh0Q29sb3J924LFvQAlQHske2RhdGEuZnV0dXJlU2VsbG91dH0/Z29uZTp2aXNpYmxlfQAAAAA=",
+                        "cellType": "mainbin"
+                      }
+                    ]
+                  },
+                  "category": "vv",
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "type": "Cell",
+              "attributes": {
+                "cellType": "sectionSeparator",
+                "width": "750rp",
+                "height": "16rp"
+              },
+              "category": "lego",
+              "elements": [
+                {
+                  "type": "NFrameLayout",
+                  "attributes": {
+                    "templates": [
+                      {
+                        "name": "bcc7820d48c6ff0b1998f755b7f4046d",
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAAASwAAAHoAAAAAAAAAfgAAAAAAAACCAAAAAAABAAAAAAABACBiY2M3ODIwZDQ4YzZmZjBiMTk5OGY3NTViN2Y0MDQ2ZAAjAAAZArCYVS7/9PT0d3CsvP////8BXNXw8QAAABAAAAAAAAEAAAAAAAAAAA==",
+                        "cellType": "mainbin"
+                      }
+                    ]
+                  },
+                  "category": "vv",
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "type": "Cell",
+              "attributes": {
+                "cellType": "cellSeparator",
+                "width": "750rp",
+                "height": "1rp"
+              },
+              "category": "lego",
+              "elements": [
+                {
+                  "type": "NFrameLayout",
+                  "attributes": {
+                    "templates": [
+                      {
+                        "name": "502d05b3c634911c922e4b0ba11ff340",
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAAAbgAAAJ0AAAAAAAAAoQAAAAAAAAClAAAAAAABAAAAAAABACA1MDJkMDViM2M2MzQ5MTFjOTIyZTRiMGJhMTFmZjM0MABGAAAZAXdwrLz/////AVzV8PEAAAABAAAAAAAAAAcCsJhVLv/g4OB3cKy8/////wJKbn2fAAABDFzV8PEAAAABAAAAAAABAQAAAAAAAAAA",
+                        "cellType": "mainbin"
+                      }
+                    ]
+                  },
+                  "category": "vv",
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "type": "Cell",
+              "attributes": {
+                "cellType": "spikeTimeBanner",
+                "width": "750rp",
+                "height": "144rp"
+              },
+              "category": "lego",
+              "elements": [
+                {
+                  "type": "NFrameLayout",
+                  "attributes": {
+                    "templates": [
+                      {
+                        "name": "86f296ca56c290dd498abd35fc96ad12",
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAADpAAAA9MAAAHdAAAFtAAAAAAAAAW4AAAAAAABAAAAAAABACA4NmYyOTZjYTU2YzI5MGRkNDk4YWJkMzVmYzk2YWQxMgN8AAAZAgAv/2wAAAAgd3CsvP////8AAAADXNXw8Y9snl2rL3421gVK/l2KG/cXDvDXAAAAAAkCXNXw8f////93cKy8/////wAAAAEAAb3kWugPBgAAAQAAHQSqMvXQAAAAAR7HC8QAAAAEXNXw8f////53cKy8/////gGGh9C9AAAAHAAAAAAAAAPrAx7HC8QAAAAgXNXw8f////53cKy8/////gHELTrOAAAAJAAAAgA2RS0dXGxKwJsuNpmlqQ4AAAEAAAcDXNXw8f////7BfxyEAAAAAXdwrLz////+AkpufZ8AAAAGxC06zgAAACYAAAIANkUtzpQqssCbLjaZpakOAAABAQAAHQMexwvEAAAABFzV8PH////+d3CsvP////4BhofQvQAAAFgAAAFztmMS8kzkxAAAAAAHA1zV8PH////+wX8chAAAAAF3cKy8/////gPELTrOAAAAGiqMeIsAAAAIBV9HhAAAAAIAAAIANkUtqu/s38CbLjZLIFV7AAABAAP1AhC4ck4AAAAkwX8chAAAAAEFxC06zgAAABxc1fDxAAAAJCqMeIsAAAAEd3CsvAAAADCmhd+4AAAABAABUGr73kCAAAAEsJhVLtsdIEYY0ykkAAAJAB4E2ljuJuh4wJsuNsC5Bb8AAAEAAAcEXNXw8f////4QuHJOAAAABMF/HIQAAAABd3CsvP////4DxC06zgAAAB4FX0eE/////qaF37gAAAACAAACADZFLQAAADrAmy422x0gRgAAAQAD9QIQuHJOAAAAJMF/HIQAAAABBcQtOs4AAAAcXNXw8QAAACQqjHiLAAAABHdwrLwAAAAwpoXfuAAAAAQAAVBq+95AgAAABLCYVS7bHSBGGNMpJAAADaAeBNpY7iboeMCbLjbAuQW/AAABAAAHBFzV8PH////+ELhyTgAAACTBfxyEAAAAAXdwrLz////+A8QtOs4AAAAeBV9HhP////6mhd+4AAAAAgAAAgA2RS0AAAA6wJsuNtsdIEYAAAEAA/UCELhyTgAAACTBfxyEAAAAAQXELTrOAAAAHFzV8PEAAAAkKox4iwAAAAR3cKy8AAAAMKaF37gAAAAEAAFQavveQIAAAAawmFUu2x0gRhjTKSQAAA5gqy9+NtiPCWIeBNpY7iboeF2KG/eLqPnzwJsuNsC5Bb8AAAEBAQAAABUAAAkAAAJISMC5Bb8AEiR7ZGF0YS50aW1lX2NvbG9yffJM5MQAJ0B7JHtkYXRhLnRpbWluZ30gPyB2aXNpYmxlIDogaW52aXNpYmxlfR1cbEoAESR7ZGF0YS5pY29uX3R5cGV9Fw7w1wAZJHtkYXRhLnRhcF9hY3Rpb25fcGFyYW1zfUsgVXsAEiR7ZGF0YS5kZXNjX2NvbG9yfdsdIEYAHSR7ZGF0YS50aW1lX2JhY2tncm91bmRfY29sb3J9i6j58wAaJHtkYXRhLnRpbWVfYWN0aW9uX3BhcmFtc30eBNpYAAhkZWFkbGluZe4m6HgAECR7ZGF0YS5kZWFkbGluZX0AAA2gAAJtbQAADmAAAnNzzpQqsgANJHtkYXRhLnRpdGxlfZmlqQ4AEyR7ZGF0YS50aXRsZV9jb2xvcn3YjwliABMke2RhdGEudGltZV9hY3Rpb259WugPBgAYJHtkYXRhLmJhY2tncm91bmRfaW1hZ2V9qu/s3wAMJHtkYXRhLmRlc2N9j2yeXQAhQHske2RhdGEudGltaW5nfSA/IDE0NHJwIDogMTA4cnB9GNMpJAAKdGltZUZvcm1hdAAAADoAATrWBUr+ABIke2RhdGEudGFwX2FjdGlvbn0AAAAA",
+                        "cellType": "mainbin"
+                      }
+                    ]
+                  },
+                  "category": "vv",
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LegoList",
+      "attributes": {
+        "layoutWidth": "match_parent",
+        "layoutHeight": "match_parent",
+        "background": "#f4f4f4",
+        "orientation": "V",
+        "visibility": "${v1}",
+        "onRefresh": "@callJs:onRefresh1",
+        "onLoadmore": "@callJs:onLoadMore1",
+        "showScrollbar": "true",
+        "loadmoreOffset": "10",
+        "firstSpace": "30",
+        "showTopView": "true",
+        "paddingBottom": "${brandTabHeight}",
+        "topViewBottomOffset": "${topViewBottomOffset}"
+      },
+      "category": "lego",
+      "elements": [
+        {
+          "type": "Section",
+          "attributes": {
+            "width": "750rp",
+            "height": "416rp",
+            "dataTag": "${shareGoods}"
+          },
+          "category": "lego",
+          "elements": [
+            {
+              "type": "Cell",
+              "attributes": {},
+              "category": "lego",
+              "elements": [
+                {
+                  "type": "NVHLayout",
+                  "attributes": {
+                    "templates": [
+                      {
+                        "name": "358bc0f5de8966d0af268397eaddeb7f",
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAAF2AAABgcAAAMDAAAJDgAAAAAAAAkSAAAAAAABAAAAAAABACAzNThiYzBmNWRlODk2NmQwYWYyNjgzOTdlYWRkZWI3ZgWwAAAdAqoy9dAAAAAAAC//bAAAACADXNXw8QAAAaBYSHHDAAAAEXdwrLwAAALuAAACqy9+NgyceRpdihv31GdHMwAAAAPtAR7HC8QAAAAEBFzV8PEAAABAhofQvQAAAAx3cKy8AAAAQMgObJIAAAAQAAABAAG95CwBmlcAAAEAAAcEHscLxAAAAARc1fDx/////ndwrLz////+wJsuNv9YWVsCxC06zgAAABiGh9C9AAAACAAAAQA2RS3Ma+0CAAABAAAHBB7HC8QAAAAEXNXw8f////53cKy8/////sCbLjb/FRUWAsQtOs4AAAAahofQvQAAAAgAAAEANkUtpPaaZQAAAQAAGwIexwvEAAAABLCYVS7/9PT0A1zV8PEAAADWhofQvQAAABR3cKy8AAACrgABUGr73kEgAAAAAAAAAAkBHscLxAAAACADSm59nwAAABBc1fDxAAAAtHdwrLwAAAC0AAABAAG95MQei2QAAAEAABwEqjL10AAAAABc1fDx/////3cmzwEAAAABd3CsvP////8DSm59nwAAAAyGh9C9AAAAElhIccMAAAAQAAAAAAAAAAcFXNXw8f////6Lbht1AAAAAndwrLz/////BiNO/wAAAALAmy42/xUVFgHELTrOAAAAGAAAAQA2RS02/uipAAABAAAdA6oy9dAAAAABXNXw8f////53cKy8/////gGGh9C9AAAADAAAAAAAAAAZAR7HC8QAAAAgAwO3l4QAAAAUXNXw8QAAABh3cKy8AAABAgAAAXO2YxLhCs73AAAAABkDXNXw8f////+wmFUu//OrqXdwrLz/////AAABUGr73kFAAAAAAAABAAAHAlzV8PH/////sJhVLv/gLiQAAAFQavveQUAAAAF3cKy8A7Tt1gAAAQAABwQexwvEAAAAJFzV8PH////+d3CsvP////7Amy42/////wHELTrOAAAAFAAAAQA2RS2MLVD+AAABAQAABwMexwvEAAAAIFzV8PH////+d3CsvP////4BxC06zgAAABgAAAIANkUtXQ/edsCbLjb0nvKQAAABAQAAAQNc1fDx/////otuG3UAAAAId3CsvP////8AAAAAAAAAABwEqjL10AAAAAEexwvEAAAAEFzV8PH////+d3CsvP////4AAAAAAAAAAAcEHscLxAAAABBc1fDx/////ndwrLz////+wJsuNv/gLiQBxC06zgAAABgAAAEANkUtAAD/5QAAAQAABwQexwvEAAAAEFzV8PH////+d3CsvP////7Amy42/+AuJALELTrOAAAAKAwPsZz////7AAABADZFLcg6eeEAAAEAAAcFHscLxAAAABBc1fDx/////sF/HIQAAAAId3CsvP////7Amy42/5mZmQNKbn2fAAAACsQtOs4AAAAYWEhxwwAAAAIAAAEANkUtdmy/fQAAAQEAAB0EqjL10AAAAAEAL/9sAAAAIB7HC8QAAAASd3CsvP////4EA7eXhAAAABBc1fDxAAAAPCqMeIsAAAAJpoXfuAAAAAkBUGr73kAAAAAAA7CYVS66Xuauqy9+NrN6FHtdihv3MQbA0AAAAAPrAx7HC8QAAAAkXNXw8f////53cKy8/////gHELTrOAAAAFAAAA3O2YxKEEfa4ADZFLXGaILzAmy42qDVTiAAAAQAABwQexwvEAAAAJFzV8PH////+i24bdQAAAAR3cKy8/////gPELTrOAAAAGiqMeIsAAAADpoXfuAAAAAMAAAIANkUtGotZz8CbLjaoNVOIAAABAAPrAx7HC8QAAAAkXNXw8f////53cKy8/////gHELTrOAAAAFAAAA3O2YxISkih7ADZFLQF3TOnAmy42qDVTiAAAAQEBAQEAABkCsJhVLv/09PR3cKy8/////wJc1fDxAAAAEoaH0L0AAAAUAAAAAAABAQAAABmzehR7AEVAeyR7ZGF0YS5idXR0b25JbmZvLmFjdGlvbn0/JHtkYXRhLmJ1dHRvbkluZm8uYWN0aW9ufToke2RhdGEuYWN0aW9ufX0ai1nPABcke2RhdGEuYnV0dG9uSW5mby50ZXh0fQyceRoADiR7ZGF0YS5hY3Rpb2599J7ykAAoQHske2RhdGEuY3VycmVudENhbkJ1eX0/Izk5OTk5OTojRTAyRTI0fXZsv30AEyR7ZGF0YS5tYXJrZXRQcmljZX2k9pplABAke2RhdGEuZGVzY3JpYmV9jC1Q/gARJHtkYXRhLnNhbGVzUmF0ZX3UZ0czABMke2RhdGEuYWN0aW9uUGFyYW19LAGaVwAOJHtkYXRhLmF2YXRhcn0xBsDQADNAeyR7ZGF0YS5idXR0b25JbmZvLmFjdGlvbn0/IiI6JHtkYXRhLmFjdGlvblBhcmFtfX02/uipABEke2RhdGEuZ29vZHNOYW1lfcg6eeEADSR7ZGF0YS5wcmljZX3IDmySAAZyYWRpdXMBd0zpABwke2RhdGEuYnV0dG9uSW5mby5yaWdodEljb259A7Tt1gATJHtkYXRhLnN0YXR1c1dpZHRofQAA/+UAA++/pXGaILwAGyR7ZGF0YS5idXR0b25JbmZvLmxlZnRJY29ufcxr7QIAECR7ZGF0YS5uaWNrTmFtZX2EEfa4ACtAeyR7ZGF0YS5idXR0b25JbmZvLmxlZnRJY29ufT92aXNpYmxlOmdvbmV9EpIoewAsQHske2RhdGEuYnV0dG9uSW5mby5yaWdodEljb259P3Zpc2libGU6Z29uZX26XuauAB0ke2RhdGEuYnV0dG9uSW5mby5iYWNrZ3JvdW5kfV0P3nYADyR7ZGF0YS5zYWxlVGlwfcQei2QADiR7ZGF0YS5pbWdVcmx94QrO9wAlQHske2RhdGEuY3VycmVudENhbkJ1eX0/dmlzaWJsZTpnb25lfag1U4gAHCR7ZGF0YS5idXR0b25JbmZvLnRleHRDb2xvcn0AAAAA",
+                        "cellType": "mainbin"
+                      }
+                    ]
+                  },
+                  "category": "vv",
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Section",
+          "attributes": {
+            "layout": "stickyLayout",
+            "width": "250rp",
+            "height": "80rp"
+          },
+          "category": "lego",
+          "elements": [
+            {
+              "type": "Cell",
+              "attributes": {},
+              "category": "lego",
+              "elements": [
+                {
+                  "type": "NVHLayout",
+                  "attributes": {
+                    "templates": [
+                      {
+                        "name": "1ef1897bc7d21cdc42b5b78fabf264bc",
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAACXgAAAo0AAAB+AAADDwAAAAAAAAMTAAAAAAABAAAAAAABACAxZWYxODk3YmM3ZDIxY2RjNDJiNWI3OGZhYmYyNjRiYwI2AAAdA6oy9dAAAAABsJhVLv////93cKy8/////wNc1fDxAAAAUCqMeIsAAAAgpoXfuAAAACAAAAAAAAAAGQIAL/9sAAAAIFzV8PH/////AXdwrLwAAADmAAABqy9+Ng5apWIAAAAABwQexwvEAAAAJFzV8PH////+d3CsvP////7Amy42/xUVFgHELTrOAAAAHgAAAQA2RS0yJoW4AAABAAANBKoy9dAAAAABHscLxAAAABQFpy9j/+AuJHO2YxIAAAACA1zV8PEAAAAEd3CsvAAAAIAvRdAIAAAABAAAAAAAAQEAABkCAC//bAAAACBc1fDx/////wF3cKy8AAAA5AAAAasvfjYOWqVjAAAAAAcEHscLxAAAACRc1fDx/////ndwrLz////+wJsuNv/gLiQBxC06zgAAACAAAAEANkUtJ1Rp1QAAAQAADQSqMvXQAAAAAR7HC8QAAAAUBacvY//gLiRztmMSAAAAAQNc1fDxAAAABHdwrLwAAACAL0XQCAAAAAQAAAAAAAEBAAAZAgAv/2wAAAAgXNXw8f////8Bd3CsvAAAAOQAAAGrL342DlqlZAAAAAAHBB7HC8QAAAAkXNXw8f////53cKy8/////sCbLjb/FRUWAcQtOs4AAAAeAAABADZFLS/1hB0AAAEAAA0EqjL10AAAAAEexwvEAAAAFAWnL2P/4C4kc7ZjEgAAAAIDXNXw8QAAAAR3cKy8AAAAgC9F0AgAAAAEAAAAAAABAQEAAAAGJ1Rp1QAM5Y2z5bCG5byA5oqiMiaFuAAM5q2j5Zyo55av5oqiL/WEHQAM5piO5pel6aKE5ZGKDlqlYgASQGNhbGxKczpzd2l0Y2hUYWIwDlqlYwASQGNhbGxKczpzd2l0Y2hUYWIxDlqlZAASQGNhbGxKczpzd2l0Y2hUYWIyAAAAAA==",
+                        "cellType": "mainbin"
+                      }
+                    ]
+                  },
+                  "category": "vv",
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Section",
+          "attributes": {
+            "dataTag": "${sunday_banner}",
+            "width": "750rp",
+            "height": "144rp"
+          },
+          "category": "lego",
+          "elements": [
+            {
+              "type": "Cell",
+              "attributes": {},
+              "category": "lego",
+              "elements": [
+                {
+                  "type": "NFrameLayout",
+                  "attributes": {
+                    "templates": [
+                      {
+                        "name": "1437b295ff325fb8dbc63ccb66ed46dc",
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAAAfgAAAK0AAAAwAAAA4QAAAAAAAADlAAAAAAABAAAAAAABACAxNDM3YjI5NWZmMzI1ZmI4ZGJjNjNjY2I2NmVkNDZkYwBWAAAZAXdwrLz/////AVzV8PEAAACQAAAAAAAAAAkDAC//bAAAACBc1fDx/////3dwrLz/////AAAAAwABveREacBwqy9+Nn2QdFBdihv3fgwAQgAAAQEAAAADfZB0UAAJJHthY3Rpb259fgwAQgAPJHthY3Rpb25fcGFyYW19RGnAcAAGJHtzcmN9AAAAAA==",
+                        "cellType": "mainbin"
+                      }
+                    ]
+                  },
+                  "category": "vv",
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Section",
+          "attributes": {
+            "dataTag": "${future}",
+            "layout": "gridLayout"
+          },
+          "category": "lego",
+          "elements": [
+            {
+              "type": "Cell",
+              "attributes": {
+                "cellType": "spikeMultiBrand",
+                "width": "750rp",
+                "height": "466rp"
+              },
+              "category": "lego",
+              "elements": [
+                {
+                  "type": "NFrameLayout",
+                  "attributes": {
+                    "templates": [
+                      {
+                        "name": "775c11e61eed90343e2ac239f19d1e81",
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAACywAAAvoAAAJIAAAFRgAAAAAAAAVKAAAAAAABAAAAAAABACA3NzVjMTFlNjFlZWQ5MDM0M2UyYWMyMzlmMTlkMWU4MQKjAAAZAwAv/2wAAABgsJhVLv/w8PB3cKy8/////wFc1fDxAAAB0gAAAqsvfjYMnHkaXYob97iBnnQAAAAACQF3cKy8/////wFc1fDxAAABJAAAAQABveTQgAxfAAABAAAHBFzV8PH////+wX8chAAAAAF3cKy8/////sCbLjb/////A0pufZ8AAAAaxC06zgAAACaGh9C9AAAAGgAAAQA2RS3OlCqyAAABAAAdAqoy9dAAAAABd3CsvP////4FSm59nwAAABpc1fDxAAAALiqMeIsAAAAahofQvQAAAFCmhd+4AAAAGgABUGr73kG4AAACXuaylnpBP/yaivfvhG4fFQAAAAAHBB7HC8QAAAAgXNXw8f////7BfxyEAAAAAXdwrLz////+AcQtOs4AAAAYAAACADZFLdhWUxHAmy42pegf+QAAAQAD6wQexwvEAAAAIFzV8PH////+wX8chAAAAAF3cKy8/////gJKbn2fAAAABsQtOs4AAAAQAAACADZFLQAA53fAmy42pegf+QAAAQEAAAcCHscLxAAAAAIQuHJOAAAAJAQDt5eEAAAAGMQtOs4AAAAYXNXw8QAAACx3cKy8AAAAzgACIqV0UEGAAAAjD9PXQYAAAAVe5rKWnxeKC3O2YxJeATG+mor378zaIWQANkUtjOz9osCbLjarAeDIAAABAAPyArCYVS7/////oT56I//09PQHSm59nwAAABCfYHnSAAAACAO3l4QAAAAQXNXw8QAAASyGh9C9AAAAklhIccMAAAAQd3CsvAAAAs4Bx2eSyz8AAAAAAAAAAAARA1zV8PH/////2BfPbwAAAAN3cKy8/////wNlKeV4AAAAEGOdHhoAAAEMfumMJQAAABAAAAFWBT+QFoh4qgAAAQEBAAAAFQyceRoADiR7ZGF0YS5hY3Rpb2592FZTEQARJHtkYXRhLnN1Yl90aXRsZX2rAeDIABwke2RhdGEuc2FsZXNfdGlwX3RleHRfY29sb3J9jOz9ogARJHtkYXRhLnNhbGVzX3RpcH2l6B/5ABwke2RhdGEuc3ViX3RpdGxlX3RleHRfY29sb3J9ZSnleAAMbGF5b3V0TWFyZ2lunxeKCwAmJHtkYXRhLnNhbGVzX3RpcF9iYWNrZ3JvdW5kX2VuZF9jb2xvcn2hPnojAAtzaGFkb3dDb2xvctCADF8AESR7ZGF0YS5pbWFnZV91cmx9Foh4qgARJHtkYXRhLmdvb2RfbGlzdH2aivfvABRiYWNrZ3JvdW5kU3RhcnRDb2xvcs6UKrIADSR7ZGF0YS50aXRsZX3HZ5LLAA1zaGFkb3dPcGFjaXR5XuaylgASYmFja2dyb3VuZEVuZENvbG9yn2B50gAMc2hhZG93UmFkaXVzuIGedAAUJHtkYXRhLmFjdGlvblBhcmFtc30AAOd3AAPunbeEbh8VACgke2RhdGEuc3ViX3RpdGxlX2JhY2tncm91bmRfc3RhcnRfY29sb3J9ekE//AAmJHtkYXRhLnN1Yl90aXRsZV9iYWNrZ3JvdW5kX2VuZF9jb2xvcn3M2iFkACgke2RhdGEuc2FsZXNfdGlwX2JhY2tncm91bmRfc3RhcnRfY29sb3J9XgExvgAqQHske2RhdGEuc2FsZXNfdGlwfSA/IHZpc2libGUgOiBpbnZpc2libGV9AAAAAA==",
+                        "cellType": "mainbin"
+                      },
+                      {
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAABhAAAAbMAAACxAAACaAAAAAAAAAJsAAAAAAABAAAAAAABABpzcGlrZV9icmFuZF9nb29kcy50ZW1wbGF0ZQFiAAAZAwAv/2wAAABgXNXw8f////93cKy8/////wAAAAPpe3MD5NAR8asvfjZ9kHRQXYob90vd2SoAAAAD7QMrFYaX//Ly8rCYVS7/////d3CsvP////8AAAEsLIT6QAAAAAJc1fDxY/jEUAABveRI3r1pAAABAAPtASsVhpf/8vLyBEpufZ8AAAAIXNXw8QAAADaGh9C9AAAACHdwrLwAAAA2AAEsLIT6QAAAAAJztmMSAOOVmQABveTycSwLAAABAAAdBKoy9dAAAAABHscLxAAAABRc1fDx/////ndwrLz////+AAAAAAAAAAP2AlzV8PH////+d3CsvP////4AAAABADZFLcvfP+sAAAEAAAcFHscLxAAAABBc1fDx/////sF/HIQAAAAId3CsvP////7Amy42/5mZmQNKbn2fAAAACsQtOs4AAAAYWEhxwwAAAAIAAAEANkUtARy2QAAAAQEBAAAACX2QdFAACSR7YWN0aW9ufQEctkAADyR7bWFya2V0X3ByaWNlfeTQEfEADCR7ZGF0YVBhcmFtfWP4xFAACiR7aW1hZ2VfaH3L3z/rAAgke3ByaWNlfUvd2SoADyR7YWN0aW9uUGFyYW1zfUjevWkADCR7aW1hZ2VfdXJsfQDjlZkAH0B7JHtsb2dvX3VybH0gPyB2aXNpYmxlIDogZ29uZX3ycSwLAAske2xvZ29fdXJsfQAAAAA=",
+                        "name": "spike_brand_goods.template",
+                        "cellType": "spike_brand_goods.template"
+                      }
+                    ]
+                  },
+                  "category": "vv",
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "type": "Cell",
+              "attributes": {
+                "cellType": "spikeSingleBrand",
+                "width": "750rp",
+                "height": "460rp"
+              },
+              "category": "lego",
+              "elements": [
+                {
+                  "type": "NFrameLayout",
+                  "attributes": {
+                    "templates": [
+                      {
+                        "name": "48647c82094967509d23a00889a0e7dc",
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAACkwAAAsIAAAGzAAAEeQAAAAAAAAR9AAAAAAABAAAAAAABACA0ODY0N2M4MjA5NDk2NzUwOWQyM2EwMDg4OWEwZTdkYwJrAAAZAwAv/2wAAABgsJhVLv/w8PB3cKy8/////wFc1fDxAAABzAAAAqsvfjYMnHkaXYob97iBnnQAAAAACQF3cKy8/////wFc1fDxAAABJAAAAQABveTQgAxfAAABAAPtAAVKbn2fAAAAGFzV8PEAAABkhofQvQAAABh3cKy8AAAAZMgObJIAAAAIAAABAAG95O6PJlUAAAEAAAcEXNXw8f////7BfxyEAAAAAXdwrLz////+wJsuNv////8DSm59nwAAAJTELTrOAAAAJoaH0L0AAAAgAAABADZFLc6UKrIAAAEAAB0DqjL10AAAAAFc1fDx/////ndwrLz////+AkpufZ8AAACUhofQvQAAAFoAAAAAAAAABwUexwvEAAAAIFzV8PH////+wX8chAAAAAF3cKy8/////sCbLjb/////AcQtOs4AAAAYAAABADZFLdhWUxEAAAEAA+sFHscLxAAAACBc1fDx/////sF/HIQAAAABd3CsvP////7Amy42/////wJKbn2fAAAABsQtOs4AAAAQAAABADZFLQAA53cAAAEBAAAHAh7HC8QAAAACELhyTgAAACQEA7eXhAAAABjELTrOAAAAGFzV8PEAAAAsd3CsvAAAAM4AAiKldFBBgAAAIw/T10GAAAAFXuaylp8XigtztmMSXgExvpqK9+/M2iFkADZFLYzs/aLAmy42qwHgyAAAAQAAEQOwmFUu/////9gXz28AAAADd3CsvP////8Fz/A8EQAAABRc1fDxAAABOGOdHhoAAAEQhofQvQAAAJJ+6YwlAAAAEAAAAVYFP5AWiHiqAAABAQAAABEMnHkaAA4ke2RhdGEuYWN0aW9ufdhWUxEAESR7ZGF0YS5zdWJfdGl0bGV9qwHgyAAcJHtkYXRhLnNhbGVzX3RpcF90ZXh0X2NvbG9yfYzs/aIAESR7ZGF0YS5zYWxlc190aXB97o8mVQAQJHtkYXRhLmxvZ29fdXJsfcgObJIABnJhZGl1c58XigsAJiR7ZGF0YS5zYWxlc190aXBfYmFja2dyb3VuZF9lbmRfY29sb3J90IAMXwARJHtkYXRhLmltYWdlX3VybH3P8DwRAAdwYWRkaW5nFoh4qgARJHtkYXRhLmdvb2RfbGlzdH2aivfvABRiYWNrZ3JvdW5kU3RhcnRDb2xvcs6UKrIADSR7ZGF0YS50aXRsZX1e5rKWABJiYWNrZ3JvdW5kRW5kQ29sb3K4gZ50ABQke2RhdGEuYWN0aW9uUGFyYW1zfQAA53cAA+6dt8zaIWQAKCR7ZGF0YS5zYWxlc190aXBfYmFja2dyb3VuZF9zdGFydF9jb2xvcn1eATG+ACpAeyR7ZGF0YS5zYWxlc190aXB9ID8gdmlzaWJsZSA6IGludmlzaWJsZX0AAAAA",
+                        "cellType": "mainbin"
+                      },
+                      {
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAABhAAAAbMAAACxAAACaAAAAAAAAAJsAAAAAAABAAAAAAABABpzcGlrZV9icmFuZF9nb29kcy50ZW1wbGF0ZQFiAAAZAwAv/2wAAABgXNXw8f////93cKy8/////wAAAAPpe3MD5NAR8asvfjZ9kHRQXYob90vd2SoAAAAD7QMrFYaX//Ly8rCYVS7/////d3CsvP////8AAAEsLIT6QAAAAAJc1fDxY/jEUAABveRI3r1pAAABAAPtASsVhpf/8vLyBEpufZ8AAAAIXNXw8QAAADaGh9C9AAAACHdwrLwAAAA2AAEsLIT6QAAAAAJztmMSAOOVmQABveTycSwLAAABAAAdBKoy9dAAAAABHscLxAAAABRc1fDx/////ndwrLz////+AAAAAAAAAAP2AlzV8PH////+d3CsvP////4AAAABADZFLcvfP+sAAAEAAAcFHscLxAAAABBc1fDx/////sF/HIQAAAAId3CsvP////7Amy42/5mZmQNKbn2fAAAACsQtOs4AAAAYWEhxwwAAAAIAAAEANkUtARy2QAAAAQEBAAAACX2QdFAACSR7YWN0aW9ufQEctkAADyR7bWFya2V0X3ByaWNlfeTQEfEADCR7ZGF0YVBhcmFtfWP4xFAACiR7aW1hZ2VfaH3L3z/rAAgke3ByaWNlfUvd2SoADyR7YWN0aW9uUGFyYW1zfUjevWkADCR7aW1hZ2VfdXJsfQDjlZkAH0B7JHtsb2dvX3VybH0gPyB2aXNpYmxlIDogZ29uZX3ycSwLAAske2xvZ29fdXJsfQAAAAA=",
+                        "name": "spike_brand_goods.template",
+                        "cellType": "spike_brand_goods.template"
+                      }
+                    ]
+                  },
+                  "category": "vv",
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "type": "Cell",
+              "attributes": {
+                "cellType": "spikeGoods",
+                "width": "750rp",
+                "height": "280rp"
+              },
+              "category": "lego",
+              "elements": [
+                {
+                  "type": "NFrameLayout",
+                  "attributes": {
+                    "templates": [
+                      {
+                        "name": "25db7032152d16d862848aa2a07f55c5",
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAAHGgAAB0kAAATwAAAMPQAAAAAAAAxBAAAAAAABAAAAAAABACAyNWRiNzAzMjE1MmQxNmQ4NjI4NDhhYTJhMDdmNTVjNQbyAAAZAwAv/2wAAABgsJhVLv////93cKy8/////wFc1fDxAAABGAAAAqsvfjYMnHkaXYob99RnRzMAAAAAGQMexwvEAAAAIFzV8PH////+d3CsvP////4AAAAAAAAAA+wBHscLxAAAACACXNXw8QAAAPB3cKy8AAAA8AAAAgABveTEHotk8zjchJphJ4YAAAEAAAcEHscLxAAAABCwmFUu///y8hC4ck4AAAAkwJsuNv/gLiQDxC06zgAAABpc1fDxAAAAIndwrLwAAADwAAACc7ZjEmXUaLwANkUt8DkFKwAAAQAD7AEexwvEAAAAIAJc1fDxAAAA8HdwrLwAAADwAAACc7ZjEv5BbaoAAb3knk9fqQAAAQEAAAIDqjL10AAAAABc1fDx/////3dwrLz/////AkpufZ8AAAEMA7eXhAAAABwAAAAAAAAD9gNc1fDx/////gYjTv8AAAACd3CsvP////8BhofQvQAAABoAAb1Xkb5BAAAAAQA2RS02/uipAAABAAAdA6oy9dAAAAABXNXw8f////53cKy8/////gGGh9C9AAAACAAAAAAAAAAZAR7HC8QAAAAgAwO3l4QAAAAUXNXw8QAAABh3cKy8AAABBAAAAXO2YxLhCs73AAAAAAcDHscLxAAAACBc1fDx/////7CYVS7/86upAXdwrLwAAAECAAFQavveQUAAAAAAAAEAAAcDHscLxAAAACBc1fDx/////7CYVS7/4C4kAAABUGr73kFAAAABd3CsvAO07dYAAAEAABkDHscLxAAAACRc1fDx/////ndwrLz////+AAAAAAAAAAAJAAJc1fDxAAAAFndwrLwAAABQAAACc7ZjEkeVua0AAb3kfUzXZAAAAQAABwNc1fDx/////ndwrLz////+wJsuNv////8BxC06zgAAABQAAAJztmMS24LFvQA2RS2MLVD+AAABAQAAGQMexwvEAAAAIlzV8PH////+d3CsvP////4AAAABc7ZjEkeVua0AAAAACQACXNXw8QAAABl3cKy8AAAAGQAAAQABveRRM5n5AAABAQEAAAcDHscLxAAAACBc1fDx/////ndwrLz////+AcQtOs4AAAAYAAADc7ZjEpIueboANkUtXQ/edsCbLjZP96JQAAABAAAHBB7HC8QAAAAgXNXw8f////53cKy8/////sCbLjb/mZmZAcQtOs4AAAAYAAACc7ZjEv5BbaoANkUtXQ/edgAAAQEAAAcFHscLxAAAABBc1fDx/////rCYVS7///Lyd3CsvP////7Amy42//9AQgLELTrOAAAAFoaH0L0AAAASAAFQavveQAAAAAJztmMSki55ugA2RS2K9F0qAAABAQAAHASqMvXQAAAAAR7HC8QAAAAQXNXw8f////53cKy8/////wNKbn2fAAABDAO3l4QAAAAcWEhxwwAAABoAAAAAAAAAAgSqMvXQAAAAAR7HC8QAAAAQXNXw8f////53cKy8/////gAAAAAAAAAABwUexwvEAAAAEFzV8PH////+wX8chAAAAAF3cKy8/////sCbLjb/4C4kAcQtOs4AAAAYAAABADZFLQAAAKUAAAEAAAcGHscLxAAAABAMD7Gc/////lzV8PH////+wX8chAAAAAF3cKy8/////sCbLjb/4C4kAkpufZ8AAAAExC06zgAAACgAAAEANkUtUjoGiAAAAQAABwUexwvEAAAAEFzV8PH////+wX8chAAAAAh3cKy8/////sCbLjb/nJycAkpufZ8AAAAMxC06zgAAABgAAAEANkUtAAAApQAAAQAABwUexwvEAAAAEFzV8PH////+wX8chAAAAAh3cKy8/////sCbLjb/nJycAcQtOs4AAAAYAAABADZFLXZsv30AAAEBAAP3AwAv/2wAAABgHscLxAAAABCLbht1AAAABAJc1fDxAAAAPFhIccMAAAACAAFQavveQQAAAAWwmFUuul7mrqsvfjazehR7Jiqa8Fm1bQ53cKy8PC2ueF2KG/cxBsDQAAAAAB0EqjL10AAAAAEexwvEAAAAJFzV8PH/////d3CsvP////4AAAAAAAAAA+sDHscLxAAAACRc1fDx/////ndwrLz////+AgO3l4QAAAAIxC06zgAAABoAAANztmMShBH2uAA2RS1xmiC8wJsuNqg1U4gAAAEAAAcEHscLxAAAACRc1fDx/////otuG3UAAAAEd3CsvP////4BxC06zgAAABwAAAIANkUtGotZz8CbLjaoNVOIAAABAAPrAx7HC8QAAAAkXNXw8f////53cKy8/////gHELTrOAAAAEgAAA3O2YxISkih7ADZFLQAA53fAmy42qDVTiAAAAQEBAQEAAAAks3oUewBFQHske2RhdGEuYnV0dG9uSW5mby5hY3Rpb259PyR7ZGF0YS5idXR0b25JbmZvLmFjdGlvbn06JHtkYXRhLmFjdGlvbn19GotZzwAXJHtkYXRhLmJ1dHRvbkluZm8udGV4dH0MnHkaAA4ke2RhdGEuYWN0aW9ufVEzmfkAQ2h0dHA6Ly9waW5kdW9kdW9pbWcueWFuZ2tlZHVvLmNvbS9hcHAvYXBwL2xlZ28vc3Bpa2UvY2xvY2tfaWNvbi5wbmd2bL99ABMke2RhdGEubWFya2V0UHJpY2V98DkFKwAS5bey6aKE57qm55qE5ZWG5ZOBjC1Q/gARJHtkYXRhLnNhbGVzUmF0ZX3UZ0czABMke2RhdGEuYWN0aW9uUGFyYW19ki55ugAfQHske2RhdGEuc2VsbE91dH0/Z29uZTp2aXNpYmxlfTwtrngAGCR7ZGF0YS5idXR0b25JbmZvLndpZHRofTEGwNAAM0B7JHtkYXRhLmJ1dHRvbkluZm8uYWN0aW9ufT8iIjoke2RhdGEuYWN0aW9uUGFyYW19fTb+6KkAESR7ZGF0YS5nb29kc05hbWV9Jiqa8AARcHJlc3NlZEJhY2tncm91bmSK9F0qAA4ke2RhdGEuY291cG9ufQO07dYAEyR7ZGF0YS5zdGF0dXNXaWR0aH0AAAClAALCpZ5PX6kAOmh0dHBzOi8vcGluZHVvZHVvaW1nLnlhbmdrZWR1by5jb20vc3Bpa2Uvc3Bpa2Vfc29sZG91dC5wbmdxmiC8ABske2RhdGEuYnV0dG9uSW5mby5sZWZ0SWNvbn2aYSeGABEke2RhdGEud2F0ZXJNYXJrfU/3olAAKEB7JHtkYXRhLmN1cnJlbnRDYW5CdXl9PyM5OTk5OTk6I0ZGQzQyQX1l1Gi8ACFAeyR7ZGF0YS5zdWJzY3JpYmV9P3Zpc2libGU6Z29uZX19TNdkAEhodHRwOi8vcGluZHVvZHVvaW1nLnlhbmdrZWR1by5jb20vYXBwL2FwcC9sZWdvL3NwaWtlL2Z1dHVyZV9zZWxsX291dC5wbmeEEfa4ACtAeyR7ZGF0YS5idXR0b25JbmZvLmxlZnRJY29ufT92aXNpYmxlOmdvbmV9EpIoewAsQHske2RhdGEuYnV0dG9uSW5mby5yaWdodEljb259P3Zpc2libGU6Z29uZX3+QW2qAB9AeyR7ZGF0YS5zZWxsT3V0fT92aXNpYmxlOmdvbmV9ul7mrgAdJHtkYXRhLmJ1dHRvbkluZm8uYmFja2dyb3VuZH1SOgaIABEke2RhdGEuc2FsZVByaWNlfQAA53cAA+6dt0eVua0AJUB7JHtkYXRhLmZ1dHVyZVNlbGxvdXR9P3Zpc2libGU6Z29uZX1dD952AA8ke2RhdGEuc2FsZVRpcH3EHotkAA4ke2RhdGEuaW1nVXJsfVm1bQ4AJCR7ZGF0YS5idXR0b25JbmZvLnByZXNzZWRCYWNrZ3JvdW5kffM43IQACXdhdGVyTWFya+EKzvcAJUB7JHtkYXRhLmN1cnJlbnRDYW5CdXl9P3Zpc2libGU6Z29uZX2oNVOIABwke2RhdGEuYnV0dG9uSW5mby50ZXh0Q29sb3J924LFvQAlQHske2RhdGEuZnV0dXJlU2VsbG91dH0/Z29uZTp2aXNpYmxlfQAAAAA=",
+                        "cellType": "mainbin"
+                      }
+                    ]
+                  },
+                  "category": "vv",
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "type": "Cell",
+              "attributes": {
+                "cellType": "cellSeparator",
+                "width": "750rp",
+                "height": "1rp"
+              },
+              "category": "lego",
+              "elements": [
+                {
+                  "type": "NFrameLayout",
+                  "attributes": {
+                    "templates": [
+                      {
+                        "name": "502d05b3c634911c922e4b0ba11ff340",
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAAAbgAAAJ0AAAAAAAAAoQAAAAAAAAClAAAAAAABAAAAAAABACA1MDJkMDViM2M2MzQ5MTFjOTIyZTRiMGJhMTFmZjM0MABGAAAZAXdwrLz/////AVzV8PEAAAABAAAAAAAAAAcCsJhVLv/g4OB3cKy8/////wJKbn2fAAABDFzV8PEAAAABAAAAAAABAQAAAAAAAAAA",
+                        "cellType": "mainbin"
+                      }
+                    ]
+                  },
+                  "category": "vv",
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "type": "Cell",
+              "attributes": {
+                "cellType": "sectionSeparator",
+                "width": "750rp",
+                "height": "16rp"
+              },
+              "category": "lego",
+              "elements": [
+                {
+                  "type": "NFrameLayout",
+                  "attributes": {
+                    "templates": [
+                      {
+                        "name": "bcc7820d48c6ff0b1998f755b7f4046d",
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAAASwAAAHoAAAAAAAAAfgAAAAAAAACCAAAAAAABAAAAAAABACBiY2M3ODIwZDQ4YzZmZjBiMTk5OGY3NTViN2Y0MDQ2ZAAjAAAZArCYVS7/9PT0d3CsvP////8BXNXw8QAAABAAAAAAAAEAAAAAAAAAAA==",
+                        "cellType": "mainbin"
+                      }
+                    ]
+                  },
+                  "category": "vv",
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "type": "Cell",
+              "attributes": {
+                "cellType": "spikeTimeBanner",
+                "width": "750rp",
+                "height": "144rp"
+              },
+              "category": "lego",
+              "elements": [
+                {
+                  "type": "NFrameLayout",
+                  "attributes": {
+                    "templates": [
+                      {
+                        "name": "86f296ca56c290dd498abd35fc96ad12",
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAADpAAAA9MAAAHdAAAFtAAAAAAAAAW4AAAAAAABAAAAAAABACA4NmYyOTZjYTU2YzI5MGRkNDk4YWJkMzVmYzk2YWQxMgN8AAAZAgAv/2wAAAAgd3CsvP////8AAAADXNXw8Y9snl2rL3421gVK/l2KG/cXDvDXAAAAAAkCXNXw8f////93cKy8/////wAAAAEAAb3kWugPBgAAAQAAHQSqMvXQAAAAAR7HC8QAAAAEXNXw8f////53cKy8/////gGGh9C9AAAAHAAAAAAAAAPrAx7HC8QAAAAgXNXw8f////53cKy8/////gHELTrOAAAAJAAAAgA2RS0dXGxKwJsuNpmlqQ4AAAEAAAcDXNXw8f////7BfxyEAAAAAXdwrLz////+AkpufZ8AAAAGxC06zgAAACYAAAIANkUtzpQqssCbLjaZpakOAAABAQAAHQMexwvEAAAABFzV8PH////+d3CsvP////4BhofQvQAAAFgAAAFztmMS8kzkxAAAAAAHA1zV8PH////+wX8chAAAAAF3cKy8/////gPELTrOAAAAGiqMeIsAAAAIBV9HhAAAAAIAAAIANkUtqu/s38CbLjZLIFV7AAABAAP1AhC4ck4AAAAkwX8chAAAAAEFxC06zgAAABxc1fDxAAAAJCqMeIsAAAAEd3CsvAAAADCmhd+4AAAABAABUGr73kCAAAAEsJhVLtsdIEYY0ykkAAAJAB4E2ljuJuh4wJsuNsC5Bb8AAAEAAAcEXNXw8f////4QuHJOAAAABMF/HIQAAAABd3CsvP////4DxC06zgAAAB4FX0eE/////qaF37gAAAACAAACADZFLQAAADrAmy422x0gRgAAAQAD9QIQuHJOAAAAJMF/HIQAAAABBcQtOs4AAAAcXNXw8QAAACQqjHiLAAAABHdwrLwAAAAwpoXfuAAAAAQAAVBq+95AgAAABLCYVS7bHSBGGNMpJAAADaAeBNpY7iboeMCbLjbAuQW/AAABAAAHBFzV8PH////+ELhyTgAAACTBfxyEAAAAAXdwrLz////+A8QtOs4AAAAeBV9HhP////6mhd+4AAAAAgAAAgA2RS0AAAA6wJsuNtsdIEYAAAEAA/UCELhyTgAAACTBfxyEAAAAAQXELTrOAAAAHFzV8PEAAAAkKox4iwAAAAR3cKy8AAAAMKaF37gAAAAEAAFQavveQIAAAAawmFUu2x0gRhjTKSQAAA5gqy9+NtiPCWIeBNpY7iboeF2KG/eLqPnzwJsuNsC5Bb8AAAEBAQAAABUAAAkAAAJISMC5Bb8AEiR7ZGF0YS50aW1lX2NvbG9yffJM5MQAJ0B7JHtkYXRhLnRpbWluZ30gPyB2aXNpYmxlIDogaW52aXNpYmxlfR1cbEoAESR7ZGF0YS5pY29uX3R5cGV9Fw7w1wAZJHtkYXRhLnRhcF9hY3Rpb25fcGFyYW1zfUsgVXsAEiR7ZGF0YS5kZXNjX2NvbG9yfdsdIEYAHSR7ZGF0YS50aW1lX2JhY2tncm91bmRfY29sb3J9i6j58wAaJHtkYXRhLnRpbWVfYWN0aW9uX3BhcmFtc30eBNpYAAhkZWFkbGluZe4m6HgAECR7ZGF0YS5kZWFkbGluZX0AAA2gAAJtbQAADmAAAnNzzpQqsgANJHtkYXRhLnRpdGxlfZmlqQ4AEyR7ZGF0YS50aXRsZV9jb2xvcn3YjwliABMke2RhdGEudGltZV9hY3Rpb259WugPBgAYJHtkYXRhLmJhY2tncm91bmRfaW1hZ2V9qu/s3wAMJHtkYXRhLmRlc2N9j2yeXQAhQHske2RhdGEudGltaW5nfSA/IDE0NHJwIDogMTA4cnB9GNMpJAAKdGltZUZvcm1hdAAAADoAATrWBUr+ABIke2RhdGEudGFwX2FjdGlvbn0AAAAA",
+                        "cellType": "mainbin"
+                      }
+                    ]
+                  },
+                  "category": "vv",
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "LegoList",
+      "attributes": {
+        "layoutWidth": "match_parent",
+        "layoutHeight": "match_parent",
+        "background": "#f4f4f4",
+        "orientation": "V",
+        "visibility": "${v0}",
+        "onRefresh": "@callJs:onRefresh0",
+        "onLoadmore": "@callJs:onLoadMore0",
+        "showScrollbar": "true",
+        "loadmoreOffset": "10",
+        "firstSpace": "30",
+        "showTopView": "true",
+        "paddingBottom": "${brandTabHeight}",
+        "topViewBottomOffset": "${topViewBottomOffset}"
+      },
+      "category": "lego",
+      "elements": [
+        {
+          "type": "Section",
+          "attributes": {
+            "width": "750rp",
+            "height": "416rp",
+            "dataTag": "${shareGoods}"
+          },
+          "category": "lego",
+          "elements": [
+            {
+              "type": "Cell",
+              "attributes": {},
+              "category": "lego",
+              "elements": [
+                {
+                  "type": "NVHLayout",
+                  "attributes": {
+                    "templates": [
+                      {
+                        "name": "358bc0f5de8966d0af268397eaddeb7f",
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAAF2AAABgcAAAMDAAAJDgAAAAAAAAkSAAAAAAABAAAAAAABACAzNThiYzBmNWRlODk2NmQwYWYyNjgzOTdlYWRkZWI3ZgWwAAAdAqoy9dAAAAAAAC//bAAAACADXNXw8QAAAaBYSHHDAAAAEXdwrLwAAALuAAACqy9+NgyceRpdihv31GdHMwAAAAPtAR7HC8QAAAAEBFzV8PEAAABAhofQvQAAAAx3cKy8AAAAQMgObJIAAAAQAAABAAG95CwBmlcAAAEAAAcEHscLxAAAAARc1fDx/////ndwrLz////+wJsuNv9YWVsCxC06zgAAABiGh9C9AAAACAAAAQA2RS3Ma+0CAAABAAAHBB7HC8QAAAAEXNXw8f////53cKy8/////sCbLjb/FRUWAsQtOs4AAAAahofQvQAAAAgAAAEANkUtpPaaZQAAAQAAGwIexwvEAAAABLCYVS7/9PT0A1zV8PEAAADWhofQvQAAABR3cKy8AAACrgABUGr73kEgAAAAAAAAAAkBHscLxAAAACADSm59nwAAABBc1fDxAAAAtHdwrLwAAAC0AAABAAG95MQei2QAAAEAABwEqjL10AAAAABc1fDx/////3cmzwEAAAABd3CsvP////8DSm59nwAAAAyGh9C9AAAAElhIccMAAAAQAAAAAAAAAAcFXNXw8f////6Lbht1AAAAAndwrLz/////BiNO/wAAAALAmy42/xUVFgHELTrOAAAAGAAAAQA2RS02/uipAAABAAAdA6oy9dAAAAABXNXw8f////53cKy8/////gGGh9C9AAAADAAAAAAAAAAZAR7HC8QAAAAgAwO3l4QAAAAUXNXw8QAAABh3cKy8AAABAgAAAXO2YxLhCs73AAAAABkDXNXw8f////+wmFUu//OrqXdwrLz/////AAABUGr73kFAAAAAAAABAAAHAlzV8PH/////sJhVLv/gLiQAAAFQavveQUAAAAF3cKy8A7Tt1gAAAQAABwQexwvEAAAAJFzV8PH////+d3CsvP////7Amy42/////wHELTrOAAAAFAAAAQA2RS2MLVD+AAABAQAABwMexwvEAAAAIFzV8PH////+d3CsvP////4BxC06zgAAABgAAAIANkUtXQ/edsCbLjb0nvKQAAABAQAAAQNc1fDx/////otuG3UAAAAId3CsvP////8AAAAAAAAAABwEqjL10AAAAAEexwvEAAAAEFzV8PH////+d3CsvP////4AAAAAAAAAAAcEHscLxAAAABBc1fDx/////ndwrLz////+wJsuNv/gLiQBxC06zgAAABgAAAEANkUtAAD/5QAAAQAABwQexwvEAAAAEFzV8PH////+d3CsvP////7Amy42/+AuJALELTrOAAAAKAwPsZz////7AAABADZFLcg6eeEAAAEAAAcFHscLxAAAABBc1fDx/////sF/HIQAAAAId3CsvP////7Amy42/5mZmQNKbn2fAAAACsQtOs4AAAAYWEhxwwAAAAIAAAEANkUtdmy/fQAAAQEAAB0EqjL10AAAAAEAL/9sAAAAIB7HC8QAAAASd3CsvP////4EA7eXhAAAABBc1fDxAAAAPCqMeIsAAAAJpoXfuAAAAAkBUGr73kAAAAAAA7CYVS66Xuauqy9+NrN6FHtdihv3MQbA0AAAAAPrAx7HC8QAAAAkXNXw8f////53cKy8/////gHELTrOAAAAFAAAA3O2YxKEEfa4ADZFLXGaILzAmy42qDVTiAAAAQAABwQexwvEAAAAJFzV8PH////+i24bdQAAAAR3cKy8/////gPELTrOAAAAGiqMeIsAAAADpoXfuAAAAAMAAAIANkUtGotZz8CbLjaoNVOIAAABAAPrAx7HC8QAAAAkXNXw8f////53cKy8/////gHELTrOAAAAFAAAA3O2YxISkih7ADZFLQF3TOnAmy42qDVTiAAAAQEBAQEAABkCsJhVLv/09PR3cKy8/////wJc1fDxAAAAEoaH0L0AAAAUAAAAAAABAQAAABmzehR7AEVAeyR7ZGF0YS5idXR0b25JbmZvLmFjdGlvbn0/JHtkYXRhLmJ1dHRvbkluZm8uYWN0aW9ufToke2RhdGEuYWN0aW9ufX0ai1nPABcke2RhdGEuYnV0dG9uSW5mby50ZXh0fQyceRoADiR7ZGF0YS5hY3Rpb2599J7ykAAoQHske2RhdGEuY3VycmVudENhbkJ1eX0/Izk5OTk5OTojRTAyRTI0fXZsv30AEyR7ZGF0YS5tYXJrZXRQcmljZX2k9pplABAke2RhdGEuZGVzY3JpYmV9jC1Q/gARJHtkYXRhLnNhbGVzUmF0ZX3UZ0czABMke2RhdGEuYWN0aW9uUGFyYW19LAGaVwAOJHtkYXRhLmF2YXRhcn0xBsDQADNAeyR7ZGF0YS5idXR0b25JbmZvLmFjdGlvbn0/IiI6JHtkYXRhLmFjdGlvblBhcmFtfX02/uipABEke2RhdGEuZ29vZHNOYW1lfcg6eeEADSR7ZGF0YS5wcmljZX3IDmySAAZyYWRpdXMBd0zpABwke2RhdGEuYnV0dG9uSW5mby5yaWdodEljb259A7Tt1gATJHtkYXRhLnN0YXR1c1dpZHRofQAA/+UAA++/pXGaILwAGyR7ZGF0YS5idXR0b25JbmZvLmxlZnRJY29ufcxr7QIAECR7ZGF0YS5uaWNrTmFtZX2EEfa4ACtAeyR7ZGF0YS5idXR0b25JbmZvLmxlZnRJY29ufT92aXNpYmxlOmdvbmV9EpIoewAsQHske2RhdGEuYnV0dG9uSW5mby5yaWdodEljb259P3Zpc2libGU6Z29uZX26XuauAB0ke2RhdGEuYnV0dG9uSW5mby5iYWNrZ3JvdW5kfV0P3nYADyR7ZGF0YS5zYWxlVGlwfcQei2QADiR7ZGF0YS5pbWdVcmx94QrO9wAlQHske2RhdGEuY3VycmVudENhbkJ1eX0/dmlzaWJsZTpnb25lfag1U4gAHCR7ZGF0YS5idXR0b25JbmZvLnRleHRDb2xvcn0AAAAA",
+                        "cellType": "mainbin"
+                      }
+                    ]
+                  },
+                  "category": "vv",
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Section",
+          "attributes": {
+            "layout": "stickyLayout",
+            "width": "250rp",
+            "height": "80rp"
+          },
+          "category": "lego",
+          "elements": [
+            {
+              "type": "Cell",
+              "attributes": {},
+              "category": "lego",
+              "elements": [
+                {
+                  "type": "NVHLayout",
+                  "attributes": {
+                    "templates": [
+                      {
+                        "name": "41968cbb3132d279f5c39e4384ed96df",
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAACXgAAAo0AAAB+AAADDwAAAAAAAAMTAAAAAAABAAAAAAABACA0MTk2OGNiYjMxMzJkMjc5ZjVjMzllNDM4NGVkOTZkZgI2AAAdA6oy9dAAAAABsJhVLv////93cKy8/////wNc1fDxAAAAUCqMeIsAAAAgpoXfuAAAACAAAAAAAAAAGQIAL/9sAAAAIFzV8PH/////AXdwrLwAAADmAAABqy9+Ng5apWIAAAAABwQexwvEAAAAJFzV8PH////+d3CsvP////7Amy42/+AuJAHELTrOAAAAIAAAAQA2RS0yJoW4AAABAAANBKoy9dAAAAABHscLxAAAABQFpy9j/+AuJHO2YxIAAAABA1zV8PEAAAAEd3CsvAAAAIAvRdAIAAAABAAAAAAAAQEAABkCAC//bAAAACBc1fDx/////wF3cKy8AAAA5AAAAasvfjYOWqVjAAAAAAcEHscLxAAAACRc1fDx/////ndwrLz////+wJsuNv8VFRYBxC06zgAAAB4AAAEANkUtJ1Rp1QAAAQAADQSqMvXQAAAAAR7HC8QAAAAUBacvY//gLiRztmMSAAAAAgNc1fDxAAAABHdwrLwAAACAL0XQCAAAAAQAAAAAAAEBAAAZAgAv/2wAAAAgXNXw8f////8Bd3CsvAAAAOQAAAGrL342DlqlZAAAAAAHBB7HC8QAAAAkXNXw8f////53cKy8/////sCbLjb/FRUWAcQtOs4AAAAeAAABADZFLS/1hB0AAAEAAA0EqjL10AAAAAEexwvEAAAAFAWnL2P/4C4kc7ZjEgAAAAIDXNXw8QAAAAR3cKy8AAAAgC9F0AgAAAAEAAAAAAABAQEAAAAGJ1Rp1QAM5Y2z5bCG5byA5oqiMiaFuAAM5q2j5Zyo55av5oqiL/WEHQAM5piO5pel6aKE5ZGKDlqlYgASQGNhbGxKczpzd2l0Y2hUYWIwDlqlYwASQGNhbGxKczpzd2l0Y2hUYWIxDlqlZAASQGNhbGxKczpzd2l0Y2hUYWIyAAAAAA==",
+                        "cellType": "mainbin"
+                      }
+                    ]
+                  },
+                  "category": "vv",
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Section",
+          "attributes": {
+            "dataTag": "${sunday_banner}",
+            "width": "750rp",
+            "height": "144rp"
+          },
+          "category": "lego",
+          "elements": [
+            {
+              "type": "Cell",
+              "attributes": {},
+              "category": "lego",
+              "elements": [
+                {
+                  "type": "NFrameLayout",
+                  "attributes": {
+                    "templates": [
+                      {
+                        "name": "1437b295ff325fb8dbc63ccb66ed46dc",
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAAAfgAAAK0AAAAwAAAA4QAAAAAAAADlAAAAAAABAAAAAAABACAxNDM3YjI5NWZmMzI1ZmI4ZGJjNjNjY2I2NmVkNDZkYwBWAAAZAXdwrLz/////AVzV8PEAAACQAAAAAAAAAAkDAC//bAAAACBc1fDx/////3dwrLz/////AAAAAwABveREacBwqy9+Nn2QdFBdihv3fgwAQgAAAQEAAAADfZB0UAAJJHthY3Rpb259fgwAQgAPJHthY3Rpb25fcGFyYW19RGnAcAAGJHtzcmN9AAAAAA==",
+                        "cellType": "mainbin"
+                      }
+                    ]
+                  },
+                  "category": "vv",
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Section",
+          "attributes": {
+            "dataTag": "${items}",
+            "layout": "gridLayout"
+          },
+          "category": "lego",
+          "elements": [
+            {
+              "type": "Cell",
+              "attributes": {
+                "cellType": "spikeMultiBrand",
+                "width": "750rp",
+                "height": "466rp"
+              },
+              "category": "lego",
+              "elements": [
+                {
+                  "type": "NFrameLayout",
+                  "attributes": {
+                    "templates": [
+                      {
+                        "name": "775c11e61eed90343e2ac239f19d1e81",
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAACywAAAvoAAAJIAAAFRgAAAAAAAAVKAAAAAAABAAAAAAABACA3NzVjMTFlNjFlZWQ5MDM0M2UyYWMyMzlmMTlkMWU4MQKjAAAZAwAv/2wAAABgsJhVLv/w8PB3cKy8/////wFc1fDxAAAB0gAAAqsvfjYMnHkaXYob97iBnnQAAAAACQF3cKy8/////wFc1fDxAAABJAAAAQABveTQgAxfAAABAAAHBFzV8PH////+wX8chAAAAAF3cKy8/////sCbLjb/////A0pufZ8AAAAaxC06zgAAACaGh9C9AAAAGgAAAQA2RS3OlCqyAAABAAAdAqoy9dAAAAABd3CsvP////4FSm59nwAAABpc1fDxAAAALiqMeIsAAAAahofQvQAAAFCmhd+4AAAAGgABUGr73kG4AAACXuaylnpBP/yaivfvhG4fFQAAAAAHBB7HC8QAAAAgXNXw8f////7BfxyEAAAAAXdwrLz////+AcQtOs4AAAAYAAACADZFLdhWUxHAmy42pegf+QAAAQAD6wQexwvEAAAAIFzV8PH////+wX8chAAAAAF3cKy8/////gJKbn2fAAAABsQtOs4AAAAQAAACADZFLQAA53fAmy42pegf+QAAAQEAAAcCHscLxAAAAAIQuHJOAAAAJAQDt5eEAAAAGMQtOs4AAAAYXNXw8QAAACx3cKy8AAAAzgACIqV0UEGAAAAjD9PXQYAAAAVe5rKWnxeKC3O2YxJeATG+mor378zaIWQANkUtjOz9osCbLjarAeDIAAABAAPyArCYVS7/////oT56I//09PQHSm59nwAAABCfYHnSAAAACAO3l4QAAAAQXNXw8QAAASyGh9C9AAAAklhIccMAAAAQd3CsvAAAAs4Bx2eSyz8AAAAAAAAAAAARA1zV8PH/////2BfPbwAAAAN3cKy8/////wNlKeV4AAAAEGOdHhoAAAEMfumMJQAAABAAAAFWBT+QFoh4qgAAAQEBAAAAFQyceRoADiR7ZGF0YS5hY3Rpb2592FZTEQARJHtkYXRhLnN1Yl90aXRsZX2rAeDIABwke2RhdGEuc2FsZXNfdGlwX3RleHRfY29sb3J9jOz9ogARJHtkYXRhLnNhbGVzX3RpcH2l6B/5ABwke2RhdGEuc3ViX3RpdGxlX3RleHRfY29sb3J9ZSnleAAMbGF5b3V0TWFyZ2lunxeKCwAmJHtkYXRhLnNhbGVzX3RpcF9iYWNrZ3JvdW5kX2VuZF9jb2xvcn2hPnojAAtzaGFkb3dDb2xvctCADF8AESR7ZGF0YS5pbWFnZV91cmx9Foh4qgARJHtkYXRhLmdvb2RfbGlzdH2aivfvABRiYWNrZ3JvdW5kU3RhcnRDb2xvcs6UKrIADSR7ZGF0YS50aXRsZX3HZ5LLAA1zaGFkb3dPcGFjaXR5XuaylgASYmFja2dyb3VuZEVuZENvbG9yn2B50gAMc2hhZG93UmFkaXVzuIGedAAUJHtkYXRhLmFjdGlvblBhcmFtc30AAOd3AAPunbeEbh8VACgke2RhdGEuc3ViX3RpdGxlX2JhY2tncm91bmRfc3RhcnRfY29sb3J9ekE//AAmJHtkYXRhLnN1Yl90aXRsZV9iYWNrZ3JvdW5kX2VuZF9jb2xvcn3M2iFkACgke2RhdGEuc2FsZXNfdGlwX2JhY2tncm91bmRfc3RhcnRfY29sb3J9XgExvgAqQHske2RhdGEuc2FsZXNfdGlwfSA/IHZpc2libGUgOiBpbnZpc2libGV9AAAAAA==",
+                        "cellType": "mainbin"
+                      },
+                      {
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAABhAAAAbMAAACxAAACaAAAAAAAAAJsAAAAAAABAAAAAAABABpzcGlrZV9icmFuZF9nb29kcy50ZW1wbGF0ZQFiAAAZAwAv/2wAAABgXNXw8f////93cKy8/////wAAAAPpe3MD5NAR8asvfjZ9kHRQXYob90vd2SoAAAAD7QMrFYaX//Ly8rCYVS7/////d3CsvP////8AAAEsLIT6QAAAAAJc1fDxY/jEUAABveRI3r1pAAABAAPtASsVhpf/8vLyBEpufZ8AAAAIXNXw8QAAADaGh9C9AAAACHdwrLwAAAA2AAEsLIT6QAAAAAJztmMSAOOVmQABveTycSwLAAABAAAdBKoy9dAAAAABHscLxAAAABRc1fDx/////ndwrLz////+AAAAAAAAAAP2AlzV8PH////+d3CsvP////4AAAABADZFLcvfP+sAAAEAAAcFHscLxAAAABBc1fDx/////sF/HIQAAAAId3CsvP////7Amy42/5mZmQNKbn2fAAAACsQtOs4AAAAYWEhxwwAAAAIAAAEANkUtARy2QAAAAQEBAAAACX2QdFAACSR7YWN0aW9ufQEctkAADyR7bWFya2V0X3ByaWNlfeTQEfEADCR7ZGF0YVBhcmFtfWP4xFAACiR7aW1hZ2VfaH3L3z/rAAgke3ByaWNlfUvd2SoADyR7YWN0aW9uUGFyYW1zfUjevWkADCR7aW1hZ2VfdXJsfQDjlZkAH0B7JHtsb2dvX3VybH0gPyB2aXNpYmxlIDogZ29uZX3ycSwLAAske2xvZ29fdXJsfQAAAAA=",
+                        "name": "spike_brand_goods.template",
+                        "cellType": "spike_brand_goods.template"
+                      }
+                    ]
+                  },
+                  "category": "vv",
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "type": "Cell",
+              "attributes": {
+                "cellType": "spikeSingleBrand",
+                "width": "750rp",
+                "height": "460rp"
+              },
+              "category": "lego",
+              "elements": [
+                {
+                  "type": "NFrameLayout",
+                  "attributes": {
+                    "templates": [
+                      {
+                        "name": "48647c82094967509d23a00889a0e7dc",
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAACkwAAAsIAAAGzAAAEeQAAAAAAAAR9AAAAAAABAAAAAAABACA0ODY0N2M4MjA5NDk2NzUwOWQyM2EwMDg4OWEwZTdkYwJrAAAZAwAv/2wAAABgsJhVLv/w8PB3cKy8/////wFc1fDxAAABzAAAAqsvfjYMnHkaXYob97iBnnQAAAAACQF3cKy8/////wFc1fDxAAABJAAAAQABveTQgAxfAAABAAPtAAVKbn2fAAAAGFzV8PEAAABkhofQvQAAABh3cKy8AAAAZMgObJIAAAAIAAABAAG95O6PJlUAAAEAAAcEXNXw8f////7BfxyEAAAAAXdwrLz////+wJsuNv////8DSm59nwAAAJTELTrOAAAAJoaH0L0AAAAgAAABADZFLc6UKrIAAAEAAB0DqjL10AAAAAFc1fDx/////ndwrLz////+AkpufZ8AAACUhofQvQAAAFoAAAAAAAAABwUexwvEAAAAIFzV8PH////+wX8chAAAAAF3cKy8/////sCbLjb/////AcQtOs4AAAAYAAABADZFLdhWUxEAAAEAA+sFHscLxAAAACBc1fDx/////sF/HIQAAAABd3CsvP////7Amy42/////wJKbn2fAAAABsQtOs4AAAAQAAABADZFLQAA53cAAAEBAAAHAh7HC8QAAAACELhyTgAAACQEA7eXhAAAABjELTrOAAAAGFzV8PEAAAAsd3CsvAAAAM4AAiKldFBBgAAAIw/T10GAAAAFXuaylp8XigtztmMSXgExvpqK9+/M2iFkADZFLYzs/aLAmy42qwHgyAAAAQAAEQOwmFUu/////9gXz28AAAADd3CsvP////8Fz/A8EQAAABRc1fDxAAABOGOdHhoAAAEQhofQvQAAAJJ+6YwlAAAAEAAAAVYFP5AWiHiqAAABAQAAABEMnHkaAA4ke2RhdGEuYWN0aW9ufdhWUxEAESR7ZGF0YS5zdWJfdGl0bGV9qwHgyAAcJHtkYXRhLnNhbGVzX3RpcF90ZXh0X2NvbG9yfYzs/aIAESR7ZGF0YS5zYWxlc190aXB97o8mVQAQJHtkYXRhLmxvZ29fdXJsfcgObJIABnJhZGl1c58XigsAJiR7ZGF0YS5zYWxlc190aXBfYmFja2dyb3VuZF9lbmRfY29sb3J90IAMXwARJHtkYXRhLmltYWdlX3VybH3P8DwRAAdwYWRkaW5nFoh4qgARJHtkYXRhLmdvb2RfbGlzdH2aivfvABRiYWNrZ3JvdW5kU3RhcnRDb2xvcs6UKrIADSR7ZGF0YS50aXRsZX1e5rKWABJiYWNrZ3JvdW5kRW5kQ29sb3K4gZ50ABQke2RhdGEuYWN0aW9uUGFyYW1zfQAA53cAA+6dt8zaIWQAKCR7ZGF0YS5zYWxlc190aXBfYmFja2dyb3VuZF9zdGFydF9jb2xvcn1eATG+ACpAeyR7ZGF0YS5zYWxlc190aXB9ID8gdmlzaWJsZSA6IGludmlzaWJsZX0AAAAA",
+                        "cellType": "mainbin"
+                      },
+                      {
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAABhAAAAbMAAACxAAACaAAAAAAAAAJsAAAAAAABAAAAAAABABpzcGlrZV9icmFuZF9nb29kcy50ZW1wbGF0ZQFiAAAZAwAv/2wAAABgXNXw8f////93cKy8/////wAAAAPpe3MD5NAR8asvfjZ9kHRQXYob90vd2SoAAAAD7QMrFYaX//Ly8rCYVS7/////d3CsvP////8AAAEsLIT6QAAAAAJc1fDxY/jEUAABveRI3r1pAAABAAPtASsVhpf/8vLyBEpufZ8AAAAIXNXw8QAAADaGh9C9AAAACHdwrLwAAAA2AAEsLIT6QAAAAAJztmMSAOOVmQABveTycSwLAAABAAAdBKoy9dAAAAABHscLxAAAABRc1fDx/////ndwrLz////+AAAAAAAAAAP2AlzV8PH////+d3CsvP////4AAAABADZFLcvfP+sAAAEAAAcFHscLxAAAABBc1fDx/////sF/HIQAAAAId3CsvP////7Amy42/5mZmQNKbn2fAAAACsQtOs4AAAAYWEhxwwAAAAIAAAEANkUtARy2QAAAAQEBAAAACX2QdFAACSR7YWN0aW9ufQEctkAADyR7bWFya2V0X3ByaWNlfeTQEfEADCR7ZGF0YVBhcmFtfWP4xFAACiR7aW1hZ2VfaH3L3z/rAAgke3ByaWNlfUvd2SoADyR7YWN0aW9uUGFyYW1zfUjevWkADCR7aW1hZ2VfdXJsfQDjlZkAH0B7JHtsb2dvX3VybH0gPyB2aXNpYmxlIDogZ29uZX3ycSwLAAske2xvZ29fdXJsfQAAAAA=",
+                        "name": "spike_brand_goods.template",
+                        "cellType": "spike_brand_goods.template"
+                      }
+                    ]
+                  },
+                  "category": "vv",
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "type": "Cell",
+              "attributes": {
+                "cellType": "spikeGoods",
+                "width": "750rp",
+                "height": "280rp"
+              },
+              "category": "lego",
+              "elements": [
+                {
+                  "type": "NFrameLayout",
+                  "attributes": {
+                    "templates": [
+                      {
+                        "name": "25db7032152d16d862848aa2a07f55c5",
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAAHGgAAB0kAAATwAAAMPQAAAAAAAAxBAAAAAAABAAAAAAABACAyNWRiNzAzMjE1MmQxNmQ4NjI4NDhhYTJhMDdmNTVjNQbyAAAZAwAv/2wAAABgsJhVLv////93cKy8/////wFc1fDxAAABGAAAAqsvfjYMnHkaXYob99RnRzMAAAAAGQMexwvEAAAAIFzV8PH////+d3CsvP////4AAAAAAAAAA+wBHscLxAAAACACXNXw8QAAAPB3cKy8AAAA8AAAAgABveTEHotk8zjchJphJ4YAAAEAAAcEHscLxAAAABCwmFUu///y8hC4ck4AAAAkwJsuNv/gLiQDxC06zgAAABpc1fDxAAAAIndwrLwAAADwAAACc7ZjEmXUaLwANkUt8DkFKwAAAQAD7AEexwvEAAAAIAJc1fDxAAAA8HdwrLwAAADwAAACc7ZjEv5BbaoAAb3knk9fqQAAAQEAAAIDqjL10AAAAABc1fDx/////3dwrLz/////AkpufZ8AAAEMA7eXhAAAABwAAAAAAAAD9gNc1fDx/////gYjTv8AAAACd3CsvP////8BhofQvQAAABoAAb1Xkb5BAAAAAQA2RS02/uipAAABAAAdA6oy9dAAAAABXNXw8f////53cKy8/////gGGh9C9AAAACAAAAAAAAAAZAR7HC8QAAAAgAwO3l4QAAAAUXNXw8QAAABh3cKy8AAABBAAAAXO2YxLhCs73AAAAAAcDHscLxAAAACBc1fDx/////7CYVS7/86upAXdwrLwAAAECAAFQavveQUAAAAAAAAEAAAcDHscLxAAAACBc1fDx/////7CYVS7/4C4kAAABUGr73kFAAAABd3CsvAO07dYAAAEAABkDHscLxAAAACRc1fDx/////ndwrLz////+AAAAAAAAAAAJAAJc1fDxAAAAFndwrLwAAABQAAACc7ZjEkeVua0AAb3kfUzXZAAAAQAABwNc1fDx/////ndwrLz////+wJsuNv////8BxC06zgAAABQAAAJztmMS24LFvQA2RS2MLVD+AAABAQAAGQMexwvEAAAAIlzV8PH////+d3CsvP////4AAAABc7ZjEkeVua0AAAAACQACXNXw8QAAABl3cKy8AAAAGQAAAQABveRRM5n5AAABAQEAAAcDHscLxAAAACBc1fDx/////ndwrLz////+AcQtOs4AAAAYAAADc7ZjEpIueboANkUtXQ/edsCbLjZP96JQAAABAAAHBB7HC8QAAAAgXNXw8f////53cKy8/////sCbLjb/mZmZAcQtOs4AAAAYAAACc7ZjEv5BbaoANkUtXQ/edgAAAQEAAAcFHscLxAAAABBc1fDx/////rCYVS7///Lyd3CsvP////7Amy42//9AQgLELTrOAAAAFoaH0L0AAAASAAFQavveQAAAAAJztmMSki55ugA2RS2K9F0qAAABAQAAHASqMvXQAAAAAR7HC8QAAAAQXNXw8f////53cKy8/////wNKbn2fAAABDAO3l4QAAAAcWEhxwwAAABoAAAAAAAAAAgSqMvXQAAAAAR7HC8QAAAAQXNXw8f////53cKy8/////gAAAAAAAAAABwUexwvEAAAAEFzV8PH////+wX8chAAAAAF3cKy8/////sCbLjb/4C4kAcQtOs4AAAAYAAABADZFLQAAAKUAAAEAAAcGHscLxAAAABAMD7Gc/////lzV8PH////+wX8chAAAAAF3cKy8/////sCbLjb/4C4kAkpufZ8AAAAExC06zgAAACgAAAEANkUtUjoGiAAAAQAABwUexwvEAAAAEFzV8PH////+wX8chAAAAAh3cKy8/////sCbLjb/nJycAkpufZ8AAAAMxC06zgAAABgAAAEANkUtAAAApQAAAQAABwUexwvEAAAAEFzV8PH////+wX8chAAAAAh3cKy8/////sCbLjb/nJycAcQtOs4AAAAYAAABADZFLXZsv30AAAEBAAP3AwAv/2wAAABgHscLxAAAABCLbht1AAAABAJc1fDxAAAAPFhIccMAAAACAAFQavveQQAAAAWwmFUuul7mrqsvfjazehR7Jiqa8Fm1bQ53cKy8PC2ueF2KG/cxBsDQAAAAAB0EqjL10AAAAAEexwvEAAAAJFzV8PH/////d3CsvP////4AAAAAAAAAA+sDHscLxAAAACRc1fDx/////ndwrLz////+AgO3l4QAAAAIxC06zgAAABoAAANztmMShBH2uAA2RS1xmiC8wJsuNqg1U4gAAAEAAAcEHscLxAAAACRc1fDx/////otuG3UAAAAEd3CsvP////4BxC06zgAAABwAAAIANkUtGotZz8CbLjaoNVOIAAABAAPrAx7HC8QAAAAkXNXw8f////53cKy8/////gHELTrOAAAAEgAAA3O2YxISkih7ADZFLQAA53fAmy42qDVTiAAAAQEBAQEAAAAks3oUewBFQHske2RhdGEuYnV0dG9uSW5mby5hY3Rpb259PyR7ZGF0YS5idXR0b25JbmZvLmFjdGlvbn06JHtkYXRhLmFjdGlvbn19GotZzwAXJHtkYXRhLmJ1dHRvbkluZm8udGV4dH0MnHkaAA4ke2RhdGEuYWN0aW9ufVEzmfkAQ2h0dHA6Ly9waW5kdW9kdW9pbWcueWFuZ2tlZHVvLmNvbS9hcHAvYXBwL2xlZ28vc3Bpa2UvY2xvY2tfaWNvbi5wbmd2bL99ABMke2RhdGEubWFya2V0UHJpY2V98DkFKwAS5bey6aKE57qm55qE5ZWG5ZOBjC1Q/gARJHtkYXRhLnNhbGVzUmF0ZX3UZ0czABMke2RhdGEuYWN0aW9uUGFyYW19ki55ugAfQHske2RhdGEuc2VsbE91dH0/Z29uZTp2aXNpYmxlfTwtrngAGCR7ZGF0YS5idXR0b25JbmZvLndpZHRofTEGwNAAM0B7JHtkYXRhLmJ1dHRvbkluZm8uYWN0aW9ufT8iIjoke2RhdGEuYWN0aW9uUGFyYW19fTb+6KkAESR7ZGF0YS5nb29kc05hbWV9Jiqa8AARcHJlc3NlZEJhY2tncm91bmSK9F0qAA4ke2RhdGEuY291cG9ufQO07dYAEyR7ZGF0YS5zdGF0dXNXaWR0aH0AAAClAALCpZ5PX6kAOmh0dHBzOi8vcGluZHVvZHVvaW1nLnlhbmdrZWR1by5jb20vc3Bpa2Uvc3Bpa2Vfc29sZG91dC5wbmdxmiC8ABske2RhdGEuYnV0dG9uSW5mby5sZWZ0SWNvbn2aYSeGABEke2RhdGEud2F0ZXJNYXJrfU/3olAAKEB7JHtkYXRhLmN1cnJlbnRDYW5CdXl9PyM5OTk5OTk6I0ZGQzQyQX1l1Gi8ACFAeyR7ZGF0YS5zdWJzY3JpYmV9P3Zpc2libGU6Z29uZX19TNdkAEhodHRwOi8vcGluZHVvZHVvaW1nLnlhbmdrZWR1by5jb20vYXBwL2FwcC9sZWdvL3NwaWtlL2Z1dHVyZV9zZWxsX291dC5wbmeEEfa4ACtAeyR7ZGF0YS5idXR0b25JbmZvLmxlZnRJY29ufT92aXNpYmxlOmdvbmV9EpIoewAsQHske2RhdGEuYnV0dG9uSW5mby5yaWdodEljb259P3Zpc2libGU6Z29uZX3+QW2qAB9AeyR7ZGF0YS5zZWxsT3V0fT92aXNpYmxlOmdvbmV9ul7mrgAdJHtkYXRhLmJ1dHRvbkluZm8uYmFja2dyb3VuZH1SOgaIABEke2RhdGEuc2FsZVByaWNlfQAA53cAA+6dt0eVua0AJUB7JHtkYXRhLmZ1dHVyZVNlbGxvdXR9P3Zpc2libGU6Z29uZX1dD952AA8ke2RhdGEuc2FsZVRpcH3EHotkAA4ke2RhdGEuaW1nVXJsfVm1bQ4AJCR7ZGF0YS5idXR0b25JbmZvLnByZXNzZWRCYWNrZ3JvdW5kffM43IQACXdhdGVyTWFya+EKzvcAJUB7JHtkYXRhLmN1cnJlbnRDYW5CdXl9P3Zpc2libGU6Z29uZX2oNVOIABwke2RhdGEuYnV0dG9uSW5mby50ZXh0Q29sb3J924LFvQAlQHske2RhdGEuZnV0dXJlU2VsbG91dH0/Z29uZTp2aXNpYmxlfQAAAAA=",
+                        "cellType": "mainbin"
+                      }
+                    ]
+                  },
+                  "category": "vv",
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "type": "Cell",
+              "attributes": {
+                "cellType": "cellSeparator",
+                "width": "750rp",
+                "height": "1rp"
+              },
+              "category": "lego",
+              "elements": [
+                {
+                  "type": "NFrameLayout",
+                  "attributes": {
+                    "templates": [
+                      {
+                        "name": "502d05b3c634911c922e4b0ba11ff340",
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAAAbgAAAJ0AAAAAAAAAoQAAAAAAAAClAAAAAAABAAAAAAABACA1MDJkMDViM2M2MzQ5MTFjOTIyZTRiMGJhMTFmZjM0MABGAAAZAXdwrLz/////AVzV8PEAAAABAAAAAAAAAAcCsJhVLv/g4OB3cKy8/////wJKbn2fAAABDFzV8PEAAAABAAAAAAABAQAAAAAAAAAA",
+                        "cellType": "mainbin"
+                      }
+                    ]
+                  },
+                  "category": "vv",
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "type": "Cell",
+              "attributes": {
+                "cellType": "sectionSeparator",
+                "width": "750rp",
+                "height": "16rp"
+              },
+              "category": "lego",
+              "elements": [
+                {
+                  "type": "NFrameLayout",
+                  "attributes": {
+                    "templates": [
+                      {
+                        "name": "bcc7820d48c6ff0b1998f755b7f4046d",
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAAASwAAAHoAAAAAAAAAfgAAAAAAAACCAAAAAAABAAAAAAABACBiY2M3ODIwZDQ4YzZmZjBiMTk5OGY3NTViN2Y0MDQ2ZAAjAAAZArCYVS7/9PT0d3CsvP////8BXNXw8QAAABAAAAAAAAEAAAAAAAAAAA==",
+                        "cellType": "mainbin"
+                      }
+                    ]
+                  },
+                  "category": "vv",
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "type": "Cell",
+              "attributes": {
+                "cellType": "spikeTimeBanner",
+                "width": "750rp",
+                "height": "144rp"
+              },
+              "category": "lego",
+              "elements": [
+                {
+                  "type": "NFrameLayout",
+                  "attributes": {
+                    "templates": [
+                      {
+                        "name": "86f296ca56c290dd498abd35fc96ad12",
+                        "bin": "QUxJVlYAAQAABAAAAAAvAAADpAAAA9MAAAHdAAAFtAAAAAAAAAW4AAAAAAABAAAAAAABACA4NmYyOTZjYTU2YzI5MGRkNDk4YWJkMzVmYzk2YWQxMgN8AAAZAgAv/2wAAAAgd3CsvP////8AAAADXNXw8Y9snl2rL3421gVK/l2KG/cXDvDXAAAAAAkCXNXw8f////93cKy8/////wAAAAEAAb3kWugPBgAAAQAAHQSqMvXQAAAAAR7HC8QAAAAEXNXw8f////53cKy8/////gGGh9C9AAAAHAAAAAAAAAPrAx7HC8QAAAAgXNXw8f////53cKy8/////gHELTrOAAAAJAAAAgA2RS0dXGxKwJsuNpmlqQ4AAAEAAAcDXNXw8f////7BfxyEAAAAAXdwrLz////+AkpufZ8AAAAGxC06zgAAACYAAAIANkUtzpQqssCbLjaZpakOAAABAQAAHQMexwvEAAAABFzV8PH////+d3CsvP////4BhofQvQAAAFgAAAFztmMS8kzkxAAAAAAHA1zV8PH////+wX8chAAAAAF3cKy8/////gPELTrOAAAAGiqMeIsAAAAIBV9HhAAAAAIAAAIANkUtqu/s38CbLjZLIFV7AAABAAP1AhC4ck4AAAAkwX8chAAAAAEFxC06zgAAABxc1fDxAAAAJCqMeIsAAAAEd3CsvAAAADCmhd+4AAAABAABUGr73kCAAAAEsJhVLtsdIEYY0ykkAAAJAB4E2ljuJuh4wJsuNsC5Bb8AAAEAAAcEXNXw8f////4QuHJOAAAABMF/HIQAAAABd3CsvP////4DxC06zgAAAB4FX0eE/////qaF37gAAAACAAACADZFLQAAADrAmy422x0gRgAAAQAD9QIQuHJOAAAAJMF/HIQAAAABBcQtOs4AAAAcXNXw8QAAACQqjHiLAAAABHdwrLwAAAAwpoXfuAAAAAQAAVBq+95AgAAABLCYVS7bHSBGGNMpJAAADaAeBNpY7iboeMCbLjbAuQW/AAABAAAHBFzV8PH////+ELhyTgAAACTBfxyEAAAAAXdwrLz////+A8QtOs4AAAAeBV9HhP////6mhd+4AAAAAgAAAgA2RS0AAAA6wJsuNtsdIEYAAAEAA/UCELhyTgAAACTBfxyEAAAAAQXELTrOAAAAHFzV8PEAAAAkKox4iwAAAAR3cKy8AAAAMKaF37gAAAAEAAFQavveQIAAAAawmFUu2x0gRhjTKSQAAA5gqy9+NtiPCWIeBNpY7iboeF2KG/eLqPnzwJsuNsC5Bb8AAAEBAQAAABUAAAkAAAJISMC5Bb8AEiR7ZGF0YS50aW1lX2NvbG9yffJM5MQAJ0B7JHtkYXRhLnRpbWluZ30gPyB2aXNpYmxlIDogaW52aXNpYmxlfR1cbEoAESR7ZGF0YS5pY29uX3R5cGV9Fw7w1wAZJHtkYXRhLnRhcF9hY3Rpb25fcGFyYW1zfUsgVXsAEiR7ZGF0YS5kZXNjX2NvbG9yfdsdIEYAHSR7ZGF0YS50aW1lX2JhY2tncm91bmRfY29sb3J9i6j58wAaJHtkYXRhLnRpbWVfYWN0aW9uX3BhcmFtc30eBNpYAAhkZWFkbGluZe4m6HgAECR7ZGF0YS5kZWFkbGluZX0AAA2gAAJtbQAADmAAAnNzzpQqsgANJHtkYXRhLnRpdGxlfZmlqQ4AEyR7ZGF0YS50aXRsZV9jb2xvcn3YjwliABMke2RhdGEudGltZV9hY3Rpb259WugPBgAYJHtkYXRhLmJhY2tncm91bmRfaW1hZ2V9qu/s3wAMJHtkYXRhLmRlc2N9j2yeXQAhQHske2RhdGEudGltaW5nfSA/IDE0NHJwIDogMTA4cnB9GNMpJAAKdGltZUZvcm1hdAAAADoAATrWBUr+ABIke2RhdGEudGFwX2FjdGlvbn0AAAAA",
+                        "cellType": "mainbin"
+                      }
+                    ]
+                  },
+                  "category": "vv",
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "vvnode",
+      "attributes": {
+        "layoutGravity": "bottom",
+        "layoutWidth": "match_parent",
+        "layoutHeight": "${brandTabHeight}",
+        "visibility": "@{${hideBrandTab}?invisible:visible}"
+      },
+      "category": "lego",
+      "elements": [
+        {
+          "type": "NFrameLayout",
+          "attributes": {
+            "templates": [
+              {
+                "name": "4709fc49ec410563c07411636443ca11",
+                "bin": "QUxJVlYAAQAABAAAAAAvAAACNgAAAmUAAABNAAACtgAAAAAAAAK6AAAAAAABAAAAAAABACA0NzA5ZmM0OWVjNDEwNTYzYzA3NDExNjM2NDQzY2ExMQIOAAAZA1zV8PH////+sJhVLv////93cKy8/////wAAAAAAAAAAHQSqMvXQAAAAAB7HC8QAAAAIsJhVLv////93cKy8/////wFc1fDxAAAAYgAAAAAAAAAHArCYVS7/9/f3d3CsvP////8BXNXw8QAAAAIAAAAAAAEAAB0EqjL10AAAAAFc1fDx/////7CYVS7/////d3CsvP////8AAAAAAAAAAB0EqjL10AAAAAAAL/9sAAAAIB7HC8QAAAAkXNXw8f////4Bd3CsvAAAAXcAAAAAAAAD6wQexwvEAAAAJFzV8PH////+d3CsvP////7Amy42/+AuJAHELTrOAAAAKAAAAQA2RS0AAOhRAAABAAAHBB7HC8QAAAAkXNXw8f////53cKy8/////sCbLjb/4C4kAsQtOs4AAAAWhofQvQAAAAgAAAEANkUtReHv1AAAAQEAAB0EqjL10AAAAAAAL/9sAAAAIB7HC8QAAAAkXNXw8f////4Bd3CsvAAAAXcAAAGrL3429fivNwAAAAPrBB7HC8QAAAAkXNXw8f////53cKy8/////sCbLjb/mZmZAcQtOs4AAAAoAAABADZFLQAA6FIAAAEAAAcEHscLxAAAACRc1fDx/////ndwrLz////+wJsuNv+ZmZkCxC06zgAAABaGh9C9AAAACAAAAQA2RS0oQx6ZAAABAQEBAQAAAAX1+K83ABFAY2FsbEpzOnRhYjJicmFuZAAA6FEAA+6hkQAA6FIAA+6hkihDHpkADOWTgeeJjOenkuadgEXh79QADOmZkOaXtuenkuadgAAAAAA=",
+                "cellType": "mainbin"
+              }
+            ]
+          },
+          "category": "vv",
+          "elements": []
+        }
+      ]
+    }
+  ]
+}

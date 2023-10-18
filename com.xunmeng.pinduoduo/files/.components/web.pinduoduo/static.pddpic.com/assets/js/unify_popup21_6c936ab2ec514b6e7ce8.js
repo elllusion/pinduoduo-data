@@ -1,0 +1,2 @@
+(window.webpackJsonpForReact=window.webpackJsonpForReact||[]).push([[19],{j0bP:function(t,o,n){t.exports={icon:"_6xKE50m8",wrapper:"_2EHdKcGS",container:"_2vJgqj_D",closeIcon:"_1Y2WBzh_",fontRed:"_2xJrFgh8",title:"_3dx6qB0h",titleNote:"_20t3o2PC",content:"_1NOaCoK9",contentLeft:"uMQVs5T_",top:"_2uGzcP0a",bottom:"_233pnzND",contentRight:"_233-Oh_u",button:"STFMrDvV"}}}]);
+//# sourceMappingURL=http://vgunxpkt.com/sourcemaps/pdd-web-transaction/js/unify_popup21_6c936ab2ec514b6e7ce8.js.map

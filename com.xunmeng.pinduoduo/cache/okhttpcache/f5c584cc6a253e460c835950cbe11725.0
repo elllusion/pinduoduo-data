@@ -1,0 +1,17 @@
+http://49.234.253.21/qiaozhi/tongzhi/2020-06-19/b3c4f4e6-2558-4ebf-a536-053ddd07ed2f.png?imageMogr2/quality/70/thumbnail/720x
+GET
+0
+HTTP/1.1 200 OK
+12
+Server: openresty/1.19.3.1
+Date: Mon, 29 Aug 2022 23:41:41 GMT
+Content-Type: image/png
+Content-Length: 198
+Connection: keep-alive
+Request-Id: e439de05-a234-42c4-b098-659d985c4638
+X-Fop-Destination-Type: storage
+X-Imagine-Success: true
+X-Pdd-Avi-Request-Id: 2b05e018c9c74eb920dd60f148956236
+Cache-Control: public, max-age=432000
+OkHttp-Sent-Millis: 1661816501233
+OkHttp-Received-Millis: 1661816501410

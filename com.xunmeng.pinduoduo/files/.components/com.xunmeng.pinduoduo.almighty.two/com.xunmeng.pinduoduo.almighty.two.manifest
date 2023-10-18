@@ -1,0 +1,6 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+config.json
+9999.pkg
+com.xunmeng.pinduoduo.almighty.two.md5checker

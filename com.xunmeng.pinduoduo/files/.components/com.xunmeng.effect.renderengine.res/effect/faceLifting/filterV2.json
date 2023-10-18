@@ -1,0 +1,11 @@
+{
+    "filterID": 0,
+    "filterVersion": 3003,
+    "filterDescription": "",
+    "uniforms":[],
+    "inputs":
+    {
+        "inputTexutreKey":"inputImageTexture",
+        "positionKey":"position"
+    }
+}

@@ -1,0 +1,25 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+childrens_day_20210526/imageVideo/
+childrens_day_20210526/lottie/
+childrens_day_20210526/preprocessingEffect/
+childrens_day_20210526/config.json
+childrens_day_20210526/music.mp3
+childrens_day_20210526/template.json
+childrens_day_20210526/video.mp4
+childrens_day_20210526/imageVideo/generalEffect/
+childrens_day_20210526/imageVideo/content.json
+childrens_day_20210526/imageVideo/generalEffect/fshader.fsh
+childrens_day_20210526/imageVideo/generalEffect/generalEffect.json
+childrens_day_20210526/imageVideo/generalEffect/vshader.vsh
+childrens_day_20210526/lottie/lottieEffect/
+childrens_day_20210526/lottie/content.json
+childrens_day_20210526/lottie/lottieEffect/data.json
+childrens_day_20210526/lottie/lottieEffect/lottieEffect.json
+childrens_day_20210526/preprocessingEffect/generalEffect/
+childrens_day_20210526/preprocessingEffect/content.json
+childrens_day_20210526/preprocessingEffect/generalEffect/fshader.fsh
+childrens_day_20210526/preprocessingEffect/generalEffect/generalEffect.json
+childrens_day_20210526/preprocessingEffect/generalEffect/vshader.vsh
+com.xunmeng.pinduoduo.album.video.music.childrens_day_20210526.md5checker

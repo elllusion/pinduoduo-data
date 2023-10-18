@@ -1,0 +1,188 @@
+{
+	"textures": [
+		{
+			"image": "guide_3.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 950,
+				"h": 590
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "horArrow.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 202,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 202,
+						"h": 56
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 202,
+						"h": 56
+					}
+				},
+				{
+					"filename": "invitedTip.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 132,
+						"h": 67
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 132,
+						"h": 67
+					},
+					"frame": {
+						"x": 202,
+						"y": 0,
+						"w": 132,
+						"h": 67
+					}
+				},
+				{
+					"filename": "hand.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 76,
+						"h": 79
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 76,
+						"h": 79
+					},
+					"frame": {
+						"x": 334,
+						"y": 0,
+						"w": 76,
+						"h": 79
+					}
+				},
+				{
+					"filename": "petWorkTip.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 540,
+						"h": 91
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 540,
+						"h": 91
+					},
+					"frame": {
+						"x": 410,
+						"y": 0,
+						"w": 540,
+						"h": 91
+					}
+				},
+				{
+					"filename": "seatLight.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 192,
+						"h": 133
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 192,
+						"h": 133
+					},
+					"frame": {
+						"x": 0,
+						"y": 91,
+						"w": 192,
+						"h": 133
+					}
+				},
+				{
+					"filename": "composeTip.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 486,
+						"h": 178
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 486,
+						"h": 178
+					},
+					"frame": {
+						"x": 192,
+						"y": 91,
+						"w": 486,
+						"h": 178
+					}
+				},
+				{
+					"filename": "unlockWorkTip.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 750,
+						"h": 200
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 750,
+						"h": 200
+					},
+					"frame": {
+						"x": 0,
+						"y": 269,
+						"w": 750,
+						"h": 200
+					}
+				},
+				{
+					"filename": "verArrow.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 146,
+						"h": 321
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 146,
+						"h": 321
+					},
+					"frame": {
+						"x": 750,
+						"y": 269,
+						"w": 146,
+						"h": 321
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:b6aff652d206936c62cfee2224b8e032:cceadd8ecb70d6a5242e37b6910fe882:a568f7226cff6745f471ceca0faed8a3$"
+	}
+}

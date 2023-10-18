@@ -1,0 +1,106 @@
+{
+  "effect": [
+    {
+      "name": "GaussianBlur1",
+      "vertexShader": "vshader.vsh",
+      "vUniforms": [],
+      "fragmentShader": "fshader.fsh",
+      "fUniforms": [
+        {
+          "name": "texture_in",
+          "type": 103,
+          "inputTextureIndex": 0
+        },
+        {
+          "name": "degree",
+          "type": 3007,
+          "timeType": 1,
+          "keyframes": [
+            {
+              "time": 12.3,
+              "function": "Linear",
+              "value": 0.0
+            },
+            {
+              "time": 12.9,
+              "function": "Linear",
+              "value": 10.0
+            },
+            {
+              "time": 14.0,
+              "function": "Linear",
+              "value": 30.0
+            }
+          ]
+        },
+        {
+          "name": "textureWidth",
+          "type": 3,
+          "data": [
+            720
+          ]
+        },
+        {
+          "name": "textureHeight",
+          "type": 3,
+          "data": [
+            1280
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GaussianBlur2",
+      "inputEffect": [
+        "GaussianBlur1"
+      ],
+      "vertexShader": "vshader.vsh",
+      "vUniforms": [],
+      "fragmentShader": "fshader2.fsh",
+      "fUniforms": [
+        {
+          "name": "texture_in",
+          "type": 1000,
+          "inputEffectIndex": 0
+        },
+        {
+          "name": "degree",
+          "type": 3007,
+          "timeType": 1,
+          "keyframes": [
+            {
+              "time": 12.3,
+              "function": "Linear",
+              "value": 0.0
+            },
+            {
+              "time": 12.9,
+              "function": "Linear",
+              "value": 10.0
+            },
+            {
+              "time": 14.0,
+              "function": "Linear",
+              "value": 30.0
+            }
+        ]
+        },
+        {
+          "name": "textureWidth",
+          "type": 3,
+          "data": [
+            720
+          ]
+        },
+        {
+          "name": "textureHeight",
+          "type": 3,
+          "data": [
+            1280
+          ]
+        }
+      ]
+    }
+  ],
+  "version": 1.1
+}

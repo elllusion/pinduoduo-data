@@ -1,0 +1,24 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+photo_flow_20210819/Effect/
+photo_flow_20210819/Start/
+photo_flow_20210819/config.json
+photo_flow_20210819/music.mp3
+photo_flow_20210819/video.mp4
+photo_flow_20210819/template.json
+photo_flow_20210819/Effect/generalEffect/
+photo_flow_20210819/Effect/content.json
+photo_flow_20210819/Effect/generalEffect/shaders/
+photo_flow_20210819/Effect/generalEffect/parameter.json
+photo_flow_20210819/Effect/generalEffect/generalEffect.json
+photo_flow_20210819/Effect/generalEffect/shaders/Effect.vsh
+photo_flow_20210819/Effect/generalEffect/shaders/Effect.fsh
+photo_flow_20210819/Start/generalEffect/
+photo_flow_20210819/Start/content.json
+photo_flow_20210819/Start/generalEffect/shaders/
+photo_flow_20210819/Start/generalEffect/parameter.json
+photo_flow_20210819/Start/generalEffect/generalEffect.json
+photo_flow_20210819/Start/generalEffect/shaders/Start.vsh
+photo_flow_20210819/Start/generalEffect/shaders/Start.fsh
+com.xunmeng.pinduoduo.album.video.music.photo_flow_20210819.md5checker

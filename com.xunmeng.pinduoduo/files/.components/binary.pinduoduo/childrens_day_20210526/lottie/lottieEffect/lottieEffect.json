@@ -1,0 +1,12 @@
+{
+    "effect": [
+        {
+            "name": "animation",
+            "aeData": "data.json",
+            "imageKey": [
+                "image_0","image_1","image_2","image_3","image_4","image_5"
+            ]
+        }
+    ],
+    "version": 1.1
+}

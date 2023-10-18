@@ -1,0 +1,20 @@
+PDD_MANIFEST
+VERSION: 1.0.0
+KEEP:
+zuimeideni_210303/imageVideo/
+zuimeideni_210303/scale1/
+zuimeideni_210303/config.json
+zuimeideni_210303/music.mp3
+zuimeideni_210303/template.json
+zuimeideni_210303/video.mp4
+zuimeideni_210303/imageVideo/generalEffect/
+zuimeideni_210303/imageVideo/content.json
+zuimeideni_210303/imageVideo/generalEffect/generalEffect.json
+zuimeideni_210303/imageVideo/generalEffect/fshader.fsh
+zuimeideni_210303/imageVideo/generalEffect/vshader.vsh
+zuimeideni_210303/scale1/generalEffect/
+zuimeideni_210303/scale1/content.json
+zuimeideni_210303/scale1/generalEffect/vshader.vsh
+zuimeideni_210303/scale1/generalEffect/fshader.fsh
+zuimeideni_210303/scale1/generalEffect/generalEffect.json
+com.xunmeng.pinduoduo.album.video.music.zuimeideni_210303.md5checker
